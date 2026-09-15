@@ -66,35 +66,6 @@
         "src": "images/img-mu2ef0y0iaca.jpg",
         "caption": ""
       }
-    },
-    {
-      "name": "새 현장",
-      "type": "아파트",
-      "status": "plan",
-      "meta": {
-        "평형": "",
-        "위치": "",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "",
-        "caption": ""
-      }
     }
   ]
 }
