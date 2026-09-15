@@ -21,42 +21,42 @@
           "images": [
             {
               "cat": "평면도",
-              "caption": "ALT-B 전체 평면",
-              "src": "plan:threeRoom"
+              "caption": "",
+              "src": "images/img-mu2ej1fg3jge.jpg"
             },
             {
               "cat": "현관",
-              "caption": "중문 + 팬트리 수납",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "거실",
-              "caption": "아트월 대면형 · 간접등",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "거실",
-              "caption": "발코니 확장부 창측",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "주방",
-              "caption": "ㄷ자 + 아일랜드 1,800",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "침실",
-              "caption": "안방 · 붙박이장 벽면",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "드레스룸",
-              "caption": "안방 연결 워크인",
+              "caption": "",
               "src": ""
             },
             {
               "cat": "욕실",
-              "caption": "공용욕실 건식 분리",
+              "caption": "",
               "src": ""
             }
           ]
