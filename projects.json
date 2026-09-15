@@ -60,48 +60,6 @@
               "src": ""
             }
           ]
-        },
-        {
-          "code": "ALT-C",
-          "title": "3룸 유지형",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "ALT-C 전체 평면",
-              "src": "plan:openLdk"
-            },
-            {
-              "cat": "거실",
-              "caption": "TV벽 매립형",
-              "src": ""
-            },
-            {
-              "cat": "침실",
-              "caption": "자녀방 2 분리",
-              "src": ""
-            }
-          ]
-        },
-        {
-          "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            }
-          ]
         }
       ],
       "cover": {
