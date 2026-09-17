@@ -100,6 +100,102 @@
               "src": "images/img-mu2f6mcr3qem.jpg"
             }
           ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "뚱냉",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mu57rl66qwfh.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu57rxgm5f8s.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57s6tezm21.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57s9tyrhat.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57sr4tsztj.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mu57t0dxgg76.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mu57t5i88c6k.jpg"
+            },
+            {
+              "cat": "주방발코니",
+              "caption": "",
+              "src": "images/img-mu57tarxp8z0.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu57tsp48hm5.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu57ty1axpw1.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu57uaw8vn8w.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu57ue58nt9s.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mu57ur5ikuf6.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mu57uxprnc0l.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mu57v94uz9bl.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mu57virwjev6.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mu57vrrgbnm3.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mu57vw443f67.jpg"
+            }
+          ]
         }
       ],
       "cover": {
