@@ -241,6 +241,37 @@
               "src": "images/img-mu57fy3lrrtz.jpg"
             }
           ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "일반형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mujk1tl2hj7n.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mujk1y4r50kv.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk31wa4xzh.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk37s5mnx7.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk3aw3tt28.jpg"
+            }
+          ]
         }
       ],
       "cover": {
