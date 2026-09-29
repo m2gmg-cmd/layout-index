@@ -432,6 +432,130 @@
         "src": "images/img-mulzvyzpy1kl.jpg",
         "caption": ""
       }
+    },
+    {
+      "name": "노형그랜드치과",
+      "type": "상가",
+      "status": "plan",
+      "meta": {
+        "평형": "90",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2edx6y7v2.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ek3302mq.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ennmzz9p.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2eq4r3hd5.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ewyotsbh.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ezzwozxr.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f2tu788f.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f6dzpx1o.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f9zs7plp.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fgcc6no7.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2flvdbz9b.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fsu2i5j5.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fwf83stv.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fzquekf8.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2g5ydmtcs.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ga3186il.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2gtj37k8t.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2gfss5gc8.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2gl8hbcud.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2goai4khb.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-mum2dod3ni29.jpg",
+        "caption": ""
+      }
     }
   ]
 }
