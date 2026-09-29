@@ -313,6 +313,125 @@
         "src": "images/img-mu57c1sa5wpa.jpg",
         "caption": ""
       }
+    },
+    {
+      "name": "연동대림203동501호",
+      "type": "아파트",
+      "status": "plan",
+      "meta": {
+        "평형": "46PY",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "일반형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mulzxe6q1f6i.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mulzxpnym8w4.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulzyta32a0d.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulzz46z6ujw.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mum000g1orjh.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-mum00k7apvtl.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mum00u5e0th0.jpg"
+            },
+            {
+              "cat": "확장부",
+              "caption": "",
+              "src": "images/img-mum0123yksrk.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mum019cqi9vy.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mum01e34xkmk.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mum01leaeejw.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mum01qe9m1ph.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mum01x8pumxg.jpg"
+            },
+            {
+              "cat": "공용욕실",
+              "caption": "",
+              "src": "images/img-mum022cjubc6.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mum0274fmlkc.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mum02b4d71sm.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-mulzvyzpy1kl.jpg",
+        "caption": ""
+      }
     }
   ]
 }
