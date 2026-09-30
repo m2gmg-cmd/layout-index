@@ -307,6 +307,11 @@
               "src": "images/img-mulye6o3df1i.jpg"
             }
           ]
+        },
+        {
+          "code": "ALT-C",
+          "title": "",
+          "images": []
         }
       ],
       "cover": {
@@ -315,7 +320,7 @@
       }
     },
     {
-      "name": "연동대림203동501호",
+      "name": "연동대림2차 46평형",
       "type": "아파트",
       "status": "plan",
       "meta": {
@@ -424,6 +429,37 @@
               "cat": "안방욕실",
               "caption": "",
               "src": "images/img-mum02b4d71sm.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "대면형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-munulf1t1use.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mununoqklqp1.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mununtspx8fg.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-munuj8opd83n.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-munujd5pmnef.jpg"
             }
           ]
         }
