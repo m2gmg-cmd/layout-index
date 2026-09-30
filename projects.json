@@ -439,27 +439,87 @@
             {
               "cat": "평면도",
               "caption": "",
-              "src": "images/img-munulf1t1use.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mununoqklqp1.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mununtspx8fg.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
               "src": "images/img-munuj8opd83n.jpg"
             },
             {
               "cat": "평면도",
               "caption": "",
               "src": "images/img-munujd5pmnef.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-munulf1t1use.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mununoqklqp1.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mununtspx8fg.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-munuq0nc9vm4.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-munuq3w87ep5.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
             }
           ]
         }
@@ -590,60 +650,6 @@
       ],
       "cover": {
         "src": "images/img-mum2dod3ni29.jpg",
-        "caption": ""
-      }
-    },
-    {
-      "name": "노형E편한세상 46평형",
-      "type": "아파트",
-      "status": "plan",
-      "meta": {
-        "평형": "46",
-        "위치": "",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munqet27ldqx.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munqf1hr28gz.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munqfmmvwpww.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munqftdhihha.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": ""
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "images/img-munt1w6votej.jpg",
         "caption": ""
       }
     }
