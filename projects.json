@@ -556,6 +556,35 @@
         "src": "images/img-mum2dod3ni29.jpg",
         "caption": ""
       }
+    },
+    {
+      "name": "노형E편한세상 46평형",
+      "type": "아파트",
+      "status": "plan",
+      "meta": {
+        "평형": "46",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "",
+        "caption": ""
+      }
     }
   ]
 }
