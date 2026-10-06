@@ -4,671 +4,6 @@
   "_안내": "현장 하나 = projects 배열의 객체 하나. status: est(견적)/plan(계획)/build(시공중)/done(완료). images[].src 규칙 → 비우면 회색 자리표시 / \"plan:threeRoom\" 또는 \"plan:openLdk\" = 내장 스케치 / \"images/파일명.jpg\" = images 폴더에 올린 실제 파일 / \"https://...\" = 외부 이미지.",
   "projects": [
     {
-      "name": "노형E편한세상 29py (106동)",
-      "type": "아파트",
-      "status": "done",
-      "meta": {
-        "평형": "공급29평",
-        "위치": "국기로14",
-        "구조": "3BAY",
-        "": "106동"
-      },
-      "cad": "",
-      "note": "현관 팬트리 신설 요청. 주방 아일랜드 L=1,800 확정. 안방 붙박이장 벽면 전체.",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "대면형",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mu2ej1fg3jge.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu2epk0tg7b1.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu2f2zy11z0u.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu2f3jouvp5p.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu2f3phmkfnx.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu2f3t95hi3v.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-mu2f44d3mke6.jpg"
-            },
-            {
-              "cat": "주방발코니",
-              "caption": "",
-              "src": "images/img-mu2f4jeq8b4e.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mu2f4tuk2amr.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mu2f4zkf92en.jpg"
-            },
-            {
-              "cat": "거실욕실",
-              "caption": "",
-              "src": "images/img-mu2f5g2odd7l.jpg"
-            },
-            {
-              "cat": "거실욕실",
-              "caption": "",
-              "src": "images/img-mu2f5jdsqmx7.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-mu2f5uat4u7m.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-mu2f64bz7wnz.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-mu2f67xuqp26.jpg"
-            },
-            {
-              "cat": "방2",
-              "caption": "",
-              "src": "images/img-mu2f6mcr3qem.jpg"
-            }
-          ]
-        },
-        {
-          "code": "ALT-B",
-          "title": "뚱냉",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mu57rl66qwfh.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu57rxgm5f8s.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu57s6tezm21.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu57s9tyrhat.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mu57sr4tsztj.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-mu57t0dxgg76.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-mu57t5i88c6k.jpg"
-            },
-            {
-              "cat": "주방발코니",
-              "caption": "",
-              "src": "images/img-mu57tarxp8z0.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mu57tsp48hm5.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mu57ty1axpw1.jpg"
-            },
-            {
-              "cat": "거실욕실",
-              "caption": "",
-              "src": "images/img-mu57uaw8vn8w.jpg"
-            },
-            {
-              "cat": "거실욕실",
-              "caption": "",
-              "src": "images/img-mu57ue58nt9s.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-mu57ur5ikuf6.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mu57uxprnc0l.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mu57v94uz9bl.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-mu57virwjev6.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-mu57vrrgbnm3.jpg"
-            },
-            {
-              "cat": "방2",
-              "caption": "",
-              "src": "images/img-mu57vw443f67.jpg"
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "images/img-mu2ef0y0iaca.jpg",
-        "caption": ""
-      }
-    },
-    {
-      "name": "노형뜨란채203동 (33평형)",
-      "type": "아파트",
-      "status": "plan",
-      "meta": {
-        "평형": "34PY",
-        "위치": "제주시수덕로44",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mu57drme50td.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu57f27ytrk7.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu57ftt8lmp3.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mu57fy3lrrtz.jpg"
-            }
-          ]
-        },
-        {
-          "code": "ALT-B",
-          "title": "일반형",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mujk1tl2hj7n.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mujk1y4r50kv.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mujk31wa4xzh.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mujk37s5mnx7.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mujk3aw3tt28.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-mulycz98yjkd.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mulyd6434dwl.jpg"
-            },
-            {
-              "cat": "드레스룸",
-              "caption": "",
-              "src": "images/img-mulydimmspko.jpg"
-            },
-            {
-              "cat": "복도",
-              "caption": "",
-              "src": "images/img-mulydvwmrm7c.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-mulydp4trqrs.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mulye1nxhpqj.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mulye6o3df1i.jpg"
-            }
-          ]
-        },
-        {
-          "code": "ALT-C",
-          "title": "",
-          "images": []
-        }
-      ],
-      "cover": {
-        "src": "images/img-mu57c1sa5wpa.jpg",
-        "caption": ""
-      }
-    },
-    {
-      "name": "연동대림2차 46평형",
-      "type": "아파트",
-      "status": "plan",
-      "meta": {
-        "평형": "46PY",
-        "위치": "",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "일반형",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mulzxe6q1f6i.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-mulzxpnym8w4.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mum0fhvb58il.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mum0fnkeiq6s.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mum0frl9bpcs.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mulzyta32a0d.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-mulzz46z6ujw.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-mum000g1orjh.jpg"
-            },
-            {
-              "cat": "복도",
-              "caption": "",
-              "src": "images/img-mum00k7apvtl.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-mum00u5e0th0.jpg"
-            },
-            {
-              "cat": "확장부",
-              "caption": "",
-              "src": "images/img-mum0123yksrk.jpg"
-            },
-            {
-              "cat": "방2",
-              "caption": "",
-              "src": "images/img-mum019cqi9vy.jpg"
-            },
-            {
-              "cat": "방2",
-              "caption": "",
-              "src": "images/img-mum01e34xkmk.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mum01leaeejw.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-mum01qe9m1ph.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-mum01x8pumxg.jpg"
-            },
-            {
-              "cat": "공용욕실",
-              "caption": "",
-              "src": "images/img-mum022cjubc6.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-mum0274fmlkc.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-mum02b4d71sm.jpg"
-            }
-          ]
-        },
-        {
-          "code": "ALT-B",
-          "title": "대면형",
-          "images": [
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munuj8opd83n.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-munujd5pmnef.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-munulf1t1use.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mununoqklqp1.jpg"
-            },
-            {
-              "cat": "랜더링",
-              "caption": "",
-              "src": "images/img-mununtspx8fg.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-munuq0nc9vm4.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-munuq3w87ep5.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-munuqlyxtpat.jpg"
-            },
-            {
-              "cat": "확장부",
-              "caption": "",
-              "src": "images/img-munuqrpq6a5v.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-munur1c64ynv.jpg"
-            },
-            {
-              "cat": "보조주방",
-              "caption": "",
-              "src": "images/img-munur4fmsrjs.jpg"
-            },
-            {
-              "cat": "복도",
-              "caption": "",
-              "src": "images/img-munurbkxx0ix.jpg"
-            },
-            {
-              "cat": "복도",
-              "caption": "",
-              "src": "images/img-munurgicpjuz.jpg"
-            },
-            {
-              "cat": "복도",
-              "caption": "",
-              "src": "images/img-munurmtr4ymv.jpg"
-            },
-            {
-              "cat": "안방",
-              "caption": "",
-              "src": "images/img-munurwldj5xy.jpg"
-            },
-            {
-              "cat": "안방반대방",
-              "caption": "",
-              "src": "images/img-munutf16px5q.jpg"
-            },
-            {
-              "cat": "입구방",
-              "caption": "",
-              "src": "images/img-munutnypopy4.jpg"
-            },
-            {
-              "cat": "거실욕실",
-              "caption": "",
-              "src": "images/img-munutvkflhpg.jpg"
-            },
-            {
-              "cat": "안방욕실앞",
-              "caption": "",
-              "src": "images/img-munuu4vm5sxm.jpg"
-            },
-            {
-              "cat": "안방욕실",
-              "caption": "",
-              "src": "images/img-munuuccisw0j.jpg"
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "images/img-mulzvyzpy1kl.jpg",
-        "caption": ""
-      }
-    },
-    {
-      "name": "노형그랜드치과",
-      "type": "상가",
-      "status": "plan",
-      "meta": {
-        "평형": "90",
-        "위치": "",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2edx6y7v2.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2ek3302mq.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2ennmzz9p.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2eq4r3hd5.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2ewyotsbh.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2ezzwozxr.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2f2tu788f.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2f6dzpx1o.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2f9zs7plp.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2fgcc6no7.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2flvdbz9b.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2fsu2i5j5.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2fwf83stv.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2fzquekf8.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2g5ydmtcs.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2ga3186il.jpg"
-            },
-            {
-              "cat": "2층",
-              "caption": "",
-              "src": "images/img-mum2gtj37k8t.jpg"
-            },
-            {
-              "cat": "3층",
-              "caption": "",
-              "src": "images/img-mum2gfss5gc8.jpg"
-            },
-            {
-              "cat": "3층",
-              "caption": "",
-              "src": "images/img-mum2gl8hbcud.jpg"
-            },
-            {
-              "cat": "3층",
-              "caption": "",
-              "src": "images/img-mum2goai4khb.jpg"
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "images/img-mum2dod3ni29.jpg",
-        "caption": ""
-      }
-    },
-    {
       "name": "240130_해안동 36-42 타운하우스",
       "type": "타운하우스",
       "status": "done",
@@ -2638,229 +1973,327 @@
       }
     },
     {
-      "name": "노형뜨란채 203동 506호",
+      "name": "노형E편한세상 29py (106동)",
       "type": "아파트",
       "status": "done",
       "meta": {
-        "평형": "",
-        "위치": "",
-        "구조": ""
+        "평형": "공급29평",
+        "위치": "국기로14",
+        "구조": "3BAY",
+        "": "106동"
       },
       "cad": "",
-      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "note": "현관 팬트리 신설 요청. 주방 아일랜드 L=1,800 확정. 안방 붙박이장 벽면 전체.",
       "alts": [
         {
           "code": "ALT-A",
-          "title": "",
-          "images": [
-            {
-              "cat": "침실",
-              "caption": "",
-              "src": "images/img-muw1na7k1006e4.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-muw1na9ncf1799.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1nac0a63b3a.jpg"
-            },
-            {
-              "cat": "현장사진",
-              "caption": "",
-              "src": "images/img-muw1naef1d2671.jpg"
-            },
-            {
-              "cat": "욕실",
-              "caption": "",
-              "src": "images/img-muw1nagq2e7a68.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1naj65315c3.jpg"
-            },
-            {
-              "cat": "현관",
-              "caption": "",
-              "src": "images/img-muw1naljda6e24.jpg"
-            }
-          ]
-        }
-      ],
-      "cover": {
-        "src": "images/img-muw1na7k1006e4.jpg",
-        "caption": ""
-      }
-    },
-    {
-      "name": "노형부영1차 101동 1105호",
-      "type": "아파트",
-      "status": "done",
-      "meta": {
-        "평형": "",
-        "위치": "",
-        "구조": ""
-      },
-      "cad": "",
-      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
-      "alts": [
-        {
-          "code": "ALT-A",
-          "title": "",
+          "title": "대면형",
           "images": [
             {
               "cat": "평면도",
               "caption": "",
-              "src": "images/img-muw1nam6252c89.jpg"
+              "src": "images/img-mu2ej1fg3jge.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu2epk0tg7b1.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu2f2zy11z0u.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu2f3jouvp5p.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu2f3phmkfnx.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu2f3t95hi3v.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mu2f44d3mke6.jpg"
+            },
+            {
+              "cat": "주방발코니",
+              "caption": "",
+              "src": "images/img-mu2f4jeq8b4e.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu2f4tuk2amr.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu2f4zkf92en.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu2f5g2odd7l.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu2f5jdsqmx7.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mu2f5uat4u7m.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mu2f64bz7wnz.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mu2f67xuqp26.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mu2f6mcr3qem.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "뚱냉",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mu57rl66qwfh.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu57rxgm5f8s.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57s6tezm21.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57s9tyrhat.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mu57sr4tsztj.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mu57t0dxgg76.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mu57t5i88c6k.jpg"
+            },
+            {
+              "cat": "주방발코니",
+              "caption": "",
+              "src": "images/img-mu57tarxp8z0.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu57tsp48hm5.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mu57ty1axpw1.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu57uaw8vn8w.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-mu57ue58nt9s.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mu57ur5ikuf6.jpg"
             },
             {
               "cat": "현관",
               "caption": "",
-              "src": "images/img-muw1namqa1ad31.jpg"
+              "src": "images/img-mu57uxprnc0l.jpg"
             },
             {
               "cat": "현관",
               "caption": "",
-              "src": "images/img-muw1nanw87068d.jpg"
+              "src": "images/img-mu57v94uz9bl.jpg"
             },
             {
-              "cat": "현관",
+              "cat": "입구방",
               "caption": "",
-              "src": "images/img-muw1naoj1f6704.jpg"
+              "src": "images/img-mu57virwjev6.jpg"
             },
             {
-              "cat": "거실",
+              "cat": "입구방",
               "caption": "",
-              "src": "images/img-muw1napqb168f1.jpg"
+              "src": "images/img-mu57vrrgbnm3.jpg"
             },
             {
-              "cat": "거실",
+              "cat": "방2",
               "caption": "",
-              "src": "images/img-muw1nar10897fd.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1narzbbdad3.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1nast58e01c.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1natnf54f9d.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1naud1a5855.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1navm8d6f53.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1nawl22e632.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1naxic31ee8.jpg"
-            },
-            {
-              "cat": "주방",
-              "caption": "",
-              "src": "images/img-muw1nayl097fcf.jpg"
-            },
-            {
-              "cat": "침실",
-              "caption": "",
-              "src": "images/img-muw1nazaabf72c.jpg"
-            },
-            {
-              "cat": "침실",
-              "caption": "",
-              "src": "images/img-muw1nazza6961b.jpg"
-            },
-            {
-              "cat": "침실",
-              "caption": "",
-              "src": "images/img-muw1nb0w8be45e.jpg"
-            },
-            {
-              "cat": "서재",
-              "caption": "",
-              "src": "images/img-muw1nb1ja484fd.jpg"
-            },
-            {
-              "cat": "욕실",
-              "caption": "",
-              "src": "images/img-muw1nb205df8e0.jpg"
-            },
-            {
-              "cat": "침실",
-              "caption": "",
-              "src": "images/img-muw1nb2l52792f.jpg"
-            },
-            {
-              "cat": "욕실",
-              "caption": "",
-              "src": "images/img-muw1nb30c20c60.jpg"
+              "src": "images/img-mu57vw443f67.jpg"
             }
           ]
         }
       ],
       "cover": {
-        "src": "images/img-muw1nam6252c89.jpg",
+        "src": "images/img-mu2ef0y0iaca.jpg",
         "caption": ""
       }
     },
     {
-      "name": "노형부영1차 101동 806호",
-      "type": "아파트",
-      "status": "done",
+      "name": "노형그랜드치과",
+      "type": "상가",
+      "status": "plan",
       "meta": {
-        "평형": "",
+        "평형": "90",
         "위치": "",
         "구조": ""
       },
       "cad": "",
-      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "note": "",
       "alts": [
         {
           "code": "ALT-A",
           "title": "",
           "images": [
             {
-              "cat": "현장사진",
+              "cat": "2층",
               "caption": "",
-              "src": "images/img-muw1nb4807cd10.jpg"
+              "src": "images/img-mum2edx6y7v2.jpg"
             },
             {
-              "cat": "현장사진",
+              "cat": "2층",
               "caption": "",
-              "src": "images/img-muw1nb5i55d33a.jpg"
+              "src": "images/img-mum2ek3302mq.jpg"
             },
             {
-              "cat": "현장사진",
+              "cat": "2층",
               "caption": "",
-              "src": "images/img-muw1nb8ja2bb83.jpg"
+              "src": "images/img-mum2ennmzz9p.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2eq4r3hd5.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ewyotsbh.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ezzwozxr.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f2tu788f.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f6dzpx1o.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2f9zs7plp.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fgcc6no7.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2flvdbz9b.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fsu2i5j5.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fwf83stv.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2fzquekf8.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2g5ydmtcs.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2ga3186il.jpg"
+            },
+            {
+              "cat": "2층",
+              "caption": "",
+              "src": "images/img-mum2gtj37k8t.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2gfss5gc8.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2gl8hbcud.jpg"
+            },
+            {
+              "cat": "3층",
+              "caption": "",
+              "src": "images/img-mum2goai4khb.jpg"
             }
           ]
         }
       ],
       "cover": {
-        "src": "images/img-muw1nb4807cd10.jpg",
+        "src": "images/img-mum2dod3ni29.jpg",
         "caption": ""
       }
     },
@@ -3070,6 +2503,348 @@
       ],
       "cover": {
         "src": "images/img-muw1nb9q0a3585.jpg",
+        "caption": ""
+      }
+    },
+    {
+      "name": "노형뜨란채 203동 506호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "침실",
+              "caption": "",
+              "src": "images/img-muw1na7k1006e4.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-muw1na9ncf1799.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1nac0a63b3a.jpg"
+            },
+            {
+              "cat": "현장사진",
+              "caption": "",
+              "src": "images/img-muw1naef1d2671.jpg"
+            },
+            {
+              "cat": "욕실",
+              "caption": "",
+              "src": "images/img-muw1nagq2e7a68.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1naj65315c3.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-muw1naljda6e24.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-muw1na7k1006e4.jpg",
+        "caption": ""
+      }
+    },
+    {
+      "name": "노형뜨란채203동 (33평형)",
+      "type": "아파트",
+      "status": "plan",
+      "meta": {
+        "평형": "34PY",
+        "위치": "제주시수덕로44",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mu57drme50td.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu57f27ytrk7.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu57ftt8lmp3.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mu57fy3lrrtz.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "일반형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mujk1tl2hj7n.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mujk1y4r50kv.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk31wa4xzh.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk37s5mnx7.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mujk3aw3tt28.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mulycz98yjkd.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mulyd6434dwl.jpg"
+            },
+            {
+              "cat": "드레스룸",
+              "caption": "",
+              "src": "images/img-mulydimmspko.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-mulydvwmrm7c.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mulydp4trqrs.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulye1nxhpqj.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulye6o3df1i.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-C",
+          "title": "",
+          "images": []
+        }
+      ],
+      "cover": {
+        "src": "images/img-mu57c1sa5wpa.jpg",
+        "caption": ""
+      }
+    },
+    {
+      "name": "노형부영1차 101동 1105호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1nam6252c89.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-muw1namqa1ad31.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-muw1nanw87068d.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-muw1naoj1f6704.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1napqb168f1.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1nar10897fd.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1narzbbdad3.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1nast58e01c.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1natnf54f9d.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1naud1a5855.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1navm8d6f53.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1nawl22e632.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1naxic31ee8.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-muw1nayl097fcf.jpg"
+            },
+            {
+              "cat": "침실",
+              "caption": "",
+              "src": "images/img-muw1nazaabf72c.jpg"
+            },
+            {
+              "cat": "침실",
+              "caption": "",
+              "src": "images/img-muw1nazza6961b.jpg"
+            },
+            {
+              "cat": "침실",
+              "caption": "",
+              "src": "images/img-muw1nb0w8be45e.jpg"
+            },
+            {
+              "cat": "서재",
+              "caption": "",
+              "src": "images/img-muw1nb1ja484fd.jpg"
+            },
+            {
+              "cat": "욕실",
+              "caption": "",
+              "src": "images/img-muw1nb205df8e0.jpg"
+            },
+            {
+              "cat": "침실",
+              "caption": "",
+              "src": "images/img-muw1nb2l52792f.jpg"
+            },
+            {
+              "cat": "욕실",
+              "caption": "",
+              "src": "images/img-muw1nb30c20c60.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-muw1nam6252c89.jpg",
+        "caption": ""
+      }
+    },
+    {
+      "name": "노형부영1차 101동 806호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "렌더링 자료 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "현장사진",
+              "caption": "",
+              "src": "images/img-muw1nb4807cd10.jpg"
+            },
+            {
+              "cat": "현장사진",
+              "caption": "",
+              "src": "images/img-muw1nb5i55d33a.jpg"
+            },
+            {
+              "cat": "현장사진",
+              "caption": "",
+              "src": "images/img-muw1nb8ja2bb83.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-muw1nb4807cd10.jpg",
         "caption": ""
       }
     },
@@ -6539,6 +6314,231 @@
       ],
       "cover": {
         "src": "images/img-muw1o7ls37e066.jpg",
+        "caption": ""
+      }
+    },
+    {
+      "name": "연동대림2차 46평형",
+      "type": "아파트",
+      "status": "plan",
+      "meta": {
+        "평형": "46PY",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "일반형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mulzxe6q1f6i.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mulzxpnym8w4.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mum0fhvb58il.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mum0fnkeiq6s.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mum0frl9bpcs.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulzyta32a0d.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-mulzz46z6ujw.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-mum000g1orjh.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-mum00k7apvtl.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-mum00u5e0th0.jpg"
+            },
+            {
+              "cat": "확장부",
+              "caption": "",
+              "src": "images/img-mum0123yksrk.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mum019cqi9vy.jpg"
+            },
+            {
+              "cat": "방2",
+              "caption": "",
+              "src": "images/img-mum01e34xkmk.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mum01leaeejw.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-mum01qe9m1ph.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-mum01x8pumxg.jpg"
+            },
+            {
+              "cat": "공용욕실",
+              "caption": "",
+              "src": "images/img-mum022cjubc6.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mum0274fmlkc.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-mum02b4d71sm.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "대면형",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-munuj8opd83n.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-munujd5pmnef.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-munulf1t1use.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mununoqklqp1.jpg"
+            },
+            {
+              "cat": "랜더링",
+              "caption": "",
+              "src": "images/img-mununtspx8fg.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-munuq0nc9vm4.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-munuq3w87ep5.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-munuqlyxtpat.jpg"
+            },
+            {
+              "cat": "확장부",
+              "caption": "",
+              "src": "images/img-munuqrpq6a5v.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-munur1c64ynv.jpg"
+            },
+            {
+              "cat": "보조주방",
+              "caption": "",
+              "src": "images/img-munur4fmsrjs.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-munurbkxx0ix.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-munurgicpjuz.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-munurmtr4ymv.jpg"
+            },
+            {
+              "cat": "안방",
+              "caption": "",
+              "src": "images/img-munurwldj5xy.jpg"
+            },
+            {
+              "cat": "안방반대방",
+              "caption": "",
+              "src": "images/img-munutf16px5q.jpg"
+            },
+            {
+              "cat": "입구방",
+              "caption": "",
+              "src": "images/img-munutnypopy4.jpg"
+            },
+            {
+              "cat": "거실욕실",
+              "caption": "",
+              "src": "images/img-munutvkflhpg.jpg"
+            },
+            {
+              "cat": "안방욕실앞",
+              "caption": "",
+              "src": "images/img-munuu4vm5sxm.jpg"
+            },
+            {
+              "cat": "안방욕실",
+              "caption": "",
+              "src": "images/img-munuuccisw0j.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-mulzvyzpy1kl.jpg",
         "caption": ""
       }
     },
