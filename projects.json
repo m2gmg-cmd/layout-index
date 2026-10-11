@@ -20,6 +20,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1n4h84c588a.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1n44dec4524.jpg"
@@ -65,11 +70,6 @@
               "src": "images/img-muw1n4gr5acfa8.jpg"
             },
             {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1n4h84c588a.jpg"
-            },
-            {
               "cat": "현관",
               "caption": "",
               "src": "images/img-muw1n4ht091b04.jpg"
@@ -103,7 +103,7 @@
         }
       ],
       "cover": {
-        "src": "images/img-muw1n44dec4524.jpg",
+        "src": "images/img-muw1n4h84c588a.jpg",
         "caption": ""
       }
     },
@@ -277,6 +277,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1n9e2a5d41b.jpg"
+            },
+            {
               "cat": "욕실",
               "caption": "",
               "src": "images/img-muw1n97mc392ed.jpg"
@@ -315,11 +320,6 @@
               "cat": "욕실",
               "caption": "",
               "src": "images/img-muw1n9dda0fb55.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1n9e2a5d41b.jpg"
             },
             {
               "cat": "침실",
@@ -1222,6 +1222,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1mjwvc6d1c0.jpg"
+            },
+            {
               "cat": "홀",
               "caption": "",
               "src": "images/img-muw1mg7kf0f1bd.jpg"
@@ -1285,17 +1290,12 @@
               "cat": "외관",
               "caption": "",
               "src": "images/img-muw1mjiy469ba8.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1mjwvc6d1c0.jpg"
             }
           ]
         }
       ],
       "cover": {
-        "src": "images/img-muw1mg7kf0f1bd.jpg",
+        "src": "images/img-muw1mjwvc6d1c0.jpg",
         "caption": ""
       }
     },
@@ -1658,6 +1658,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1ncssdb0639.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1ncop1d6369.jpg"
@@ -1691,11 +1696,6 @@
               "cat": "서재",
               "caption": "",
               "src": "images/img-muw1ncse52a659.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1ncssdb0639.jpg"
             },
             {
               "cat": "침실",
@@ -1906,6 +1906,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1ne0p9cd08a.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1ndrn36cb0a.jpg"
@@ -1944,11 +1949,6 @@
               "cat": "침실",
               "caption": "",
               "src": "images/img-muw1ndzv01ecdb.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1ne0p9cd08a.jpg"
             },
             {
               "cat": "침실",
@@ -2890,6 +2890,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1nmqt0d4d52.jpg"
+            },
+            {
               "cat": "현관",
               "caption": "",
               "src": "images/img-muw1nm5r8549d1.jpg"
@@ -3008,11 +3013,6 @@
               "cat": "서재",
               "caption": "",
               "src": "images/img-muw1nmq32095a8.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1nmqt0d4d52.jpg"
             }
           ]
         }
@@ -3042,6 +3042,11 @@
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1nmrnad37ae.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1no55d75d3f.jpg"
             },
             {
               "cat": "현관",
@@ -3317,11 +3322,6 @@
               "cat": "서재",
               "caption": "",
               "src": "images/img-muw1no4j6745ca.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1no55d75d3f.jpg"
             }
           ]
         }
@@ -3457,6 +3457,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1nruy9183fe.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1nr84897da3.jpg"
@@ -3470,11 +3475,6 @@
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1nrqseb6159.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1nruy9183fe.jpg"
             },
             {
               "cat": "드레스룸",
@@ -3536,16 +3536,6 @@
           "title": "",
           "images": [
             {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1nsuj300449.jpg"
-            },
-            {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1nt3346944e.jpg"
-            },
-            {
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1nt3ma70b93.jpg"
@@ -3554,6 +3544,16 @@
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1nt7ae4fe1a.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1nsuj300449.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1nt3346944e.jpg"
             },
             {
               "cat": "주방",
@@ -3729,6 +3729,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1nvpa82d1ed.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1nvkz3f1b77.jpg"
@@ -3742,11 +3747,6 @@
               "cat": "침실",
               "caption": "",
               "src": "images/img-muw1nvod33a23c.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1nvpa82d1ed.jpg"
             },
             {
               "cat": "침실",
@@ -4229,6 +4229,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1o1jx7f6452.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1o17672fb2d.jpg"
@@ -4267,11 +4272,6 @@
               "cat": "침실",
               "caption": "",
               "src": "images/img-muw1o1ix201a98.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1o1jx7f6452.jpg"
             },
             {
               "cat": "침실",
@@ -4492,6 +4492,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1o3nn814b73.jpg"
+            },
+            {
               "cat": "욕실",
               "caption": "",
               "src": "images/img-muw1o2zn53e3ce.jpg"
@@ -4545,11 +4550,6 @@
               "cat": "침실",
               "caption": "",
               "src": "images/img-muw1o3lkfeca57.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1o3nn814b73.jpg"
             },
             {
               "cat": "드레스룸",
@@ -4686,11 +4686,6 @@
           "title": "",
           "images": [
             {
-              "cat": "거실",
-              "caption": "",
-              "src": "images/img-muw1o4z337a016.jpg"
-            },
-            {
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1o4zkb8d958.jpg"
@@ -4699,6 +4694,11 @@
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1o4zqfe24f4.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-muw1o4z337a016.jpg"
             },
             {
               "cat": "거실",
@@ -4784,7 +4784,7 @@
         }
       ],
       "cover": {
-        "src": "images/img-muw1o4z337a016.jpg",
+        "src": "images/img-muw1o4zkb8d958.jpg",
         "caption": ""
       }
     },
@@ -5533,6 +5533,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1o7ls37e066.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1o6to646540.jpg"
@@ -5556,11 +5561,6 @@
               "cat": "욕실",
               "caption": "",
               "src": "images/img-muw1o7ff7827f0.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1o7ls37e066.jpg"
             },
             {
               "cat": "침실",
@@ -6031,6 +6031,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1oaqsfdd184.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1oaq6eaa3d5.jpg"
@@ -6039,11 +6044,6 @@
               "cat": "욕실",
               "caption": "",
               "src": "images/img-muw1oaqja9f639.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1oaqsfdd184.jpg"
             },
             {
               "cat": "침실",
@@ -6486,6 +6486,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1odpze7bfab.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1ocdi9df03e.jpg"
@@ -6509,11 +6514,6 @@
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1odhd816077.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1odpze7bfab.jpg"
             },
             {
               "cat": "침실",
@@ -6709,6 +6709,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1ohsy73fbd7.jpg"
+            },
+            {
               "cat": "주방",
               "caption": "",
               "src": "images/img-muw1ohp04396c2.jpg"
@@ -6722,11 +6727,6 @@
               "cat": "주방",
               "caption": "",
               "src": "images/img-muw1ohs35295d4.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1ohsy73fbd7.jpg"
             },
             {
               "cat": "주방",
@@ -6802,7 +6802,7 @@
         }
       ],
       "cover": {
-        "src": "images/img-muw1ohp04396c2.jpg",
+        "src": "images/img-muw1ohsy73fbd7.jpg",
         "caption": ""
       }
     },
@@ -6826,6 +6826,11 @@
               "cat": "평면도",
               "caption": "",
               "src": "images/img-muw1mpyj81d8f8.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1msnn096ef7.jpg"
             },
             {
               "cat": "전경",
@@ -6866,11 +6871,6 @@
               "cat": "탕비실",
               "caption": "",
               "src": "images/img-muw1msd4b11715.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1msnn096ef7.jpg"
             },
             {
               "cat": "외관",
@@ -7526,6 +7526,11 @@
           "title": "",
           "images": [
             {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-muw1mp8v052910.jpg"
+            },
+            {
               "cat": "거실",
               "caption": "",
               "src": "images/img-muw1moa63c9093.jpg"
@@ -7569,11 +7574,6 @@
               "cat": "침실",
               "caption": "",
               "src": "images/img-muw1mp7c2529a3.jpg"
-            },
-            {
-              "cat": "평면도",
-              "caption": "",
-              "src": "images/img-muw1mp8v052910.jpg"
             },
             {
               "cat": "침실",
