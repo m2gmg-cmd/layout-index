@@ -105,7 +105,15 @@
       "cover": {
         "src": "images/img-muw1n4h84c588a.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-163f5606ac.pdf",
+          "img": "images/img-cad-31a24da62d.jpg",
+          "file": "250627_평면도_건입이화아파트803호.pdf"
+        }
+      ]
     },
     {
       "name": "계명3길 27-8 인테리어공사",
@@ -164,7 +172,15 @@
       "cover": {
         "src": "images/img-muw1ma9t6af216.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-5a336864c9.pdf",
+          "img": "images/img-cad-d8664206bc.jpg",
+          "file": "240516_1평면도_계명3길27-8.pdf"
+        }
+      ]
     },
     {
       "name": "고마로하나아파트 201호",
@@ -258,7 +274,15 @@
       "cover": {
         "src": "images/img-muw1n4sf3ae3a5.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-ae5f762131.pdf",
+          "img": "images/img-cad-5d6cc77c48.jpg",
+          "file": "240613_1평면도_하나아파트.pdf"
+        }
+      ]
     },
     {
       "name": "굿윌카운티 1205호(인테리어공사)",
@@ -377,7 +401,15 @@
       "cover": {
         "src": "images/img-muw1n9e2a5d41b.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-dc829174aa.pdf",
+          "img": "images/img-cad-2b2613b469.jpg",
+          "file": "0925_평면도_굿윌카운티1205.pdf"
+        }
+      ]
     },
     {
       "name": "극동오벨리스크 1005호",
@@ -516,7 +548,15 @@
       "cover": {
         "src": "images/img-muw1n9l6a4d412.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-75480f326e.pdf",
+          "img": "images/img-cad-ee6095c6ef.jpg",
+          "file": "251106_평면도_극동오벨리스크.pdf"
+        }
+      ]
     },
     {
       "name": "남원읍 1705-2 한빛창호",
@@ -669,7 +709,15 @@
       "cover": {
         "src": "images/img-muw1mjxwe30db8.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-a883405cbd.pdf",
+          "img": "images/img-cad-cdab7a545c.jpg",
+          "file": "2411230_평면도_노형동피부과.pdf"
+        }
+      ]
     },
     {
       "name": "노형E편한세상 29py (106동)",
@@ -994,7 +1042,21 @@
       "cover": {
         "src": "images/img-mum2dod3ni29.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "2층 평면도",
+          "pdf": "cad/cad-a9de1c0de7.pdf",
+          "img": "images/img-cad-160f0878b5.jpg",
+          "file": "260826_노형그랜드치과 의원_평면도2층.pdf"
+        },
+        {
+          "title": "3층 평면도",
+          "pdf": "cad/cad-71bd821780.pdf",
+          "img": "images/img-cad-64b9e7fc26.jpg",
+          "file": "2600721_노형그랜드치과 의원_평면도3층.pdf"
+        }
+      ]
     },
     {
       "name": "노형대림 103동 1401호154타입",
@@ -1203,7 +1265,15 @@
       "cover": {
         "src": "images/img-muw1nb9q0a3585.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-cca8456472.pdf",
+          "img": "images/img-cad-4f32ad5101.jpg",
+          "file": "250430_평면도_노형대림103-1401.pdf"
+        }
+      ]
     },
     {
       "name": "노형동 대보빌딩 시더 피자 인테리어",
@@ -1297,7 +1367,15 @@
       "cover": {
         "src": "images/img-muw1mjwvc6d1c0.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-2326e46c99.pdf",
+          "img": "images/img-cad-af50148b65.jpg",
+          "file": "250111_연동피자집_평면도.pdf"
+        }
+      ]
     },
     {
       "name": "노형뜨란채 203동 506호",
@@ -1600,7 +1678,15 @@
       "cover": {
         "src": "images/img-muw1nam6252c89.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-44837da6a7.pdf",
+          "img": "images/img-cad-6ee51b381d.jpg",
+          "file": "251023_평면도_노형부영 101-1105.pdf"
+        }
+      ]
     },
     {
       "name": "노형부영1차 101동 806호",
@@ -1768,7 +1854,15 @@
       "cover": {
         "src": "images/img-muw1ncssdb0639.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-cc75d0f10f.pdf",
+          "img": "images/img-cad-58a7f30af6.jpg",
+          "file": "251208_노형부영 104-605 평면도.pdf"
+        }
+      ]
     },
     {
       "name": "노형부영5차 503동 702호",
@@ -1887,7 +1981,15 @@
       "cover": {
         "src": "images/img-muw1nd2a729f1a.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-a825ce8d3d.pdf",
+          "img": "images/img-cad-c93a22980e.jpg",
+          "file": "251024_평면도_노형부영503-702.pdf"
+        }
+      ]
     },
     {
       "name": "노형부영5차 503동 901호",
@@ -2026,7 +2128,15 @@
       "cover": {
         "src": "images/img-muw1ne0p9cd08a.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-15151f2f96.pdf",
+          "img": "images/img-cad-e19d8bc118.jpg",
+          "file": "평면도.pdf"
+        }
+      ]
     },
     {
       "name": "노형아이파크 103동 802호",
@@ -2145,7 +2255,15 @@
       "cover": {
         "src": "images/img-muw1nej469ea59.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-22ac6c113c.pdf",
+          "img": "images/img-cad-3d1260ea0e.jpg",
+          "file": "260113_노형아이파크 103-802_평면도.pdf"
+        }
+      ]
     },
     {
       "name": "노형한화 101동 1201호",
@@ -3020,7 +3138,15 @@
       "cover": {
         "src": "images/img-muw1nmqt0d4d52.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-1425e8ca15.pdf",
+          "img": "images/img-cad-8e75fed749.jpg",
+          "file": "260127_평면도_한화아파트 104-702.pdf"
+        }
+      ]
     },
     {
       "name": "노형한화 104동 801호",
@@ -3329,7 +3455,15 @@
       "cover": {
         "src": "images/img-muw1nmrnad37ae.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-aef0f41366.pdf",
+          "img": "images/img-cad-b38960669d.jpg",
+          "file": "251117_평면도_노형한화104-801.pdf"
+        }
+      ]
     },
     {
       "name": "노형해오름 103동 804호",
@@ -3438,7 +3572,15 @@
       "cover": {
         "src": "images/img-muw1no7o3b2552.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-244c45f10c.pdf",
+          "img": "images/img-cad-b8901922f7.jpg",
+          "file": "251106_평면도_해오름103-804.pdf"
+        }
+      ]
     },
     {
       "name": "노형해오름 104동 1401호",
@@ -3517,7 +3659,15 @@
       "cover": {
         "src": "images/img-muw1nruy9183fe.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-f82e050e68.pdf",
+          "img": "images/img-cad-8c4ab4815c.jpg",
+          "file": "250310_평면도_해오름104-1401.pdf"
+        }
+      ]
     },
     {
       "name": "노형해오름 104동 402호",
@@ -3611,7 +3761,15 @@
       "cover": {
         "src": "images/img-muw1nt3ma70b93.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-81eb9f1771.pdf",
+          "img": "images/img-cad-5bceae09b5.jpg",
+          "file": "240624_평면도.pdf"
+        }
+      ]
     },
     {
       "name": "노형해오름 105동",
@@ -3893,7 +4051,15 @@
       "cover": {
         "src": "images/img-muw1nwa89c835e.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-0b8c78ad1a.pdf",
+          "img": "images/img-cad-ffefad90ff.jpg",
+          "file": "250116_평면도_일도대유대림309동502호.pdf"
+        }
+      ]
     },
     {
       "name": "대유대림 310동 407호",
@@ -3977,7 +4143,15 @@
       "cover": {
         "src": "images/img-muw1nwsxc86a87.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-0b4a02d552.pdf",
+          "img": "images/img-cad-9c321ed332.jpg",
+          "file": "241021_일도대유대림 평면도.pdf"
+        }
+      ]
     },
     {
       "name": "도남대림 108동 1003호",
@@ -4349,7 +4523,15 @@
       "cover": {
         "src": "images/img-muw1o1jx7f6452.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-50440c87e5.pdf",
+          "img": "images/img-cad-4cc6d76d21.jpg",
+          "file": "250711_평면도_중흥미리내102-203.pdf"
+        }
+      ]
     },
     {
       "name": "미리내중흥 103동 802호",
@@ -4667,7 +4849,15 @@
       "cover": {
         "src": "images/img-muw1o3nn814b73.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-4f95ce6a09.pdf",
+          "img": "images/img-cad-2e3827eaec.jpg",
+          "file": "250620_평면도_중흥미리내107동.pdf"
+        }
+      ]
     },
     {
       "name": "보경스카이빌 401호",
@@ -4786,7 +4976,15 @@
       "cover": {
         "src": "images/img-muw1o4zkb8d958.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-0011562fea.pdf",
+          "img": "images/img-cad-a97423c5b0.jpg",
+          "file": "(본도면)보경스카이필평면-모형.pdf"
+        }
+      ]
     },
     {
       "name": "삼성로 117 미용실",
@@ -4915,7 +5113,15 @@
       "cover": {
         "src": "images/img-muw1mui545e11c.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-5894538e29.pdf",
+          "img": "images/img-cad-776c9970cd.jpg",
+          "file": "251014_평면도_인제미용실.pdf"
+        }
+      ]
     },
     {
       "name": "서사로18길 16 시스빌702호 인테리어공사",
@@ -4994,7 +5200,15 @@
       "cover": {
         "src": "images/img-muw1mcn664f8a8.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-cf8af65ad0.pdf",
+          "img": "images/img-cad-83090a04d5.jpg",
+          "file": "240521_1평면도_시스빌.pdf"
+        }
+      ]
     },
     {
       "name": "수목아파트 502호",
@@ -5083,7 +5297,15 @@
       "cover": {
         "src": "images/img-muw1o5wa7a1355.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-0ac034ba3a.pdf",
+          "img": "images/img-cad-c5619fe805.jpg",
+          "file": "250827_수목아파트 가동 502호_평면도.pdf"
+        }
+      ]
     },
     {
       "name": "슬하정신과의원 인테리어공사",
@@ -5217,7 +5439,15 @@
       "cover": {
         "src": "images/img-muw1n1opd8a7b5.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-45b5f95a21.pdf",
+          "img": "images/img-cad-044c4c2497.jpg",
+          "file": "260701_슬하신경정신과의원_인테리어도면.pdf"
+        }
+      ]
     },
     {
       "name": "신우스위트빌3차1601호",
@@ -5395,7 +5625,15 @@
       "cover": {
         "src": "images/img-muw1mkat19035a.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-1cdd9e9460.pdf",
+          "img": "images/img-cad-e89de3b355.jpg",
+          "file": "250114_평면도_태국식당.pdf"
+        }
+      ]
     },
     {
       "name": "아라스위첸 109동 1301호",
@@ -5514,7 +5752,15 @@
       "cover": {
         "src": "images/img-muw1o6763eab08.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-48a98e7aaf.pdf",
+          "img": "images/img-cad-b198446ef4.jpg",
+          "file": "250829_평면도_아라스위첸109-1301.pdf"
+        }
+      ]
     },
     {
       "name": "연동대림2차 34평형",
@@ -6012,7 +6258,15 @@
       "cover": {
         "src": "images/img-muw1oa4ta34032.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-bd67e7832c.pdf",
+          "img": "images/img-cad-4bf49f8fa3.jpg",
+          "file": "250617_평면도_연동대림105-602.pdf"
+        }
+      ]
     },
     {
       "name": "연동대림e편한세상1차 105동 803호",
@@ -6071,7 +6325,15 @@
       "cover": {
         "src": "images/img-muw1oaqsfdd184.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-6a4ed51557.pdf",
+          "img": "images/img-cad-c5b3828f13.jpg",
+          "file": "241022_평면도_연동대림105-803.pdf"
+        }
+      ]
     },
     {
       "name": "연삼로410 상가주택5층",
@@ -6224,7 +6486,15 @@
       "cover": {
         "src": "images/img-muw1oass3d883b.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-484aa9d552.pdf",
+          "img": "images/img-cad-f7e0a354a6.jpg",
+          "file": "250728_평면도_영도그린힐 102동 402호.pdf"
+        }
+      ]
     },
     {
       "name": "외도부영 201동 1106호",
@@ -6378,7 +6648,15 @@
       "cover": {
         "src": "images/img-muw1ob94ece26c.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-7f52cc7894.pdf",
+          "img": "images/img-cad-1d6aeb8ea3.jpg",
+          "file": "260112_외도부영201-1106_평면도.pdf"
+        }
+      ]
     },
     {
       "name": "이도한일베라체 101동 901호",
@@ -6467,7 +6745,15 @@
       "cover": {
         "src": "images/img-muw1obsrdeacec.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-5802412138.pdf",
+          "img": "images/img-cad-9d121411ad.jpg",
+          "file": "250825_평면도_이도한일베라체101-901.pdf"
+        }
+      ]
     },
     {
       "name": "일도대림 203동 203호",
@@ -6586,7 +6872,15 @@
       "cover": {
         "src": "images/img-muw1odpze7bfab.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-c66b6513bf.pdf",
+          "img": "images/img-cad-cd90e09c08.jpg",
+          "file": "0823_평면도_일도대림203-203.pdf"
+        }
+      ]
     },
     {
       "name": "일도성환아파트 102동 409호",
@@ -6690,7 +6984,15 @@
       "cover": {
         "src": "images/img-muw1ogzt077b5c.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-ac98bdade2.pdf",
+          "img": "images/img-cad-7971c8c142.jpg",
+          "file": "250924_평면도_일도성환아파트 102-409.pdf"
+        }
+      ]
     },
     {
       "name": "재영샤르빌 1002호",
@@ -6804,7 +7106,15 @@
       "cover": {
         "src": "images/img-muw1ohsy73fbd7.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-10665b8392.pdf",
+          "img": "images/img-cad-cac3e65df1.jpg",
+          "file": "0226_평면도_재영샤르빌1002.pdf"
+        }
+      ]
     },
     {
       "name": "제주연구원 썬룸공사",
@@ -6967,7 +7277,15 @@
       "cover": {
         "src": "images/img-muw1n1jh37a669.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-85e875a2b4.pdf",
+          "img": "images/img-cad-40f71c8b88.jpg",
+          "file": "251126_벤처마루(미팅실).pdf"
+        }
+      ]
     },
     {
       "name": "창조경제혁신 센터 인테리어공사",
@@ -7299,7 +7617,15 @@
       "cover": {
         "src": "images/img-muw1oi9b813333.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-63f35f8b20.pdf",
+          "img": "images/img-cad-9845dee35a.jpg",
+          "file": "250904_평면도_첨단꿈에그린304-102.pdf"
+        }
+      ]
     },
     {
       "name": "한라중흥 107동 702호",
@@ -7403,7 +7729,15 @@
       "cover": {
         "src": "images/img-muw1oit78debeb.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-8830c9b348.pdf",
+          "img": "images/img-cad-37ca06f5c3.jpg",
+          "file": "240827_평면도_한라중흥.pdf"
+        }
+      ]
     },
     {
       "name": "헤르지아하임 103동 302호",
@@ -7507,7 +7841,15 @@
       "cover": {
         "src": "images/img-muw1oj7332cc64.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-32920a9687.pdf",
+          "img": "images/img-cad-61285f8d59.jpg",
+          "file": "241122_평면도_헤르지아하임103-302.pdf"
+        }
+      ]
     },
     {
       "name": "홍랑길44-14단독주택",
@@ -7661,7 +8003,21 @@
       "cover": {
         "src": "images/img-muw1mp8v052910.jpg",
         "caption": ""
-      }
+      },
+      "cadPlans": [
+        {
+          "title": "1층 평면도",
+          "pdf": "cad/cad-da53517f97.pdf",
+          "img": "images/img-cad-0ab1a22acf.jpg",
+          "file": "0507_1층평면도_홍랑길단독주택.pdf"
+        },
+        {
+          "title": "2층 평면도",
+          "pdf": "cad/cad-fbd109bb79.pdf",
+          "img": "images/img-cad-5112046cea.jpg",
+          "file": "0507_2층평면도_홍랑길단독주택.pdf"
+        }
+      ]
     }
   ]
 }
