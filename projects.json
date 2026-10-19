@@ -613,6 +613,153 @@
       }
     },
     {
+      "name": "노형 미리내마을 중흥S클래스 107동 501호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "2023.11 수정안",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "천정도",
+              "src": "images/img-cad-c190798656.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-m234d7703f25f1.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m23b88f249d50d.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m2318ff22798e2.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "2023.09 초안",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "천정도",
+              "src": "images/img-cad-c190798656.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m2371b1fc04623.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m23595e95e6341.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m2354a63eeed3f.jpg"
+            },
+            {
+              "cat": "복도",
+              "caption": "",
+              "src": "images/img-m232bd7fe2399e.jpg"
+            },
+            {
+              "cat": "현관",
+              "caption": "",
+              "src": "images/img-m23684e4d010b5.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-c190798656.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "천정도(11/27)",
+          "pdf": "cad/cad-d5460adbe0.pdf",
+          "img": "images/img-cad-c190798656.jpg",
+          "file": "231127_노형 미리내마을 중흥S클래스 107동 501호_디자인엠제곱.pdf"
+        },
+        {
+          "title": "천정도(12/06)",
+          "pdf": "cad/cad-a202c2a71e.pdf",
+          "img": "images/img-cad-26d7a36f8e.jpg",
+          "file": "231206_천정도_노형 미리내마을 중흥S클래스 107동 501호.pdf"
+        }
+      ]
+    },
+    {
+      "name": "노형 현대아이파크 101동 1206호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-cad-6d57f325e2.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "아이방 가구배치",
+              "src": "images/img-cad-45b4c46863.jpg"
+            },
+            {
+              "cat": "욕실",
+              "caption": "타일 이미지",
+              "src": "images/img-m237923a426727.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-6d57f325e2.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-0f45fa8e1e.pdf",
+          "img": "images/img-cad-6d57f325e2.jpg",
+          "file": "230619_현대아이파크 101동 1206호_도면.pdf"
+        },
+        {
+          "title": "아이방 가구배치",
+          "pdf": "cad/cad-01c5c6d8a9.pdf",
+          "img": "images/img-cad-45b4c46863.jpg",
+          "file": "아이방 가구배치.pdf"
+        }
+      ]
+    },
+    {
       "name": "노형9길1 피부과인테리어공사",
       "type": "상업공간",
       "status": "done",
@@ -5211,6 +5358,53 @@
       ]
     },
     {
+      "name": "성산 오조리 종합복지회관 보수공사",
+      "type": "상업공간",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-cad-866893345c.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "기존 도면",
+              "src": "images/img-m230167faea8ad.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "기존 도면",
+              "src": "images/img-m23b889df0addc.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-866893345c.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-8c533b4ad8.pdf",
+          "img": "images/img-cad-866893345c.jpg",
+          "file": "231205_평면도_성산 오조리 종합복지관.pdf"
+        }
+      ]
+    },
+    {
       "name": "수목아파트 502호",
       "type": "아파트",
       "status": "done",
@@ -5759,6 +5953,91 @@
           "pdf": "cad/cad-48a98e7aaf.pdf",
           "img": "images/img-cad-b198446ef4.jpg",
           "file": "250829_평면도_아라스위첸109-1301.pdf"
+        }
+      ]
+    },
+    {
+      "name": "에이스대부",
+      "type": "상업공간",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "평면도(조명 포함)",
+              "src": "images/img-cad-5c5f552b5b.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-5c5f552b5b.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "평면도(조명)",
+          "pdf": "cad/cad-5c93402cad.pdf",
+          "img": "images/img-cad-5c5f552b5b.jpg",
+          "file": "230704_에이스금고_평면도(조명포함)_수정2.pdf"
+        }
+      ]
+    },
+    {
+      "name": "연동 대림 e편한세상 106동 1504호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "천정도",
+              "src": "images/img-cad-c96b45322b.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "창호·도어",
+              "src": "images/img-cad-6809fadbd8.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-c96b45322b.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "천정도",
+          "pdf": "cad/cad-7d510fc0bb.pdf",
+          "img": "images/img-cad-c96b45322b.jpg",
+          "file": "230821_연동 대림 e편한세상 106동 1504호_천정도.pdf"
+        },
+        {
+          "title": "창호·도어",
+          "pdf": "cad/cad-17efb202b2.pdf",
+          "img": "images/img-cad-6809fadbd8.jpg",
+          "file": "230811_연동 대림 e편한세상 106동 1504호_창호,도어.pdf"
         }
       ]
     },
@@ -6497,6 +6776,36 @@
       ]
     },
     {
+      "name": "오라이동 정실 5길 38",
+      "type": "단독주택",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "실측 스케치",
+              "src": "images/img-m23bcce853fecb.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-m23bcce853fecb.jpg",
+        "caption": ""
+      },
+      "cadPlans": []
+    },
+    {
       "name": "외도부영 201동 1106호",
       "type": "아파트",
       "status": "done",
@@ -6752,6 +7061,105 @@
           "pdf": "cad/cad-5802412138.pdf",
           "img": "images/img-cad-9d121411ad.jpg",
           "file": "250825_평면도_이도한일베라체101-901.pdf"
+        }
+      ]
+    },
+    {
+      "name": "인제 동남2차 801호 주방 욕실 인테리어",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "전개도",
+              "caption": "주방가구",
+              "src": "images/img-m2394e10bfc72d.jpg"
+            },
+            {
+              "cat": "전개도",
+              "caption": "주방가구",
+              "src": "images/img-m2311483407027.jpg"
+            },
+            {
+              "cat": "전개도",
+              "caption": "주방가구",
+              "src": "images/img-m231e4176ee386.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-m2394e10bfc72d.jpg",
+        "caption": ""
+      },
+      "cadPlans": []
+    },
+    {
+      "name": "인제 영도 제나빌 102동 1001호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "전기·조명",
+              "src": "images/img-cad-407a3d7d7f.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "천정도",
+              "src": "images/img-cad-67ff325174.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "가구도면",
+              "src": "images/img-cad-3f5550241c.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-407a3d7d7f.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "전기·조명",
+          "pdf": "cad/cad-82d758c85e.pdf",
+          "img": "images/img-cad-407a3d7d7f.jpg",
+          "file": "230810_영도제나빌 102동 1001호_전기조명.pdf"
+        },
+        {
+          "title": "천정도",
+          "pdf": "cad/cad-d7c95e5293.pdf",
+          "img": "images/img-cad-67ff325174.jpg",
+          "file": "230821_영도 제나빌 102동 1001호_천정도.pdf"
+        },
+        {
+          "title": "가구도면",
+          "pdf": "cad/cad-e3992e7f43.pdf",
+          "img": "images/img-cad-3f5550241c.jpg",
+          "file": "230821_영도제나빌 102동 1001호_가구도면(평면).pdf"
         }
       ]
     },
@@ -8016,6 +8424,111 @@
           "pdf": "cad/cad-fbd109bb79.pdf",
           "img": "images/img-cad-5112046cea.jpg",
           "file": "0507_2층평면도_홍랑길단독주택.pdf"
+        }
+      ]
+    },
+    {
+      "name": "화북 삼화 부영2차 201동 802호",
+      "type": "아파트",
+      "status": "done",
+      "meta": {
+        "평형": "",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "엠제곱 2023 폴더 일괄 등록 — 위치/평형/구조 정보 확인 필요. 담당자 검토 후 현장 정보 채워주세요.",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-cad-a350e8d73a.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m23e1bc94dcd58.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m2315a9bb4f3d7.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m23d907347a237.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m2389c035e4246.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-B",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-cad-a350e8d73a.jpg"
+            },
+            {
+              "cat": "거실",
+              "caption": "",
+              "src": "images/img-m23f27c413a1ac.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m2345d27c82fe0.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m236958bf9c9b2.jpg"
+            }
+          ]
+        },
+        {
+          "code": "ALT-C",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-cad-a350e8d73a.jpg"
+            },
+            {
+              "cat": "주방",
+              "caption": "",
+              "src": "images/img-m237b144aa8240.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-cad-a350e8d73a.jpg",
+        "caption": ""
+      },
+      "cadPlans": [
+        {
+          "title": "평면도",
+          "pdf": "cad/cad-c616225e9c.pdf",
+          "img": "images/img-cad-a350e8d73a.jpg",
+          "file": "231014_평면도_화북 삼화 부영 201동 802호.pdf"
+        },
+        {
+          "title": "천정도",
+          "pdf": "cad/cad-b0b6e46a3a.pdf",
+          "img": "images/img-cad-f7c639e317.jpg",
+          "file": "231108_천정도 수정중_화북 삼화 부영 201동 802호-모형.pdf"
         }
       ]
     }
