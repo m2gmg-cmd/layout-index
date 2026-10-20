@@ -113,7 +113,165 @@
           "img": "images/img-cad-31a24da62d.jpg",
           "file": "250627_평면도_건입이화아파트803호.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cb86591beb0ea19.jpg"
+          },
+          {
+            "src": "images/progress/cb92983d87e865a.jpg"
+          },
+          {
+            "src": "images/progress/c9377af5927e784.jpg"
+          },
+          {
+            "src": "images/progress/c979c965d7737b2.jpg"
+          },
+          {
+            "src": "images/progress/c8c5b6efb576b99.jpg"
+          },
+          {
+            "src": "images/progress/c4a79194bd726c0.jpg"
+          },
+          {
+            "src": "images/progress/c0e636d570915a4.jpg"
+          },
+          {
+            "src": "images/progress/c7f98e9ab1b2825.jpg"
+          },
+          {
+            "src": "images/progress/c4703f1368388d2.jpg"
+          },
+          {
+            "src": "images/progress/cedf4402b25bdfd.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c0f5301e0cbe646.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cffa21a8500259a.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cf00d9b9035da6e.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c358c8264fd0939.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cc17dbc28d44398.jpg",
+            "cat": "방수미장"
+          },
+          {
+            "src": "images/progress/c8a633ca6e136a7.jpg",
+            "cat": "방수미장"
+          },
+          {
+            "src": "images/progress/cb57541485c55e2.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c67939ff2d6abda.jpg",
+            "cat": "샷시"
+          },
+          {
+            "src": "images/progress/cb116318e6e1de3.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c301344bdab5a1d.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cace865dea497bd.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c3db03b95405def.jpg",
+            "cat": "도기"
+          },
+          {
+            "src": "images/progress/cd1113d8662343d.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/ca6cc55cb855562.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/c5fc4759f06291f.jpg",
+            "cat": "가구,장판"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c2383c85165b6f5.jpg"
+          },
+          {
+            "src": "images/progress/c35bb0a314f2119.jpg"
+          },
+          {
+            "src": "images/progress/c9f2680a7bf89c7.jpg"
+          },
+          {
+            "src": "images/progress/cf101c420befe08.jpg"
+          },
+          {
+            "src": "images/progress/c087f276ebd449e.jpg"
+          },
+          {
+            "src": "images/progress/c7ad932a3d4fc26.jpg"
+          },
+          {
+            "src": "images/progress/c4d60b563c8ced4.jpg"
+          },
+          {
+            "src": "images/progress/cd2fd4ab8033a94.jpg"
+          },
+          {
+            "src": "images/progress/c74dc7bbd78a279.jpg"
+          },
+          {
+            "src": "images/progress/c8ae53ee594057e.jpg"
+          },
+          {
+            "src": "images/progress/cb77b2e12dac8c1.jpg"
+          },
+          {
+            "src": "images/progress/caafa608ae512c8.jpg"
+          },
+          {
+            "src": "images/progress/c9349b07178aa42.jpg"
+          },
+          {
+            "src": "images/progress/c4e8a3fa06db23a.jpg"
+          },
+          {
+            "src": "images/progress/c507ee680c00fc1.jpg"
+          },
+          {
+            "src": "images/progress/cbaa4bcc44f60cc.jpg"
+          },
+          {
+            "src": "images/progress/c5914061c14c01c.jpg"
+          },
+          {
+            "src": "images/progress/c5cc679fe37b13d.jpg"
+          },
+          {
+            "src": "images/progress/c1dacf1f6e98a9e.jpg"
+          },
+          {
+            "src": "images/progress/c5298f9cb132f87.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "계명3길 27-8 인테리어공사",
@@ -180,7 +338,41 @@
           "img": "images/img-cad-d8664206bc.jpg",
           "file": "240516_1평면도_계명3길27-8.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c57a90ca2894b31.jpg"
+          },
+          {
+            "src": "images/progress/ca7ad7efa516b6a.jpg"
+          },
+          {
+            "src": "images/progress/c3832859827f7c7.jpg"
+          },
+          {
+            "src": "images/progress/cb74a22f3bfdb4e.jpg"
+          },
+          {
+            "src": "images/progress/cdccf7885796e8a.jpg"
+          },
+          {
+            "src": "images/progress/c604d2645d319b7.jpg"
+          },
+          {
+            "src": "images/progress/ce0a4cdddf96a45.jpg"
+          },
+          {
+            "src": "images/progress/c2746350c93cb91.jpg"
+          },
+          {
+            "src": "images/progress/cc71d5c016dad02.jpg"
+          },
+          {
+            "src": "images/progress/c815708810df9c9.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "고마로하나아파트 201호",
@@ -282,7 +474,41 @@
           "img": "images/img-cad-5d6cc77c48.jpg",
           "file": "240613_1평면도_하나아파트.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cac550ef8f4dcba.jpg"
+          },
+          {
+            "src": "images/progress/c9288eb3a988c60.jpg"
+          },
+          {
+            "src": "images/progress/ca9663f3d098649.jpg"
+          },
+          {
+            "src": "images/progress/c5f17c40dbbfb90.jpg"
+          },
+          {
+            "src": "images/progress/c095eb4eeeb648c.jpg"
+          },
+          {
+            "src": "images/progress/c2a3e2724e2c0e1.jpg"
+          },
+          {
+            "src": "images/progress/c9b97a579b56a56.jpg"
+          },
+          {
+            "src": "images/progress/cc9795ada7d022b.jpg"
+          },
+          {
+            "src": "images/progress/cebb8a9ca344a05.jpg"
+          },
+          {
+            "src": "images/progress/cf0366924bc5a9e.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "굿윌카운티 1205호(인테리어공사)",
@@ -409,7 +635,165 @@
           "img": "images/img-cad-2b2613b469.jpg",
           "file": "0925_평면도_굿윌카운티1205.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c89f9cb353affa7.jpg"
+          },
+          {
+            "src": "images/progress/c61e0bc9a57615b.jpg"
+          },
+          {
+            "src": "images/progress/c7b2df4b043d972.jpg"
+          },
+          {
+            "src": "images/progress/cad4225b3f6276f.jpg"
+          },
+          {
+            "src": "images/progress/cce7391d3f7a4a3.jpg"
+          },
+          {
+            "src": "images/progress/c119ced74284c79.jpg"
+          },
+          {
+            "src": "images/progress/c4e44657adb9f2d.jpg"
+          },
+          {
+            "src": "images/progress/cbf7ff809d6747c.jpg"
+          },
+          {
+            "src": "images/progress/ca0f487c20499cb.jpg"
+          },
+          {
+            "src": "images/progress/c88256c0c535cd0.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c9f5916335e0c7f.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c109262c8301aba.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c902773eb818546.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c61f87127329963.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c2ac307784c6f04.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c3d3e7913d646d3.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/c784ea09a90a4f6.jpg",
+            "cat": "전기,경동나비엔"
+          },
+          {
+            "src": "images/progress/cb2e6e95a5fb01f.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cf67e862a968340.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c721275104149fe.jpg",
+            "cat": "도배,필름,탄성"
+          },
+          {
+            "src": "images/progress/c8e43eff729a0c1.jpg",
+            "cat": "도기,전기조명"
+          },
+          {
+            "src": "images/progress/cc9625bb595a7f5.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/c73c36e60f6550f.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c507c2d0c8eee8a.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c77dac20deca86d.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/ce3bed2605ca389.jpg"
+          },
+          {
+            "src": "images/progress/c4b6ca7dbdcb77f.jpg"
+          },
+          {
+            "src": "images/progress/c946cd855680c39.jpg"
+          },
+          {
+            "src": "images/progress/c577231ea477517.jpg"
+          },
+          {
+            "src": "images/progress/cd7bed3657bf8b5.jpg"
+          },
+          {
+            "src": "images/progress/cbb871984ca6140.jpg"
+          },
+          {
+            "src": "images/progress/c690118fa767c36.jpg"
+          },
+          {
+            "src": "images/progress/c17fb86dd82315f.jpg"
+          },
+          {
+            "src": "images/progress/cf111b7c882ffa7.jpg"
+          },
+          {
+            "src": "images/progress/c600cc4afdd4982.jpg"
+          },
+          {
+            "src": "images/progress/cc6c11d8359fe07.jpg"
+          },
+          {
+            "src": "images/progress/c79e31dcfc6f245.jpg"
+          },
+          {
+            "src": "images/progress/c1fcbcd60b633f1.jpg"
+          },
+          {
+            "src": "images/progress/c6b5fd4c1945800.jpg"
+          },
+          {
+            "src": "images/progress/ca7a1f95e7cefd1.jpg"
+          },
+          {
+            "src": "images/progress/c7bbe93878fcd85.jpg"
+          },
+          {
+            "src": "images/progress/c7597067da08a55.jpg"
+          },
+          {
+            "src": "images/progress/c070302d725a1bc.jpg"
+          },
+          {
+            "src": "images/progress/c6cb3ee5657a8f3.jpg"
+          },
+          {
+            "src": "images/progress/c438408a11b5e1e.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "극동오벨리스크 1005호",
@@ -556,7 +940,165 @@
           "img": "images/img-cad-ee6095c6ef.jpg",
           "file": "251106_평면도_극동오벨리스크.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cb1b450948e9554.jpg"
+          },
+          {
+            "src": "images/progress/c382c08b2a8fe5c.jpg"
+          },
+          {
+            "src": "images/progress/c820ac6d575c4fd.jpg"
+          },
+          {
+            "src": "images/progress/c6e6ab516aed66a.jpg"
+          },
+          {
+            "src": "images/progress/c39126915f96962.jpg"
+          },
+          {
+            "src": "images/progress/c9c3f784f2ef53e.jpg"
+          },
+          {
+            "src": "images/progress/cfe946d8772a15c.jpg"
+          },
+          {
+            "src": "images/progress/c230b66b993c8a5.jpg"
+          },
+          {
+            "src": "images/progress/c4008565e084173.jpg"
+          },
+          {
+            "src": "images/progress/cae9346a845660f.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cf1e04b6f43eacb.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c3cb488dea315a0.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c37272eced3c150.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c2d8a1b4ce513a1.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/cab24c5643b09d6.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c879d5707688b71.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c0c148c477d18a2.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/c4be46c9484a30e.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cd4a8c406a11a86.jpg",
+            "cat": "탄성,케라폭시"
+          },
+          {
+            "src": "images/progress/c77a20ba5b1b43b.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c7c75eff74b78cf.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/ce76ec879ac0674.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/ce466b2e46b5668.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c35e0af80b48ae0.jpg",
+            "cat": "도어,도기"
+          },
+          {
+            "src": "images/progress/c808b66c288b694.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cc6080c8086875d.jpg"
+          },
+          {
+            "src": "images/progress/c523d5ba8e89835.jpg"
+          },
+          {
+            "src": "images/progress/c4b6bdba269bc25.jpg"
+          },
+          {
+            "src": "images/progress/c6c6e54752cd9cd.jpg"
+          },
+          {
+            "src": "images/progress/ca2934265dcfbd3.jpg"
+          },
+          {
+            "src": "images/progress/c1e742f292a18f8.jpg"
+          },
+          {
+            "src": "images/progress/c0319d5878289ce.jpg"
+          },
+          {
+            "src": "images/progress/cebc7ebc91c4cbe.jpg"
+          },
+          {
+            "src": "images/progress/c377cc6a17a8bb7.jpg"
+          },
+          {
+            "src": "images/progress/c682b3748e47b3c.jpg"
+          },
+          {
+            "src": "images/progress/c73081a0352a708.jpg"
+          },
+          {
+            "src": "images/progress/c96add36570ff88.jpg"
+          },
+          {
+            "src": "images/progress/c8996f2b8f4627f.jpg"
+          },
+          {
+            "src": "images/progress/cf48a6bb79692ea.jpg"
+          },
+          {
+            "src": "images/progress/ce7c1b74f34737b.jpg"
+          },
+          {
+            "src": "images/progress/c5ce0df21143446.jpg"
+          },
+          {
+            "src": "images/progress/ccdea4b363a93eb.jpg"
+          },
+          {
+            "src": "images/progress/c316c6220d7520a.jpg"
+          },
+          {
+            "src": "images/progress/cc16b23d67bf221.jpg"
+          },
+          {
+            "src": "images/progress/cb61d0a2ad7aae0.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "남원읍 1705-2 한빛창호",
@@ -610,6 +1152,28 @@
       "cover": {
         "src": "images/img-muw1mu6m8721e9.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c62b1eab3ff478b.jpg"
+          },
+          {
+            "src": "images/progress/c0fb0cf122077d5.jpg"
+          },
+          {
+            "src": "images/progress/ce8e4538415e24f.jpg"
+          },
+          {
+            "src": "images/progress/c17579cf175e56e.jpg"
+          },
+          {
+            "src": "images/progress/c443a55781d04fd.jpg"
+          },
+          {
+            "src": "images/progress/c03827d53e6f6ff.jpg"
+          }
+        ]
       }
     },
     {
@@ -704,7 +1268,64 @@
           "img": "images/img-cad-26d7a36f8e.jpg",
           "file": "231206_천정도_노형 미리내마을 중흥S클래스 107동 501호.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c8f8520fa9b4777.jpg"
+          },
+          {
+            "src": "images/progress/c20c282016e124a.jpg"
+          },
+          {
+            "src": "images/progress/c2abbe571a72f80.jpg"
+          },
+          {
+            "src": "images/progress/c4fb60b61d994bb.jpg"
+          },
+          {
+            "src": "images/progress/cf38e679407e744.jpg"
+          },
+          {
+            "src": "images/progress/c00ce2f4ede1d0f.jpg"
+          },
+          {
+            "src": "images/progress/c2e6ab298fd9b0b.jpg"
+          },
+          {
+            "src": "images/progress/cb5832dde68aa47.jpg"
+          },
+          {
+            "src": "images/progress/c59af96a1c545a0.jpg"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cd74a72b9aefaf3.jpg"
+          },
+          {
+            "src": "images/progress/c7ee1b3534f8ab0.jpg"
+          },
+          {
+            "src": "images/progress/c1977808970d5a0.jpg"
+          },
+          {
+            "src": "images/progress/c2f8571a22f0894.jpg"
+          },
+          {
+            "src": "images/progress/cd80290b4b7e1ff.jpg"
+          },
+          {
+            "src": "images/progress/cc353c1277e84fe.jpg"
+          },
+          {
+            "src": "images/progress/c79c83973863c99.jpg"
+          },
+          {
+            "src": "images/progress/cd2c3e5f3e05738.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형 현대아이파크 101동 1206호",
@@ -864,7 +1485,165 @@
           "img": "images/img-cad-cdab7a545c.jpg",
           "file": "2411230_평면도_노형동피부과.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/caf96ec42a56dcc.jpg"
+          },
+          {
+            "src": "images/progress/cfec4d4a59402dc.jpg"
+          },
+          {
+            "src": "images/progress/c4d072f7456f718.jpg"
+          },
+          {
+            "src": "images/progress/c691f33638705a9.jpg"
+          },
+          {
+            "src": "images/progress/c9e4f55645ffcf9.jpg"
+          },
+          {
+            "src": "images/progress/c970e6070a6bfce.jpg"
+          },
+          {
+            "src": "images/progress/c5b22a52c55eaf8.jpg"
+          },
+          {
+            "src": "images/progress/c4400ad7ce67ba7.jpg"
+          },
+          {
+            "src": "images/progress/ca98e2a5babf572.jpg"
+          },
+          {
+            "src": "images/progress/c586a470cdd5a78.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c3bc9e76bedbb46.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c7ceb12f888c4d5.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c8cdd03954cb238.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c089d9c19bc65fb.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c0dc23f301f8f0d.jpg",
+            "cat": "경량,목공"
+          },
+          {
+            "src": "images/progress/cf974b2b03a85d0.jpg",
+            "cat": "경량,목공"
+          },
+          {
+            "src": "images/progress/ce09306bef491d5.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c5fb98ba11b3987.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c30c8e80eab00c4.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c23bc8598447866.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c7c28b09412e7f6.jpg",
+            "cat": "조명,에어컨"
+          },
+          {
+            "src": "images/progress/ca5a0eb294f6738.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cc298c2f8c19ca4.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c0308d70b75f749.jpg",
+            "cat": "마감"
+          },
+          {
+            "src": "images/progress/ca250b331fb866b.jpg",
+            "cat": "보수"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cfaf3753b3906b8.jpg"
+          },
+          {
+            "src": "images/progress/c70a959c1d19221.jpg"
+          },
+          {
+            "src": "images/progress/c06197ab8e72c37.jpg"
+          },
+          {
+            "src": "images/progress/cfaca8b999b8277.jpg"
+          },
+          {
+            "src": "images/progress/cf093e0fdec9713.jpg"
+          },
+          {
+            "src": "images/progress/c0c5fe0fc2a7abc.jpg"
+          },
+          {
+            "src": "images/progress/c8f4892646ecb73.jpg"
+          },
+          {
+            "src": "images/progress/c51a7b6aa33df02.jpg"
+          },
+          {
+            "src": "images/progress/cd1c8a70454753e.jpg"
+          },
+          {
+            "src": "images/progress/ced1bc2af726f71.jpg"
+          },
+          {
+            "src": "images/progress/cbba2cb8807622d.jpg"
+          },
+          {
+            "src": "images/progress/cf94c5a729754e6.jpg"
+          },
+          {
+            "src": "images/progress/cba2d20f7b12a26.jpg"
+          },
+          {
+            "src": "images/progress/c6155ce269c1283.jpg"
+          },
+          {
+            "src": "images/progress/c1ce603a86c114f.jpg"
+          },
+          {
+            "src": "images/progress/c72222ce0396056.jpg"
+          },
+          {
+            "src": "images/progress/cd7721c96de873c.jpg"
+          },
+          {
+            "src": "images/progress/cb054868c647316.jpg"
+          },
+          {
+            "src": "images/progress/c99050c6256c69a.jpg"
+          },
+          {
+            "src": "images/progress/c3f7c22986ec4c7.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형E편한세상 29py (106동)",
@@ -1203,7 +1982,41 @@
           "img": "images/img-cad-64b9e7fc26.jpg",
           "file": "2600721_노형그랜드치과 의원_평면도3층.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cec00728cf131f5.jpg"
+          },
+          {
+            "src": "images/progress/c96150247a73b4a.jpg"
+          },
+          {
+            "src": "images/progress/cfc2b9ffd9e3683.jpg"
+          },
+          {
+            "src": "images/progress/c45ef8e50e0b2a5.jpg"
+          },
+          {
+            "src": "images/progress/c37413801838fac.jpg"
+          },
+          {
+            "src": "images/progress/c680c851a357d28.jpg"
+          },
+          {
+            "src": "images/progress/c5225a5e8d5b7c5.jpg"
+          },
+          {
+            "src": "images/progress/c4d7f0f13d5a70c.jpg"
+          },
+          {
+            "src": "images/progress/c8dd37cffd38389.jpg"
+          },
+          {
+            "src": "images/progress/cd536b888cb71c6.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형대림 103동 1401호154타입",
@@ -1420,7 +2233,35 @@
           "img": "images/img-cad-4f32ad5101.jpg",
           "file": "250430_평면도_노형대림103-1401.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cc32f30979a56f2.jpg"
+          },
+          {
+            "src": "images/progress/ccd6276f1fcd38e.jpg"
+          },
+          {
+            "src": "images/progress/c21651f3a3facc6.jpg"
+          },
+          {
+            "src": "images/progress/c395f2527f1a3b5.jpg"
+          },
+          {
+            "src": "images/progress/ce03229c8ce0842.jpg"
+          },
+          {
+            "src": "images/progress/c97e04aadcf8e7d.jpg"
+          },
+          {
+            "src": "images/progress/c4c761c8e260c28.jpg"
+          },
+          {
+            "src": "images/progress/c5637ef7ce2e034.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형동 대보빌딩 시더 피자 인테리어",
@@ -1522,7 +2363,165 @@
           "img": "images/img-cad-af50148b65.jpg",
           "file": "250111_연동피자집_평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c90d968fcd75922.jpg"
+          },
+          {
+            "src": "images/progress/c77683999906a42.jpg"
+          },
+          {
+            "src": "images/progress/ca501e36810fd86.jpg"
+          },
+          {
+            "src": "images/progress/c6dfe3d73a15451.jpg"
+          },
+          {
+            "src": "images/progress/c07eb5088adb0af.jpg"
+          },
+          {
+            "src": "images/progress/c75782ffee66f38.jpg"
+          },
+          {
+            "src": "images/progress/ca2bf5df8313d9e.jpg"
+          },
+          {
+            "src": "images/progress/c7c72afce26ee08.jpg"
+          },
+          {
+            "src": "images/progress/c121ea109aadb99.jpg"
+          },
+          {
+            "src": "images/progress/cfbeecf1b33a6f2.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cb548e8a653286c.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cdf0504adfb65c3.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c55d0e33f3b8cb0.jpg",
+            "cat": "조적미장방수"
+          },
+          {
+            "src": "images/progress/c2032c84202f680.jpg",
+            "cat": "금속잡철"
+          },
+          {
+            "src": "images/progress/ca5a3bff1ae9c62.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c538f6056fab8a3.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/c44c9ca835e6925.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c50aaac2443be40.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c561db34ba9d7a6.jpg",
+            "cat": "가스,주방기기"
+          },
+          {
+            "src": "images/progress/c190c2b737732a5.jpg",
+            "cat": "워크인"
+          },
+          {
+            "src": "images/progress/c73436d7de532da.jpg",
+            "cat": "간판"
+          },
+          {
+            "src": "images/progress/c8c14c613a1f972.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cf8e001bd6c5d87.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c33e13c1c0ca2cc.jpg",
+            "cat": "플랜테리어"
+          },
+          {
+            "src": "images/progress/c16ec51bc3827d4.jpg",
+            "cat": "새 폴더"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cc9025facd7c412.jpg"
+          },
+          {
+            "src": "images/progress/c135d9f2d8ae367.jpg"
+          },
+          {
+            "src": "images/progress/c10b8bad3897303.jpg"
+          },
+          {
+            "src": "images/progress/c9dafdfe34901f4.jpg"
+          },
+          {
+            "src": "images/progress/c6653e8d2c34c33.jpg"
+          },
+          {
+            "src": "images/progress/c546a2e6c4adf6e.jpg"
+          },
+          {
+            "src": "images/progress/c913ea6a4e2b33f.jpg"
+          },
+          {
+            "src": "images/progress/c9a6ec5956500f4.jpg"
+          },
+          {
+            "src": "images/progress/c40029a74044104.jpg"
+          },
+          {
+            "src": "images/progress/ccd8507affe1d8e.jpg"
+          },
+          {
+            "src": "images/progress/c2c4a96dc83ec00.jpg"
+          },
+          {
+            "src": "images/progress/c2025c75b3cec77.jpg"
+          },
+          {
+            "src": "images/progress/c9bce425f0c8ebc.jpg"
+          },
+          {
+            "src": "images/progress/ca8b746153ac5d6.jpg"
+          },
+          {
+            "src": "images/progress/cca57c25a2704b9.jpg"
+          },
+          {
+            "src": "images/progress/c89882e868dfb4d.jpg"
+          },
+          {
+            "src": "images/progress/c03fb5f733ec95f.jpg"
+          },
+          {
+            "src": "images/progress/c5f29f2d3bc8535.jpg"
+          },
+          {
+            "src": "images/progress/ccd45625b41fe91.jpg"
+          },
+          {
+            "src": "images/progress/c941cecf463fbec.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형뜨란채 203동 506호",
@@ -1581,6 +2580,40 @@
       "cover": {
         "src": "images/img-muw1na7k1006e4.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c24b384ff36b3fe.jpg"
+          },
+          {
+            "src": "images/progress/c3412cc712de893.jpg"
+          },
+          {
+            "src": "images/progress/c71f31da4a69731.jpg"
+          },
+          {
+            "src": "images/progress/c63b9220414ffd3.jpg"
+          },
+          {
+            "src": "images/progress/cb1e31165979709.jpg"
+          },
+          {
+            "src": "images/progress/cc2dbc3a366c967.jpg"
+          },
+          {
+            "src": "images/progress/cb25789d3e871ec.jpg"
+          },
+          {
+            "src": "images/progress/cdb25531910215c.jpg"
+          },
+          {
+            "src": "images/progress/c46583862a0d976.jpg"
+          },
+          {
+            "src": "images/progress/c51152a7bea5af9.jpg"
+          }
+        ]
       }
     },
     {
@@ -1833,7 +2866,165 @@
           "img": "images/img-cad-6ee51b381d.jpg",
           "file": "251023_평면도_노형부영 101-1105.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c7ce93558e090cb.jpg"
+          },
+          {
+            "src": "images/progress/cce89fd09daf440.jpg"
+          },
+          {
+            "src": "images/progress/ca48bc2e0f14dbe.jpg"
+          },
+          {
+            "src": "images/progress/c56371c1539c3ff.jpg"
+          },
+          {
+            "src": "images/progress/c6d33e3238deedd.jpg"
+          },
+          {
+            "src": "images/progress/c0888610a72d989.jpg"
+          },
+          {
+            "src": "images/progress/c5d31814bbbb19a.jpg"
+          },
+          {
+            "src": "images/progress/c1f5183d30cfd43.jpg"
+          },
+          {
+            "src": "images/progress/cce9ec745b7268f.jpg"
+          },
+          {
+            "src": "images/progress/c4130c0ea395742.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cd6c367ad92ecfc.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c0ee42aac072433.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c7b062695e3377a.jpg",
+            "cat": "냉온수관교체"
+          },
+          {
+            "src": "images/progress/c38b73f03da1940.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c16adf35d5b754e.jpg",
+            "cat": "전기에어컨"
+          },
+          {
+            "src": "images/progress/c9ba0739a751fc2.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/cf6bc27144116d8.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/cdc26b4ae951013.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cf6b07532a32c6d.jpg",
+            "cat": "탄성,도배"
+          },
+          {
+            "src": "images/progress/c82d43c27edc8a5.jpg",
+            "cat": "도기"
+          },
+          {
+            "src": "images/progress/c2e6a61565f781a.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/c8c9ecc8a49a55a.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c769364fa7c259a.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c6f94726578fb1b.jpg",
+            "cat": "도어"
+          },
+          {
+            "src": "images/progress/c4c1d53484ea458.jpg",
+            "cat": "마감,대리석,유리"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cbdffa7ae0da1ee.jpg"
+          },
+          {
+            "src": "images/progress/ce9d67e23932b51.jpg"
+          },
+          {
+            "src": "images/progress/cc64d5fa5eb008b.jpg"
+          },
+          {
+            "src": "images/progress/c13a6eb760c10a4.jpg"
+          },
+          {
+            "src": "images/progress/c16aece056ad270.jpg"
+          },
+          {
+            "src": "images/progress/c696177d96a6645.jpg"
+          },
+          {
+            "src": "images/progress/c80264bcf2755b3.jpg"
+          },
+          {
+            "src": "images/progress/c76b87b3b384f2a.jpg"
+          },
+          {
+            "src": "images/progress/cc68435a1de58be.jpg"
+          },
+          {
+            "src": "images/progress/ceff3bdc24b8382.jpg"
+          },
+          {
+            "src": "images/progress/c285a68c4e8a1e2.jpg"
+          },
+          {
+            "src": "images/progress/c610ecd0bfc7751.jpg"
+          },
+          {
+            "src": "images/progress/c3d2ed2d98e6624.jpg"
+          },
+          {
+            "src": "images/progress/c54c4157f5d610e.jpg"
+          },
+          {
+            "src": "images/progress/c106f1067b70ec5.jpg"
+          },
+          {
+            "src": "images/progress/c1cddc6902244b9.jpg"
+          },
+          {
+            "src": "images/progress/ce46b6d18f06822.jpg"
+          },
+          {
+            "src": "images/progress/cab167dd2fe1863.jpg"
+          },
+          {
+            "src": "images/progress/cd9f003c3b64739.jpg"
+          },
+          {
+            "src": "images/progress/c54d1f1bd7af261.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형부영1차 101동 806호",
@@ -2009,7 +3200,165 @@
           "img": "images/img-cad-58a7f30af6.jpg",
           "file": "251208_노형부영 104-605 평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c6906b9cbe17562.jpg"
+          },
+          {
+            "src": "images/progress/cbe75baeaf0ae81.jpg"
+          },
+          {
+            "src": "images/progress/ca4b4e720fb9bf1.jpg"
+          },
+          {
+            "src": "images/progress/ce4567d7d7b898f.jpg"
+          },
+          {
+            "src": "images/progress/ccf60c43c36d12b.jpg"
+          },
+          {
+            "src": "images/progress/cf0241b4dce1d70.jpg"
+          },
+          {
+            "src": "images/progress/c628882940239c7.jpg"
+          },
+          {
+            "src": "images/progress/c269441fbf15f19.jpg"
+          },
+          {
+            "src": "images/progress/c111802847a5f5a.jpg"
+          },
+          {
+            "src": "images/progress/cc7a7d8ecb73fc4.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c84f84cff512baf.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c6dba39a46d7441.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c3b414a5bae1cc1.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c1f13889cc3c42d.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c82fc5fe59f4794.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/cc137d5d5094548.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/c0c2ff06a4ca804.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/c9cefb9286c1c43.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c24b89001e2ec86.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cb9dd036acf7fc6.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c27f68525365add.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c77d24927c22af3.jpg",
+            "cat": "탄성,등타공"
+          },
+          {
+            "src": "images/progress/c1d5c21e0d0e230.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cfba6660d28f809.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c29f62fd09dcdc5.jpg",
+            "cat": "에디톤"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c7fac650b38bd02.jpg"
+          },
+          {
+            "src": "images/progress/c65c1d74304ae5b.jpg"
+          },
+          {
+            "src": "images/progress/c4e0c69a413d9c4.jpg"
+          },
+          {
+            "src": "images/progress/cf8c4e257b3ebfd.jpg"
+          },
+          {
+            "src": "images/progress/c9587cdd4799a73.jpg"
+          },
+          {
+            "src": "images/progress/c9585693cd79b79.jpg"
+          },
+          {
+            "src": "images/progress/c33296968f73c2b.jpg"
+          },
+          {
+            "src": "images/progress/c90ac3d07ee66f0.jpg"
+          },
+          {
+            "src": "images/progress/c9a475773b14912.jpg"
+          },
+          {
+            "src": "images/progress/c8396efb7cb5e31.jpg"
+          },
+          {
+            "src": "images/progress/ca162a37532a15f.jpg"
+          },
+          {
+            "src": "images/progress/ce59ce36cda038b.jpg"
+          },
+          {
+            "src": "images/progress/c8e24c832283466.jpg"
+          },
+          {
+            "src": "images/progress/c957b5fa760df26.jpg"
+          },
+          {
+            "src": "images/progress/cf964a6dca2193a.jpg"
+          },
+          {
+            "src": "images/progress/cefa384dfff04ad.jpg"
+          },
+          {
+            "src": "images/progress/c30361f2a87f956.jpg"
+          },
+          {
+            "src": "images/progress/c2716bb8bee4eb9.jpg"
+          },
+          {
+            "src": "images/progress/c8325609ae07de5.jpg"
+          },
+          {
+            "src": "images/progress/c4f802cdc02ecb8.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형부영5차 503동 702호",
@@ -2136,7 +3485,165 @@
           "img": "images/img-cad-c93a22980e.jpg",
           "file": "251024_평면도_노형부영503-702.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c6fd8b48e41ec34.jpg"
+          },
+          {
+            "src": "images/progress/cd25367e3d7651d.jpg"
+          },
+          {
+            "src": "images/progress/c6f3670fa749a14.jpg"
+          },
+          {
+            "src": "images/progress/c1562e23557aef8.jpg"
+          },
+          {
+            "src": "images/progress/c57458890a45162.jpg"
+          },
+          {
+            "src": "images/progress/c70f848e69b9017.jpg"
+          },
+          {
+            "src": "images/progress/c162ec0638401e6.jpg"
+          },
+          {
+            "src": "images/progress/cb81f57a20776aa.jpg"
+          },
+          {
+            "src": "images/progress/c89c24ce6e9e1c3.jpg"
+          },
+          {
+            "src": "images/progress/c011cbb0859b010.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c0c060fedf59441.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cf958588cc9f7b5.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c4b50f3a26f8fb2.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c7796fed4bfe4ab.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c685ac0bc64444b.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/cb39d4cbeb32862.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/cdae8a2b0e406f3.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/ceffd8e9a441f22.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/c4b285a880df0d8.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c5d34b31b3a7b3e.jpg",
+            "cat": "필름도장"
+          },
+          {
+            "src": "images/progress/cfd6603bc32835d.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c3739ad10d18c37.jpg",
+            "cat": "도배,탄성"
+          },
+          {
+            "src": "images/progress/c994e38c96138a0.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c063f89288605fc.jpg",
+            "cat": "마루,에어컨,설비,보일러"
+          },
+          {
+            "src": "images/progress/cf89cc9aab01e7e.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cc81555969ba92e.jpg"
+          },
+          {
+            "src": "images/progress/cad209df0a67634.jpg"
+          },
+          {
+            "src": "images/progress/c17e4a5494fddda.jpg"
+          },
+          {
+            "src": "images/progress/c391eb910453a22.jpg"
+          },
+          {
+            "src": "images/progress/cadd7a1a2c9ea49.jpg"
+          },
+          {
+            "src": "images/progress/c3568b9b594bb94.jpg"
+          },
+          {
+            "src": "images/progress/c610e0b7d3cc9e6.jpg"
+          },
+          {
+            "src": "images/progress/cf081336f437703.jpg"
+          },
+          {
+            "src": "images/progress/c969d0bd5ccba81.jpg"
+          },
+          {
+            "src": "images/progress/c71e4192aadbfdf.jpg"
+          },
+          {
+            "src": "images/progress/c783364e5c5c54a.jpg"
+          },
+          {
+            "src": "images/progress/c1ffa389fa12c9d.jpg"
+          },
+          {
+            "src": "images/progress/cb850e5719df2eb.jpg"
+          },
+          {
+            "src": "images/progress/cc5b34ede2b1a89.jpg"
+          },
+          {
+            "src": "images/progress/c8c78a686d7c36c.jpg"
+          },
+          {
+            "src": "images/progress/ce4ad4a26473ffa.jpg"
+          },
+          {
+            "src": "images/progress/cd458188711be2c.jpg"
+          },
+          {
+            "src": "images/progress/c549aac1768ef6b.jpg"
+          },
+          {
+            "src": "images/progress/ca9c64f24f4b6b3.jpg"
+          },
+          {
+            "src": "images/progress/caec767060114eb.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형부영5차 503동 901호",
@@ -2283,7 +3790,103 @@
           "img": "images/img-cad-e19d8bc118.jpg",
           "file": "평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cb8361e109d24e1.jpg"
+          },
+          {
+            "src": "images/progress/ca578f229913736.jpg"
+          },
+          {
+            "src": "images/progress/c7195d2aa571cd0.jpg"
+          },
+          {
+            "src": "images/progress/c9403ddc21774e3.jpg"
+          },
+          {
+            "src": "images/progress/c05060a82141e47.jpg"
+          },
+          {
+            "src": "images/progress/cb8cc39e6b77a9f.jpg"
+          },
+          {
+            "src": "images/progress/c092dbb1fc4083e.jpg"
+          },
+          {
+            "src": "images/progress/c3fb66be2838274.jpg"
+          },
+          {
+            "src": "images/progress/c4db74bceb54fbb.jpg"
+          },
+          {
+            "src": "images/progress/c5c9dfe693356af.jpg"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c06c9e5a3d4b5cc.jpg"
+          },
+          {
+            "src": "images/progress/cb81963f30c72ac.jpg"
+          },
+          {
+            "src": "images/progress/c82892e9edfe905.jpg"
+          },
+          {
+            "src": "images/progress/cf3128cb28da97b.jpg"
+          },
+          {
+            "src": "images/progress/c21bd93d5512c88.jpg"
+          },
+          {
+            "src": "images/progress/cf63ef0a0ed2702.jpg"
+          },
+          {
+            "src": "images/progress/c5eb90955a93df2.jpg"
+          },
+          {
+            "src": "images/progress/c0f7496ecc2729b.jpg"
+          },
+          {
+            "src": "images/progress/c08b9682452c346.jpg"
+          },
+          {
+            "src": "images/progress/c5dcf6d184a80c0.jpg"
+          },
+          {
+            "src": "images/progress/cd0558601952883.jpg"
+          },
+          {
+            "src": "images/progress/ce51cdb46d9564f.jpg"
+          },
+          {
+            "src": "images/progress/c20c4c2428e7edc.jpg"
+          },
+          {
+            "src": "images/progress/c8e9ebeb5198736.jpg"
+          },
+          {
+            "src": "images/progress/c7fe2ba510d1a39.jpg"
+          },
+          {
+            "src": "images/progress/ca9a2d13d34946c.jpg"
+          },
+          {
+            "src": "images/progress/ca7ca70782fce81.jpg"
+          },
+          {
+            "src": "images/progress/c398fdb8307b046.jpg"
+          },
+          {
+            "src": "images/progress/c93f68641854abc.jpg"
+          },
+          {
+            "src": "images/progress/c2265ba6fd73c2f.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형아이파크 103동 802호",
@@ -2410,7 +4013,123 @@
           "img": "images/img-cad-3d1260ea0e.jpg",
           "file": "260113_노형아이파크 103-802_평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cd03bc570e3047e.jpg"
+          },
+          {
+            "src": "images/progress/c93edf1bcb012bf.jpg"
+          },
+          {
+            "src": "images/progress/cc49561e9c99370.jpg"
+          },
+          {
+            "src": "images/progress/c949a45758ced4f.jpg"
+          },
+          {
+            "src": "images/progress/ce38f26dc31dd2e.jpg"
+          },
+          {
+            "src": "images/progress/ccc81e609d0215d.jpg"
+          },
+          {
+            "src": "images/progress/c2bad47c3e3f393.jpg"
+          },
+          {
+            "src": "images/progress/c531ab48a34e104.jpg"
+          },
+          {
+            "src": "images/progress/cc7e3f308270135.jpg"
+          },
+          {
+            "src": "images/progress/cfef994b37c1420.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c67ec98d50541e9.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/ca08e44dc442835.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c6f267f687063c6.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c5275ae2f5dddac.jpg",
+            "cat": "조적 미장 방수"
+          },
+          {
+            "src": "images/progress/c249b2a31985456.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/ce6ffb5d56e5c86.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c5d2649a3a3619d.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cdcbec6be9564ef.jpg",
+            "cat": "탄성"
+          },
+          {
+            "src": "images/progress/ccf1f8f9a13d319.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/cf3f5cbdb3a7702.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cf748c53d02c00c.jpg",
+            "cat": "전기 등기구,에어컨,비디오폰"
+          },
+          {
+            "src": "images/progress/c6d68e3269adbff.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c8da05b978a72f3.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c44be5f3b2176f8.jpg",
+            "cat": "도어"
+          },
+          {
+            "src": "images/progress/c24f528b511ba39.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cc9fec4e2debca8.jpg"
+          },
+          {
+            "src": "images/progress/c99f2f4a37bd0d4.jpg"
+          },
+          {
+            "src": "images/progress/ccbcbd63a2bd0c9.jpg"
+          },
+          {
+            "src": "images/progress/c7a03cc03c64ca5.jpg"
+          },
+          {
+            "src": "images/progress/c9007229b384638.jpg"
+          },
+          {
+            "src": "images/progress/c1de36eca30eb37.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형한화 101동 1201호",
@@ -3293,7 +5012,126 @@
           "img": "images/img-cad-8e75fed749.jpg",
           "file": "260127_평면도_한화아파트 104-702.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c36e92776599c51.jpg"
+          },
+          {
+            "src": "images/progress/c59d7af0eb832db.jpg"
+          },
+          {
+            "src": "images/progress/c1b2f273b682ffb.jpg"
+          },
+          {
+            "src": "images/progress/c774262497f958a.jpg"
+          },
+          {
+            "src": "images/progress/ca30e9cdfc7d5a2.jpg"
+          },
+          {
+            "src": "images/progress/c0ea84932360063.jpg"
+          },
+          {
+            "src": "images/progress/c34996f737e722b.jpg"
+          },
+          {
+            "src": "images/progress/c670a7eabdad700.jpg"
+          },
+          {
+            "src": "images/progress/c66117e58d15d54.jpg"
+          },
+          {
+            "src": "images/progress/c3d8ed614bc25c6.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c5abddcd94676f6.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c25a6561968a2ad.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cbb3d79ccec51aa.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cb4ef217218dc7c.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cd69ba1a2dc044c.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/ceb9f12b2dcfd42.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c84dd057be47ea7.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c4e82e176060064.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cc24310c9e16452.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cf26018881e5592.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cd16b9aa7a1c2c6.jpg",
+            "cat": "탄성,조명"
+          },
+          {
+            "src": "images/progress/ca53f08840efeed.jpg",
+            "cat": "도기,보일러,인터폰"
+          },
+          {
+            "src": "images/progress/ca4344030584d5f.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/cf0ce7d202f7320.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/cba0f57faedb2ce.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cf259596aa61810.jpg"
+          },
+          {
+            "src": "images/progress/c7aecdeca285f18.jpg"
+          },
+          {
+            "src": "images/progress/cc091ce62d694c3.jpg"
+          },
+          {
+            "src": "images/progress/cee3d7ccbf437a0.jpg"
+          },
+          {
+            "src": "images/progress/c6f7b0fc9acc371.jpg"
+          },
+          {
+            "src": "images/progress/c10de3b466e5bfe.jpg"
+          },
+          {
+            "src": "images/progress/cc8e54d434d9eb7.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형한화 104동 801호",
@@ -3727,7 +5565,133 @@
           "img": "images/img-cad-b8901922f7.jpg",
           "file": "251106_평면도_해오름103-804.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "중": [
+          {
+            "src": "images/progress/c52cd2f8523c553.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cffee4a1cd20433.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c5f7d62911c8bac.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c18d36d43636bf3.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/ce3538bd645f7a1.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/ccb6e99ce82a161.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c5a52702dc4aa94.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/cb83c22c0f01e8a.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cd5e592fda81a2a.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cefbcffca8e0212.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cfc60ff8068b425.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/ca1450fde5bb41f.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/cd281d911417fb3.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c32aaa26025b6b0.jpg",
+            "cat": "도기,전기등조명"
+          },
+          {
+            "src": "images/progress/cedfaa281088f2d.jpg",
+            "cat": "내부마감정리"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cb7932e1022f936.jpg"
+          },
+          {
+            "src": "images/progress/cb400cb47918478.jpg"
+          },
+          {
+            "src": "images/progress/ce7ba9d655118d7.jpg"
+          },
+          {
+            "src": "images/progress/c2e8363e75b4cb1.jpg"
+          },
+          {
+            "src": "images/progress/cab6b3d0ce53770.jpg"
+          },
+          {
+            "src": "images/progress/c2da1cb8e09f9cc.jpg"
+          },
+          {
+            "src": "images/progress/c1690d01fdd8815.jpg"
+          },
+          {
+            "src": "images/progress/ca95b6ba59995aa.jpg"
+          },
+          {
+            "src": "images/progress/c6428dec8f1c35e.jpg"
+          },
+          {
+            "src": "images/progress/c2d989535aa792f.jpg"
+          },
+          {
+            "src": "images/progress/c2dfc07f3d8fe41.jpg"
+          },
+          {
+            "src": "images/progress/c2d94a4f097c16c.jpg"
+          },
+          {
+            "src": "images/progress/c96eac64f680d62.jpg"
+          },
+          {
+            "src": "images/progress/c09dfa50dcf9929.jpg"
+          },
+          {
+            "src": "images/progress/c97505a00b9c833.jpg"
+          },
+          {
+            "src": "images/progress/c3f4383e7a03ce7.jpg"
+          },
+          {
+            "src": "images/progress/cc463167d0a0de4.jpg"
+          },
+          {
+            "src": "images/progress/c900efda2560df4.jpg"
+          },
+          {
+            "src": "images/progress/c5db74be1b4e223.jpg"
+          },
+          {
+            "src": "images/progress/c5858c795906987.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형해오름 104동 1401호",
@@ -3814,7 +5778,41 @@
           "img": "images/img-cad-8c4ab4815c.jpg",
           "file": "250310_평면도_해오름104-1401.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c254d1499690005.jpg"
+          },
+          {
+            "src": "images/progress/c4c42144762dfa0.jpg"
+          },
+          {
+            "src": "images/progress/cec551bf52c7b41.jpg"
+          },
+          {
+            "src": "images/progress/c0403c70b77159c.jpg"
+          },
+          {
+            "src": "images/progress/c34d7b081fa5431.jpg"
+          },
+          {
+            "src": "images/progress/cbc157133bdfbf4.jpg"
+          },
+          {
+            "src": "images/progress/c76d82771ab23a0.jpg"
+          },
+          {
+            "src": "images/progress/c1b93ac89a1831a.jpg"
+          },
+          {
+            "src": "images/progress/c3fb00fc2077479.jpg"
+          },
+          {
+            "src": "images/progress/cb7a6307ffa00c5.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형해오름 104동 402호",
@@ -3916,7 +5914,41 @@
           "img": "images/img-cad-5bceae09b5.jpg",
           "file": "240624_평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c52163ea1dc4e7a.jpg"
+          },
+          {
+            "src": "images/progress/c767ee658e01bfc.jpg"
+          },
+          {
+            "src": "images/progress/cfe3dea049d3d3f.jpg"
+          },
+          {
+            "src": "images/progress/ca530cf19cf8405.jpg"
+          },
+          {
+            "src": "images/progress/ce95e3c8cd035b8.jpg"
+          },
+          {
+            "src": "images/progress/c555d6b507b3c3c.jpg"
+          },
+          {
+            "src": "images/progress/c74c67c4f0abac2.jpg"
+          },
+          {
+            "src": "images/progress/c702c15442af40f.jpg"
+          },
+          {
+            "src": "images/progress/c6d62f11a5cb8f0.jpg"
+          },
+          {
+            "src": "images/progress/cf764621ad06e91.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "노형해오름 105동",
@@ -4104,6 +6136,40 @@
       "cover": {
         "src": "images/img-muw1nvpa82d1ed.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c3c9c7fcc2c209d.jpg"
+          },
+          {
+            "src": "images/progress/cc24fccfb00ac0f.jpg"
+          },
+          {
+            "src": "images/progress/cf51bf7d3c688d0.jpg"
+          },
+          {
+            "src": "images/progress/cc9399293d63e06.jpg"
+          },
+          {
+            "src": "images/progress/c65ca569b14a518.jpg"
+          },
+          {
+            "src": "images/progress/cb96479bf9b8f64.jpg"
+          },
+          {
+            "src": "images/progress/cc8eb4d3a168b75.jpg"
+          },
+          {
+            "src": "images/progress/cd8922fdb0f4f67.jpg"
+          },
+          {
+            "src": "images/progress/c703f1977750a52.jpg"
+          },
+          {
+            "src": "images/progress/cb8f452172b70f5.jpg"
+          }
+        ]
       }
     },
     {
@@ -4206,7 +6272,165 @@
           "img": "images/img-cad-ffefad90ff.jpg",
           "file": "250116_평면도_일도대유대림309동502호.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c3935f7fce56455.jpg"
+          },
+          {
+            "src": "images/progress/cefe3286f7b1ff2.jpg"
+          },
+          {
+            "src": "images/progress/c7da32a3f6077fc.jpg"
+          },
+          {
+            "src": "images/progress/c0037342fa60fc6.jpg"
+          },
+          {
+            "src": "images/progress/c7902060d07d580.jpg"
+          },
+          {
+            "src": "images/progress/c6a63f8deb5cbec.jpg"
+          },
+          {
+            "src": "images/progress/cea6756e6087236.jpg"
+          },
+          {
+            "src": "images/progress/c7cd87ac6f7c6ed.jpg"
+          },
+          {
+            "src": "images/progress/c27c246441f7d2b.jpg"
+          },
+          {
+            "src": "images/progress/c62347f77580851.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cffd62fac50ceca.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cb5e104a24dbad0.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cf9e7021384ad0f.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/ca858d8d7a64e0b.jpg",
+            "cat": "전기,창호"
+          },
+          {
+            "src": "images/progress/c76605c4ad3bf53.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c72735f36c8f722.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c4fb15f38219134.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c7477f5329d5a81.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/ceb36202f77f346.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/cfced90b1b41ff8.jpg",
+            "cat": "도기셋팅"
+          },
+          {
+            "src": "images/progress/c173a4c391dbecf.jpg",
+            "cat": "필름,조명"
+          },
+          {
+            "src": "images/progress/c584951162274c7.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c688cce528b2e33.jpg",
+            "cat": "도어"
+          },
+          {
+            "src": "images/progress/c771c6273a78cb8.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c1c3cffce84d1f3.jpg",
+            "cat": "마감보수"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c1a7f63014aa0a1.jpg"
+          },
+          {
+            "src": "images/progress/c39f329fa60d353.jpg"
+          },
+          {
+            "src": "images/progress/c5f2445ec87a05f.jpg"
+          },
+          {
+            "src": "images/progress/ca1ffaa8ca496da.jpg"
+          },
+          {
+            "src": "images/progress/c4bd568aa2b630c.jpg"
+          },
+          {
+            "src": "images/progress/cf010118d396488.jpg"
+          },
+          {
+            "src": "images/progress/c26db0e24c5f56f.jpg"
+          },
+          {
+            "src": "images/progress/c06879863173fa6.jpg"
+          },
+          {
+            "src": "images/progress/c5a208c519f4632.jpg"
+          },
+          {
+            "src": "images/progress/c192e3e47ddff94.jpg"
+          },
+          {
+            "src": "images/progress/c5a80cafc57fea0.jpg"
+          },
+          {
+            "src": "images/progress/c94100b1e33e437.jpg"
+          },
+          {
+            "src": "images/progress/cfbaece4d4d794b.jpg"
+          },
+          {
+            "src": "images/progress/cedf23097875043.jpg"
+          },
+          {
+            "src": "images/progress/c140ece92ebd06f.jpg"
+          },
+          {
+            "src": "images/progress/c62b73b53ceeb7f.jpg"
+          },
+          {
+            "src": "images/progress/c390e8d51d95113.jpg"
+          },
+          {
+            "src": "images/progress/c1065f3ca14ec4b.jpg"
+          },
+          {
+            "src": "images/progress/cc03f6a48257137.jpg"
+          },
+          {
+            "src": "images/progress/c9c4bd24bd6143c.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "대유대림 310동 407호",
@@ -4298,7 +6522,41 @@
           "img": "images/img-cad-9c321ed332.jpg",
           "file": "241021_일도대유대림 평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c4bcdcd31eb0415.jpg"
+          },
+          {
+            "src": "images/progress/c029980d6fde324.jpg"
+          },
+          {
+            "src": "images/progress/ccd47db45011a6f.jpg"
+          },
+          {
+            "src": "images/progress/c11bac8d5d63c3f.jpg"
+          },
+          {
+            "src": "images/progress/c16fa62da37daeb.jpg"
+          },
+          {
+            "src": "images/progress/c20af67541e7e64.jpg"
+          },
+          {
+            "src": "images/progress/cdc4dc347a83889.jpg"
+          },
+          {
+            "src": "images/progress/c1f0e9eb5c9f40d.jpg"
+          },
+          {
+            "src": "images/progress/c81b96250121219.jpg"
+          },
+          {
+            "src": "images/progress/cdef81aa1cdf309.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "도남대림 108동 1003호",
@@ -4427,6 +6685,164 @@
       "cover": {
         "src": "images/img-muw1nx8r8bb1a9.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/ca46bd37b93ebb5.jpg"
+          },
+          {
+            "src": "images/progress/c829b4e61510193.jpg"
+          },
+          {
+            "src": "images/progress/c6511167bdfdd3e.jpg"
+          },
+          {
+            "src": "images/progress/c331983a29e1901.jpg"
+          },
+          {
+            "src": "images/progress/c7679e627b294ec.jpg"
+          },
+          {
+            "src": "images/progress/c92e00941d62be0.jpg"
+          },
+          {
+            "src": "images/progress/c0fea24ab8ff208.jpg"
+          },
+          {
+            "src": "images/progress/cf3be68769fe8a6.jpg"
+          },
+          {
+            "src": "images/progress/cf95032b7d3c1ce.jpg"
+          },
+          {
+            "src": "images/progress/c91b7d855087054.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c7352f34ed8e22e.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c2efe3a7f65d6d2.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c739758def3027b.jpg",
+            "cat": "전기,에어컨"
+          },
+          {
+            "src": "images/progress/c903cb002fd6e05.jpg",
+            "cat": "전기,에어컨"
+          },
+          {
+            "src": "images/progress/c91c116fd4ab039.jpg",
+            "cat": "조적미장방수"
+          },
+          {
+            "src": "images/progress/c16cc859db3227c.jpg",
+            "cat": "조적미장방수"
+          },
+          {
+            "src": "images/progress/c810f1daed922ba.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/ca302bb16e4120f.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/ceec1c87113ee38.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c60a5d3c4f5e8f5.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/ce032e545059ff0.jpg",
+            "cat": "탄성,도배"
+          },
+          {
+            "src": "images/progress/c51e016fb91626d.jpg",
+            "cat": "조명"
+          },
+          {
+            "src": "images/progress/c5f6ba760985435.jpg",
+            "cat": "도기"
+          },
+          {
+            "src": "images/progress/c079acbd18d7bd5.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/cdfcb3ebb465885.jpg",
+            "cat": "도어"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c9f5d373b96b39e.jpg"
+          },
+          {
+            "src": "images/progress/c2e2615fd129cbb.jpg"
+          },
+          {
+            "src": "images/progress/c70f90c97e24a52.jpg"
+          },
+          {
+            "src": "images/progress/caa58fe7692655c.jpg"
+          },
+          {
+            "src": "images/progress/c71e4ae78926ae6.jpg"
+          },
+          {
+            "src": "images/progress/cce00544b444652.jpg"
+          },
+          {
+            "src": "images/progress/c7b40ef2b0f0d7e.jpg"
+          },
+          {
+            "src": "images/progress/c3e5414529c8e95.jpg"
+          },
+          {
+            "src": "images/progress/cf9404eab6a20b4.jpg"
+          },
+          {
+            "src": "images/progress/c42484296c51ab6.jpg"
+          },
+          {
+            "src": "images/progress/c77309e1a6538dc.jpg"
+          },
+          {
+            "src": "images/progress/c08886d8d7c1a00.jpg"
+          },
+          {
+            "src": "images/progress/c8bf7d51c5fd49c.jpg"
+          },
+          {
+            "src": "images/progress/cb045d0f24d19b9.jpg"
+          },
+          {
+            "src": "images/progress/c6d8dc95d257df6.jpg"
+          },
+          {
+            "src": "images/progress/c04c132215c2ec2.jpg"
+          },
+          {
+            "src": "images/progress/c22730cb0b45b85.jpg"
+          },
+          {
+            "src": "images/progress/c6ea06dfe965ffb.jpg"
+          },
+          {
+            "src": "images/progress/c6c1cb4cf5bf619.jpg"
+          },
+          {
+            "src": "images/progress/ce612e850ce421c.jpg"
+          }
+        ]
       }
     },
     {
@@ -4531,6 +6947,163 @@
       "cover": {
         "src": "images/img-muw1ny0699f1c2.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c104e874f50d660.jpg"
+          },
+          {
+            "src": "images/progress/cb61804f0cac85c.jpg"
+          },
+          {
+            "src": "images/progress/c73fbd54f10397b.jpg"
+          },
+          {
+            "src": "images/progress/ccd629588348492.jpg"
+          },
+          {
+            "src": "images/progress/cd79bbae2832ec6.jpg"
+          },
+          {
+            "src": "images/progress/c76a73471958075.jpg"
+          },
+          {
+            "src": "images/progress/cd90584a02c827b.jpg"
+          },
+          {
+            "src": "images/progress/cdf94800b9d3db7.jpg"
+          },
+          {
+            "src": "images/progress/cb5374249faedcd.jpg"
+          },
+          {
+            "src": "images/progress/cf807eafb071b40.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c88346a7f441eeb.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c5fee5f835892fb.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/ca999501c134405.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cbc67e08672e8b2.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/cc060f154de96f1.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/cbb562f5c347ac0.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c6ce24d3519993d.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c9ef2d555104764.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cecb48f26781f59.jpg",
+            "cat": "필름,탄성,도배"
+          },
+          {
+            "src": "images/progress/c7bbb2065cbd755.jpg",
+            "cat": "탄성"
+          },
+          {
+            "src": "images/progress/c0af3e5c596ddee.jpg",
+            "cat": "바닥"
+          },
+          {
+            "src": "images/progress/c9768184317fc60.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c0d5bbf5562752e.jpg",
+            "cat": "마감"
+          },
+          {
+            "src": "images/progress/cacc1ee510bc600.jpg"
+          },
+          {
+            "src": "images/progress/cda44145ee10f36.jpg",
+            "cat": "누수탐지"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c2ce25e8df8ad60.jpg"
+          },
+          {
+            "src": "images/progress/c0edef398671a01.jpg"
+          },
+          {
+            "src": "images/progress/c562e7925ce9039.jpg"
+          },
+          {
+            "src": "images/progress/cf227429bcffbfc.jpg"
+          },
+          {
+            "src": "images/progress/c1a63847c4fbcd3.jpg"
+          },
+          {
+            "src": "images/progress/cc263a60a0c2fa7.jpg"
+          },
+          {
+            "src": "images/progress/ce2a8cfe47cf74a.jpg"
+          },
+          {
+            "src": "images/progress/c056648839b9ff9.jpg"
+          },
+          {
+            "src": "images/progress/cd97cd25666f086.jpg"
+          },
+          {
+            "src": "images/progress/c03949d9e73639e.jpg"
+          },
+          {
+            "src": "images/progress/c44010d6c8ce552.jpg"
+          },
+          {
+            "src": "images/progress/cf0a614c2fdec37.jpg"
+          },
+          {
+            "src": "images/progress/cd1baee46684a29.jpg"
+          },
+          {
+            "src": "images/progress/c9e142b42049846.jpg"
+          },
+          {
+            "src": "images/progress/c475b5ec5aadb48.jpg"
+          },
+          {
+            "src": "images/progress/ce86c8b7da83796.jpg"
+          },
+          {
+            "src": "images/progress/cd8f27d714d5eb9.jpg"
+          },
+          {
+            "src": "images/progress/cc6aa7746457a6a.jpg"
+          },
+          {
+            "src": "images/progress/c0bfd41fce457b9.jpg"
+          },
+          {
+            "src": "images/progress/cc992f86f2dad74.jpg"
+          }
+        ]
       }
     },
     {
@@ -4678,7 +7251,41 @@
           "img": "images/img-cad-4cc6d76d21.jpg",
           "file": "250711_평면도_중흥미리내102-203.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c0f94f32433733e.jpg"
+          },
+          {
+            "src": "images/progress/cdd0b8d49e72a5d.jpg"
+          },
+          {
+            "src": "images/progress/c097f234a85df89.jpg"
+          },
+          {
+            "src": "images/progress/c2a662c4e7bd8a0.jpg"
+          },
+          {
+            "src": "images/progress/c3c0b14719b9fde.jpg"
+          },
+          {
+            "src": "images/progress/c6f6e3fea8b713f.jpg"
+          },
+          {
+            "src": "images/progress/cf289d1d7be2cf5.jpg"
+          },
+          {
+            "src": "images/progress/ca66ac38b280417.jpg"
+          },
+          {
+            "src": "images/progress/c1c573f80b4090e.jpg"
+          },
+          {
+            "src": "images/progress/c9ceac66d5628fa.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "미리내중흥 103동 802호",
@@ -4802,6 +7409,164 @@
       "cover": {
         "src": "images/img-muw1o24v555a13.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/caa210557cf1c8b.jpg"
+          },
+          {
+            "src": "images/progress/c00144734aa40e3.jpg"
+          },
+          {
+            "src": "images/progress/c5dd538ebb364dc.jpg"
+          },
+          {
+            "src": "images/progress/cdf0d2d06c45dab.jpg"
+          },
+          {
+            "src": "images/progress/c690165625115f1.jpg"
+          },
+          {
+            "src": "images/progress/c4d5a36beb8916f.jpg"
+          },
+          {
+            "src": "images/progress/c6e7f7baa9f8290.jpg"
+          },
+          {
+            "src": "images/progress/cceae2af361ba5d.jpg"
+          },
+          {
+            "src": "images/progress/cbc296c90aea196.jpg"
+          },
+          {
+            "src": "images/progress/c1cf67191ef4e72.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cd9b9a6657d7100.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c73f08880a152e6.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cf843f4d78b0f87.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c9bd517f913a203.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c9367c50cf3b15a.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c192d307b4bb3f1.jpg",
+            "cat": "탄성,도장"
+          },
+          {
+            "src": "images/progress/cb0e01968bca4a1.jpg",
+            "cat": "탄성,도장"
+          },
+          {
+            "src": "images/progress/cb5de7f9e40e940.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cc47558d9aa04f8.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c41d1ba59e7e7ec.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c41e9cd0c2d3b7b.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cfbd6633b83922a.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/cfc90edce79849c.jpg",
+            "cat": "전기조명"
+          },
+          {
+            "src": "images/progress/cea4b9efb96d32f.jpg",
+            "cat": "도기,필름"
+          },
+          {
+            "src": "images/progress/c62ac7e7d46e87a.jpg",
+            "cat": "도기,필름"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c5188bf02147c04.jpg"
+          },
+          {
+            "src": "images/progress/cc5187062fb61a7.jpg"
+          },
+          {
+            "src": "images/progress/cf3430a34b2566d.jpg"
+          },
+          {
+            "src": "images/progress/c18c9c3fc56ac8b.jpg"
+          },
+          {
+            "src": "images/progress/c9636a6961ec3f6.jpg"
+          },
+          {
+            "src": "images/progress/cf7149e6edf63e2.jpg"
+          },
+          {
+            "src": "images/progress/c989ba5f354d3cc.jpg"
+          },
+          {
+            "src": "images/progress/c8d6622886944cf.jpg"
+          },
+          {
+            "src": "images/progress/c84cc4560a4e97c.jpg"
+          },
+          {
+            "src": "images/progress/cb882fe8a9e7113.jpg"
+          },
+          {
+            "src": "images/progress/c0466a028bc930e.jpg"
+          },
+          {
+            "src": "images/progress/c0434fa459ccc3b.jpg"
+          },
+          {
+            "src": "images/progress/c3e1fe052b59d27.jpg"
+          },
+          {
+            "src": "images/progress/cd1103c4426d1e1.jpg"
+          },
+          {
+            "src": "images/progress/c86abc535298a5f.jpg"
+          },
+          {
+            "src": "images/progress/c592bce0ef76a5c.jpg"
+          },
+          {
+            "src": "images/progress/c3d10aeba58eb7f.jpg"
+          },
+          {
+            "src": "images/progress/c98de5376a14847.jpg"
+          },
+          {
+            "src": "images/progress/c484a5a2a501bf8.jpg"
+          },
+          {
+            "src": "images/progress/cdff59629b1c62d.jpg"
+          }
+        ]
       }
     },
     {
@@ -5004,7 +7769,38 @@
           "img": "images/img-cad-2e3827eaec.jpg",
           "file": "250620_평면도_중흥미리내107동.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c364e9028b8b89b.jpg"
+          },
+          {
+            "src": "images/progress/c4651e8f321b4d5.jpg"
+          },
+          {
+            "src": "images/progress/cc04ebc3d44e9f4.jpg"
+          },
+          {
+            "src": "images/progress/c8f402ef5d20e2c.jpg"
+          },
+          {
+            "src": "images/progress/c9ab6387c51494c.jpg"
+          },
+          {
+            "src": "images/progress/cd58150bb5a3786.jpg"
+          },
+          {
+            "src": "images/progress/c1158c9531849a8.jpg"
+          },
+          {
+            "src": "images/progress/ce4667c700f5d9e.jpg"
+          },
+          {
+            "src": "images/progress/c98d98cc2b8cbee.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "보경스카이빌 401호",
@@ -5131,7 +7927,165 @@
           "img": "images/img-cad-a97423c5b0.jpg",
           "file": "(본도면)보경스카이필평면-모형.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c890c2be439574a.jpg"
+          },
+          {
+            "src": "images/progress/c00ec92a0c724a9.jpg"
+          },
+          {
+            "src": "images/progress/c81adf921f35e78.jpg"
+          },
+          {
+            "src": "images/progress/ce0ffb1d6c76aa6.jpg"
+          },
+          {
+            "src": "images/progress/c7d76d4d61be60b.jpg"
+          },
+          {
+            "src": "images/progress/c54526f22d558a9.jpg"
+          },
+          {
+            "src": "images/progress/cc4056fbb2abd09.jpg"
+          },
+          {
+            "src": "images/progress/c6dbdc324406716.jpg"
+          },
+          {
+            "src": "images/progress/c5adf4907243531.jpg"
+          },
+          {
+            "src": "images/progress/c11a7b24ecccf84.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/ceb63a18f25a0f9.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c55c7048ae6f3b8.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cd11a6698fc0803.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cac693e689870e5.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cb189d3c8f134b9.jpg",
+            "cat": "조적방수"
+          },
+          {
+            "src": "images/progress/c69bc914b6dbba8.jpg",
+            "cat": "조적방수"
+          },
+          {
+            "src": "images/progress/c7555a00f463730.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/ce85701a58599c9.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cf83f83c2563ea2.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c2388310c3d2458.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/cef56668b838e80.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cea09cb82fbd64d.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c7682e22bfaa414.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/c2e011158c1b51b.jpg",
+            "cat": "도기셋팅"
+          },
+          {
+            "src": "images/progress/ca90ff489dda8a1.jpg",
+            "cat": "조명시공"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c086b4f06c71d42.jpg"
+          },
+          {
+            "src": "images/progress/cbf20b694f9f0a1.jpg"
+          },
+          {
+            "src": "images/progress/cafb9c683085a97.jpg"
+          },
+          {
+            "src": "images/progress/cb50581b377ab76.jpg"
+          },
+          {
+            "src": "images/progress/c987cf82e78c2e3.jpg"
+          },
+          {
+            "src": "images/progress/ce759bf4df48d3b.jpg"
+          },
+          {
+            "src": "images/progress/c4240238c3a9985.jpg"
+          },
+          {
+            "src": "images/progress/c28e77d06077113.jpg"
+          },
+          {
+            "src": "images/progress/c94b4de41d7acd1.jpg"
+          },
+          {
+            "src": "images/progress/cc5596addd83b3b.jpg"
+          },
+          {
+            "src": "images/progress/ce4f3a005a2f41d.jpg"
+          },
+          {
+            "src": "images/progress/c5bf3f75a6929b5.jpg"
+          },
+          {
+            "src": "images/progress/c80a468a1558338.jpg"
+          },
+          {
+            "src": "images/progress/c4341c25e7c9a37.jpg"
+          },
+          {
+            "src": "images/progress/c6f1c7112df9494.jpg"
+          },
+          {
+            "src": "images/progress/cfb9b21342e6a93.jpg"
+          },
+          {
+            "src": "images/progress/c4c8845cb09e16d.jpg"
+          },
+          {
+            "src": "images/progress/ca9882d7d4cc154.jpg"
+          },
+          {
+            "src": "images/progress/cb99c8752e005ce.jpg"
+          },
+          {
+            "src": "images/progress/c760c84d03edd06.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "삼성로 117 미용실",
@@ -5268,7 +8222,165 @@
           "img": "images/img-cad-776c9970cd.jpg",
           "file": "251014_평면도_인제미용실.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c29f20490b30e6c.jpg"
+          },
+          {
+            "src": "images/progress/c628219b0cb3e83.jpg"
+          },
+          {
+            "src": "images/progress/ce5e297f9859c1e.jpg"
+          },
+          {
+            "src": "images/progress/c380f0758adb2b1.jpg"
+          },
+          {
+            "src": "images/progress/ced35cc4464807c.jpg"
+          },
+          {
+            "src": "images/progress/c889d2e9dfe769d.jpg"
+          },
+          {
+            "src": "images/progress/c69d597d5fa849c.jpg"
+          },
+          {
+            "src": "images/progress/cef83679f46a31f.jpg"
+          },
+          {
+            "src": "images/progress/cecfb81ff1d67be.jpg"
+          },
+          {
+            "src": "images/progress/c5af615f944e635.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c22d5213d4bc744.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/ca2c20b27c4e333.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cc7176d442d3cc6.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c260793a6a7ef1a.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/cc6c2ea0647373d.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cd8cf5fed81a922.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cea1b8f406625be.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c2919a4c79fb2f9.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c95cfe2bc694a78.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cb2a521cffcf63e.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c1236f1a8d391dc.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cdf96c9263f2fd2.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cec7de2c2824373.jpg",
+            "cat": "전기조명,도기"
+          },
+          {
+            "src": "images/progress/cac048ff9c4640b.jpg",
+            "cat": "금속,전기,에어컨"
+          },
+          {
+            "src": "images/progress/ceb8c31db384d4c.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c988e8b7a64dfe4.jpg"
+          },
+          {
+            "src": "images/progress/c2b88892c5d8bc1.jpg"
+          },
+          {
+            "src": "images/progress/cb5cf665e00a955.jpg"
+          },
+          {
+            "src": "images/progress/c01c4d067292fc3.jpg"
+          },
+          {
+            "src": "images/progress/c6477f30470418d.jpg"
+          },
+          {
+            "src": "images/progress/c46681e088b44db.jpg"
+          },
+          {
+            "src": "images/progress/c27b4d31294702f.jpg"
+          },
+          {
+            "src": "images/progress/ce43bbe08ea8c1f.jpg"
+          },
+          {
+            "src": "images/progress/c22b97064229c0d.jpg"
+          },
+          {
+            "src": "images/progress/c4e2bf529db87ab.jpg"
+          },
+          {
+            "src": "images/progress/c35bf10c5c276e9.jpg"
+          },
+          {
+            "src": "images/progress/c12573489d47c3d.jpg"
+          },
+          {
+            "src": "images/progress/ce9c5f99a4b502a.jpg"
+          },
+          {
+            "src": "images/progress/cff8e993a702cee.jpg"
+          },
+          {
+            "src": "images/progress/c9fca888b9485d9.jpg"
+          },
+          {
+            "src": "images/progress/ccd92f37d4c79f7.jpg"
+          },
+          {
+            "src": "images/progress/cbca4c6fe57b2a9.jpg"
+          },
+          {
+            "src": "images/progress/c3f9c08b144466a.jpg"
+          },
+          {
+            "src": "images/progress/c88857e72770360.jpg"
+          },
+          {
+            "src": "images/progress/c7d3c1841110284.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "서사로18길 16 시스빌702호 인테리어공사",
@@ -5355,7 +8467,165 @@
           "img": "images/img-cad-83090a04d5.jpg",
           "file": "240521_1평면도_시스빌.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c7038fd278fc8d6.jpg"
+          },
+          {
+            "src": "images/progress/ce3bc40e359e449.jpg"
+          },
+          {
+            "src": "images/progress/cb995ec1db44ae2.jpg"
+          },
+          {
+            "src": "images/progress/c279e8d115c30d5.jpg"
+          },
+          {
+            "src": "images/progress/ce0e4b9d578ad9b.jpg"
+          },
+          {
+            "src": "images/progress/cc0215314e9f355.jpg"
+          },
+          {
+            "src": "images/progress/c6a540136cbf988.jpg"
+          },
+          {
+            "src": "images/progress/cfecb34a2428c4d.jpg"
+          },
+          {
+            "src": "images/progress/c023e3f28fdac76.jpg"
+          },
+          {
+            "src": "images/progress/cef999539801a44.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c21fc1e20387e71.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c144b4afac7b62c.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c5d35dd4c1d5292.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c95f3da1bfbfc6c.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c75a29a4d9a1455.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c4ccbf28a3198ef.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/ca4925150bf1dca.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/c6469636e68c9e2.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c0a181bf822d8d7.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c9bf5311b2db318.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/ccc7febc76491d7.jpg",
+            "cat": "도기세팅"
+          },
+          {
+            "src": "images/progress/cd800b7d27f2b38.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cd496d6b2a851cb.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/cfd4e36046b61aa.jpg",
+            "cat": "마감"
+          },
+          {
+            "src": "images/progress/cd95c7ca758b31c.jpg",
+            "cat": "도어세팅"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c9cab5459a05f62.jpg"
+          },
+          {
+            "src": "images/progress/cc924d23c0fd11c.jpg"
+          },
+          {
+            "src": "images/progress/cadeae62670619c.jpg"
+          },
+          {
+            "src": "images/progress/c0f4035c749ffaa.jpg"
+          },
+          {
+            "src": "images/progress/c6207cc78ba8fd9.jpg"
+          },
+          {
+            "src": "images/progress/c576bb1e74a6be5.jpg"
+          },
+          {
+            "src": "images/progress/c8300fd2e1f52a1.jpg"
+          },
+          {
+            "src": "images/progress/c1fda119fbdf8d8.jpg"
+          },
+          {
+            "src": "images/progress/c864b55b4ce242d.jpg"
+          },
+          {
+            "src": "images/progress/c48a66b62ba8f2f.jpg"
+          },
+          {
+            "src": "images/progress/c57af78b4675e98.jpg"
+          },
+          {
+            "src": "images/progress/cf88765088e0f2a.jpg"
+          },
+          {
+            "src": "images/progress/c40402da6944f59.jpg"
+          },
+          {
+            "src": "images/progress/c0aec99dbec9ef7.jpg"
+          },
+          {
+            "src": "images/progress/c386def98b03c73.jpg"
+          },
+          {
+            "src": "images/progress/c462b0e1736d9a2.jpg"
+          },
+          {
+            "src": "images/progress/cc25caa450145ee.jpg"
+          },
+          {
+            "src": "images/progress/c673a03caecfc93.jpg"
+          },
+          {
+            "src": "images/progress/c0fc930cbf96003.jpg"
+          },
+          {
+            "src": "images/progress/c0175fd1bb57d9f.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "성산 오조리 종합복지회관 보수공사",
@@ -5499,7 +8769,41 @@
           "img": "images/img-cad-c5619fe805.jpg",
           "file": "250827_수목아파트 가동 502호_평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c678ddaf468931c.jpg"
+          },
+          {
+            "src": "images/progress/cf9643a0f1a41ff.jpg"
+          },
+          {
+            "src": "images/progress/c4ea4e02aff88d6.jpg"
+          },
+          {
+            "src": "images/progress/cc6c8474e2c5f20.jpg"
+          },
+          {
+            "src": "images/progress/c20e6ee28f65e2f.jpg"
+          },
+          {
+            "src": "images/progress/c8a9a7e2233d7ff.jpg"
+          },
+          {
+            "src": "images/progress/c187c8d78dd9518.jpg"
+          },
+          {
+            "src": "images/progress/c0a7dcc6cbe134a.jpg"
+          },
+          {
+            "src": "images/progress/c30dac2593d6794.jpg"
+          },
+          {
+            "src": "images/progress/ccbe018cfb33636.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "슬하정신과의원 인테리어공사",
@@ -5641,7 +8945,165 @@
           "img": "images/img-cad-044c4c2497.jpg",
           "file": "260701_슬하신경정신과의원_인테리어도면.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cab015ee7a4ebee.jpg"
+          },
+          {
+            "src": "images/progress/ceb7da226ba6904.jpg"
+          },
+          {
+            "src": "images/progress/c4c1e3c8bea8152.jpg"
+          },
+          {
+            "src": "images/progress/c61b5141255c191.jpg"
+          },
+          {
+            "src": "images/progress/c6d2fc1822f97d0.jpg"
+          },
+          {
+            "src": "images/progress/c5ba6d5879a0bb5.jpg"
+          },
+          {
+            "src": "images/progress/cb0147f48cb60a6.jpg"
+          },
+          {
+            "src": "images/progress/c377c2b21648bb3.jpg"
+          },
+          {
+            "src": "images/progress/c20363ea20d6c5f.jpg"
+          },
+          {
+            "src": "images/progress/cb673f8f96a5a92.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cb66a07ad5f13e6.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cd0d13be71f1832.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/cdba8571a426bde.jpg",
+            "cat": "경량"
+          },
+          {
+            "src": "images/progress/c64660aefe06d98.jpg",
+            "cat": "경량"
+          },
+          {
+            "src": "images/progress/cf02961593f79b0.jpg",
+            "cat": "전기,소방,에어컨"
+          },
+          {
+            "src": "images/progress/c8081b0461512af.jpg",
+            "cat": "전기,소방,에어컨"
+          },
+          {
+            "src": "images/progress/cb5ea4673d227bd.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cc61a0cf3565d2d.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c7ff84a7fed5bd4.jpg",
+            "cat": "도장,필름,도배"
+          },
+          {
+            "src": "images/progress/c244ed511c2249a.jpg",
+            "cat": "도장,필름,도배"
+          },
+          {
+            "src": "images/progress/c64a906bfccde5f.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/cc3c58e39a4a9ef.jpg",
+            "cat": "CCTV,조명,에어컨"
+          },
+          {
+            "src": "images/progress/c2062df90ae5bf3.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/ce34de09d46404b.jpg",
+            "cat": "도어"
+          },
+          {
+            "src": "images/progress/c9b628656e361ee.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/ce82e045248def5.jpg"
+          },
+          {
+            "src": "images/progress/c2286b4152d4eb9.jpg"
+          },
+          {
+            "src": "images/progress/c559fd8e88bfaac.jpg"
+          },
+          {
+            "src": "images/progress/c6d1b3ca6e7b51b.jpg"
+          },
+          {
+            "src": "images/progress/cbb076fe5691ed3.jpg"
+          },
+          {
+            "src": "images/progress/c169c80d4f5eff5.jpg"
+          },
+          {
+            "src": "images/progress/c49c579753f4e99.jpg"
+          },
+          {
+            "src": "images/progress/c91051b7cab666d.jpg"
+          },
+          {
+            "src": "images/progress/c80989280798d4f.jpg"
+          },
+          {
+            "src": "images/progress/c5232b18e0d2ebe.jpg"
+          },
+          {
+            "src": "images/progress/ce8f33d7d909aba.jpg"
+          },
+          {
+            "src": "images/progress/c3e367adb0be4e1.jpg"
+          },
+          {
+            "src": "images/progress/c88294ebbc00355.jpg"
+          },
+          {
+            "src": "images/progress/c9648edd6d2e90e.jpg"
+          },
+          {
+            "src": "images/progress/cbd4b565677eaeb.jpg"
+          },
+          {
+            "src": "images/progress/cee28fb4386519b.jpg"
+          },
+          {
+            "src": "images/progress/cddc40c7290557e.jpg"
+          },
+          {
+            "src": "images/progress/c85c61bc788e621.jpg"
+          },
+          {
+            "src": "images/progress/cd46f04a1589e28.jpg"
+          },
+          {
+            "src": "images/progress/c70be1fde805bd7.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "신우스위트빌3차1601호",
@@ -5750,6 +9212,40 @@
       "cover": {
         "src": "images/img-muw1n15ta73c3c.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cb03c9e415f50e2.jpg"
+          },
+          {
+            "src": "images/progress/ccfd1db2ad71240.jpg"
+          },
+          {
+            "src": "images/progress/c21272e9b13e114.jpg"
+          },
+          {
+            "src": "images/progress/c04bad34ae1566b.jpg"
+          },
+          {
+            "src": "images/progress/cc9a5ed264cfa23.jpg"
+          },
+          {
+            "src": "images/progress/cebf8408573b97c.jpg"
+          },
+          {
+            "src": "images/progress/c15b83f491bd1fc.jpg"
+          },
+          {
+            "src": "images/progress/c92f9ce927e379a.jpg"
+          },
+          {
+            "src": "images/progress/c8cf66808d7ac77.jpg"
+          },
+          {
+            "src": "images/progress/cd4476f97feb402.jpg"
+          }
+        ]
       }
     },
     {
@@ -5827,7 +9323,145 @@
           "img": "images/img-cad-e89de3b355.jpg",
           "file": "250114_평면도_태국식당.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c6b096db24fc416.jpg"
+          },
+          {
+            "src": "images/progress/c993ad21f0ef7bc.jpg"
+          },
+          {
+            "src": "images/progress/c1b08d08375fce6.jpg"
+          },
+          {
+            "src": "images/progress/c683ee1fa98455b.jpg"
+          },
+          {
+            "src": "images/progress/cf8082e5041f2f1.jpg"
+          },
+          {
+            "src": "images/progress/ccc7e8ba569e8bb.jpg"
+          },
+          {
+            "src": "images/progress/cdce4d8ead71a3d.jpg"
+          },
+          {
+            "src": "images/progress/c04057de9cfe5a3.jpg"
+          },
+          {
+            "src": "images/progress/c22039a72158621.jpg"
+          },
+          {
+            "src": "images/progress/c2c088fb407f0b4.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c22cbaf7e313818.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c741b1be03f84cf.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c5a2c884701d9e0.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c1e4e3294b03928.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/cbc5cb9cb0a9dd2.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cd923432ecf725b.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cebf1171dfd03c4.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c71d1b3bfaf0991.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/c45a0386fc56cd9.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c35b601d3f0bc74.jpg",
+            "cat": "타일"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c3e29ebafca285d.jpg"
+          },
+          {
+            "src": "images/progress/c3f5f33641d510a.jpg"
+          },
+          {
+            "src": "images/progress/c3be327c5a172a7.jpg"
+          },
+          {
+            "src": "images/progress/c73f3b920976018.jpg"
+          },
+          {
+            "src": "images/progress/c78997f72915794.jpg"
+          },
+          {
+            "src": "images/progress/c40d8b841c281be.jpg"
+          },
+          {
+            "src": "images/progress/c9dfa8bd2f2d8d4.jpg"
+          },
+          {
+            "src": "images/progress/cbea669f4413dd6.jpg"
+          },
+          {
+            "src": "images/progress/c19d67fe7d6ebd1.jpg"
+          },
+          {
+            "src": "images/progress/c2d7755e3b2bc52.jpg"
+          },
+          {
+            "src": "images/progress/c0c519f7b8a36a4.jpg"
+          },
+          {
+            "src": "images/progress/c4659d03f9b4bf6.jpg"
+          },
+          {
+            "src": "images/progress/cadefc7b7c6866e.jpg"
+          },
+          {
+            "src": "images/progress/c4caa4e7461a10b.jpg"
+          },
+          {
+            "src": "images/progress/cb4c1b777351f0a.jpg"
+          },
+          {
+            "src": "images/progress/c75cf45631f4442.jpg"
+          },
+          {
+            "src": "images/progress/c7e44210a22a558.jpg"
+          },
+          {
+            "src": "images/progress/c924d96edff9b76.jpg"
+          },
+          {
+            "src": "images/progress/c86b3c2a0f8058e.jpg"
+          },
+          {
+            "src": "images/progress/ccbdc19e880acdf.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "아라스위첸 109동 1301호",
@@ -5954,7 +9588,165 @@
           "img": "images/img-cad-b198446ef4.jpg",
           "file": "250829_평면도_아라스위첸109-1301.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c9349db96619d9a.jpg"
+          },
+          {
+            "src": "images/progress/cd5e7ba8dc25b17.jpg"
+          },
+          {
+            "src": "images/progress/c2274baf320e0cb.jpg"
+          },
+          {
+            "src": "images/progress/ced8eed33dcf796.jpg"
+          },
+          {
+            "src": "images/progress/cc63b9017ec74d2.jpg"
+          },
+          {
+            "src": "images/progress/c734d439d6dea4b.jpg"
+          },
+          {
+            "src": "images/progress/cfdc461b92f3d38.jpg"
+          },
+          {
+            "src": "images/progress/cfb449c2e12884a.jpg"
+          },
+          {
+            "src": "images/progress/cfe019cf78193ba.jpg"
+          },
+          {
+            "src": "images/progress/ce245b0bf8d13f1.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cfa33f21369d60f.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cb8c24df9676430.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cd45bbda187ad74.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c65ea3563534074.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c3d36a806c994b7.jpg",
+            "cat": "미장,방수,조적"
+          },
+          {
+            "src": "images/progress/c0b2963535c8759.jpg",
+            "cat": "미장,방수,조적"
+          },
+          {
+            "src": "images/progress/c190cb25c2d4ab4.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c943fa77a58667d.jpg",
+            "cat": "필름,도배,도장"
+          },
+          {
+            "src": "images/progress/cb4bb9bdd1aad4f.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c8dd6900a7dcff9.jpg",
+            "cat": "전기,에어컨"
+          },
+          {
+            "src": "images/progress/cfb30e3fd4bd541.jpg",
+            "cat": "수평몰탈"
+          },
+          {
+            "src": "images/progress/c5f12334d455f5d.jpg",
+            "cat": "전기,탄성,가구"
+          },
+          {
+            "src": "images/progress/cba669f40c9b166.jpg",
+            "cat": "창호실리콘"
+          },
+          {
+            "src": "images/progress/cca66704fd8f3f9.jpg",
+            "cat": "에디톤"
+          },
+          {
+            "src": "images/progress/ce77059778a99a0.jpg",
+            "cat": "마감공정"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cdfe392e2199b3f.jpg"
+          },
+          {
+            "src": "images/progress/c9c9cf940e73941.jpg"
+          },
+          {
+            "src": "images/progress/c7d084ccd52fce3.jpg"
+          },
+          {
+            "src": "images/progress/c82261a00a8fb14.jpg"
+          },
+          {
+            "src": "images/progress/c40c3dd6e3d4ba1.jpg"
+          },
+          {
+            "src": "images/progress/c69218eabc70ada.jpg"
+          },
+          {
+            "src": "images/progress/c4a96c03c872991.jpg"
+          },
+          {
+            "src": "images/progress/cb9aa2bf57c6db1.jpg"
+          },
+          {
+            "src": "images/progress/cf99a5ed8370873.jpg"
+          },
+          {
+            "src": "images/progress/c18022ad8fee8ff.jpg"
+          },
+          {
+            "src": "images/progress/c44a8b33ffd1872.jpg"
+          },
+          {
+            "src": "images/progress/c30d3cec7b44be9.jpg"
+          },
+          {
+            "src": "images/progress/c56bb37614e1717.jpg"
+          },
+          {
+            "src": "images/progress/c4b97714e2cc496.jpg"
+          },
+          {
+            "src": "images/progress/c96996e5a4be9a2.jpg"
+          },
+          {
+            "src": "images/progress/c0aef60be263c01.jpg"
+          },
+          {
+            "src": "images/progress/ca8bb81eabe6c1f.jpg"
+          },
+          {
+            "src": "images/progress/c3160b39820a905.jpg"
+          },
+          {
+            "src": "images/progress/cc5b4b387b91dd1.jpg"
+          },
+          {
+            "src": "images/progress/cf9a7ba4df8bcd6.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "에이스대부",
@@ -6039,7 +9831,103 @@
           "img": "images/img-cad-6809fadbd8.jpg",
           "file": "230811_연동 대림 e편한세상 106동 1504호_창호,도어.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cf83b98e4b0ea32.jpg"
+          },
+          {
+            "src": "images/progress/c9dce00224d4cfc.jpg"
+          },
+          {
+            "src": "images/progress/cae04f3caa50665.jpg"
+          },
+          {
+            "src": "images/progress/c42bf960022656d.jpg"
+          },
+          {
+            "src": "images/progress/c8aa2ffdbd9a721.jpg"
+          },
+          {
+            "src": "images/progress/c9b9e7443815c47.jpg"
+          },
+          {
+            "src": "images/progress/cc269917d52528a.jpg"
+          },
+          {
+            "src": "images/progress/cd605ca4db9c097.jpg"
+          },
+          {
+            "src": "images/progress/ce60c1c92e9989a.jpg"
+          },
+          {
+            "src": "images/progress/c3d45472bc6dfba.jpg"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cfe66c77c6e3004.jpg"
+          },
+          {
+            "src": "images/progress/c75013ebd21d8fd.jpg"
+          },
+          {
+            "src": "images/progress/c9478a1655276ac.jpg"
+          },
+          {
+            "src": "images/progress/c64e3a6d8ba8f9b.jpg"
+          },
+          {
+            "src": "images/progress/c7fc83c086cc0bf.jpg"
+          },
+          {
+            "src": "images/progress/c924c6677eaee79.jpg"
+          },
+          {
+            "src": "images/progress/c97ed3b241de3f3.jpg"
+          },
+          {
+            "src": "images/progress/c7fc51bfff6194f.jpg"
+          },
+          {
+            "src": "images/progress/c4e72c9d9bbb11c.jpg"
+          },
+          {
+            "src": "images/progress/c10d4cd3654fc6a.jpg"
+          },
+          {
+            "src": "images/progress/c2528537da364db.jpg"
+          },
+          {
+            "src": "images/progress/ccf399b6c0143e6.jpg"
+          },
+          {
+            "src": "images/progress/cfbe9f1d68cf494.jpg"
+          },
+          {
+            "src": "images/progress/c6a8d3a75ae2b51.jpg"
+          },
+          {
+            "src": "images/progress/c16ec195b467422.jpg"
+          },
+          {
+            "src": "images/progress/cf955396c257622.jpg"
+          },
+          {
+            "src": "images/progress/ca9f141f2d39f85.jpg"
+          },
+          {
+            "src": "images/progress/c6c953ae998375c.jpg"
+          },
+          {
+            "src": "images/progress/cf02fdd113c6241.jpg"
+          },
+          {
+            "src": "images/progress/ca330c046596823.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "연동대림2차 34평형",
@@ -6545,7 +10433,165 @@
           "img": "images/img-cad-4bf49f8fa3.jpg",
           "file": "250617_평면도_연동대림105-602.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cc9e7a94e2be55e.jpg"
+          },
+          {
+            "src": "images/progress/c39e72b80f937f2.jpg"
+          },
+          {
+            "src": "images/progress/cc5bcccc8b6e8a1.jpg"
+          },
+          {
+            "src": "images/progress/c583e70e1ddc9d9.jpg"
+          },
+          {
+            "src": "images/progress/c7e3f690c2b3f76.jpg"
+          },
+          {
+            "src": "images/progress/c1a445f48e319ca.jpg"
+          },
+          {
+            "src": "images/progress/cd72673204f4f5b.jpg"
+          },
+          {
+            "src": "images/progress/c84f2c7804a7880.jpg"
+          },
+          {
+            "src": "images/progress/c1b94b9243ba4d7.jpg"
+          },
+          {
+            "src": "images/progress/ccd189846a5aeed.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/ca4b20363753ab9.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c593b150929aca2.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/cdb24dd25b3264a.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c8a70100e38a403.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c2c4dea677e2481.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/c44403e72617cc9.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/c8972d58994b4fd.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c1d6f700058c61e.jpg",
+            "cat": "목공,창호"
+          },
+          {
+            "src": "images/progress/c7e33b249afbe14.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c4a2d8f31f73932.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c1de80677963560.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c48a6267f374d39.jpg",
+            "cat": "탄성"
+          },
+          {
+            "src": "images/progress/cd7234d63777008.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/cff349b01d326a4.jpg",
+            "cat": "장판"
+          },
+          {
+            "src": "images/progress/cc5024a586ecde3.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c389258ea13bbec.jpg"
+          },
+          {
+            "src": "images/progress/c5af04c38ec9086.jpg"
+          },
+          {
+            "src": "images/progress/c878d29a5046881.jpg"
+          },
+          {
+            "src": "images/progress/c5ff2db0d627ebb.jpg"
+          },
+          {
+            "src": "images/progress/ceb6dd4b79959ad.jpg"
+          },
+          {
+            "src": "images/progress/cfff9119edff44f.jpg"
+          },
+          {
+            "src": "images/progress/c0cb574414387dc.jpg"
+          },
+          {
+            "src": "images/progress/cf1b28fb12b0adb.jpg"
+          },
+          {
+            "src": "images/progress/cf8365aa8170cd0.jpg"
+          },
+          {
+            "src": "images/progress/c3ce5f7229fbf9f.jpg"
+          },
+          {
+            "src": "images/progress/cf626856aa4d772.jpg"
+          },
+          {
+            "src": "images/progress/c43f7b84a33ed73.jpg"
+          },
+          {
+            "src": "images/progress/cd9f83fa227eb41.jpg"
+          },
+          {
+            "src": "images/progress/c5ef2b1902502fb.jpg"
+          },
+          {
+            "src": "images/progress/c6466b6dff2584a.jpg"
+          },
+          {
+            "src": "images/progress/cef962e62c66e0a.jpg"
+          },
+          {
+            "src": "images/progress/c0a2060cd3ebb31.jpg"
+          },
+          {
+            "src": "images/progress/cd7fb57fab3e5b2.jpg"
+          },
+          {
+            "src": "images/progress/c1fbcc324df09e2.jpg"
+          },
+          {
+            "src": "images/progress/c31024f8c10d561.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "연동대림e편한세상1차 105동 803호",
@@ -6612,7 +10658,37 @@
           "img": "images/img-cad-c5b3828f13.jpg",
           "file": "241022_평면도_연동대림105-803.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cbb5dda203f5dfb.jpg"
+          },
+          {
+            "src": "images/progress/cbb0536f5ed38fb.jpg"
+          },
+          {
+            "src": "images/progress/cc8d8d14d30d08b.jpg"
+          },
+          {
+            "src": "images/progress/c9b425cbef815c0.jpg"
+          },
+          {
+            "src": "images/progress/c2a4dbf80897fa7.jpg"
+          },
+          {
+            "src": "images/progress/c8bc90efe63cb7b.jpg"
+          },
+          {
+            "src": "images/progress/c710bd06f762bea.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c2ca2ea574bbe94.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "연삼로410 상가주택5층",
@@ -6671,6 +10747,164 @@
       "cover": {
         "src": "images/img-muw1mfjzf073f0.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c0dafd987af1a35.jpg"
+          },
+          {
+            "src": "images/progress/c7883a61dffbfbf.jpg"
+          },
+          {
+            "src": "images/progress/c35e1c7776581fb.jpg"
+          },
+          {
+            "src": "images/progress/c4a1bf9475e4c21.jpg"
+          },
+          {
+            "src": "images/progress/c7cd546a8aab71c.jpg"
+          },
+          {
+            "src": "images/progress/cf2368f8c938912.jpg"
+          },
+          {
+            "src": "images/progress/cbaa10b3fe2646c.jpg"
+          },
+          {
+            "src": "images/progress/c8176a33b24de80.jpg"
+          },
+          {
+            "src": "images/progress/cf83f76c9650a03.jpg"
+          },
+          {
+            "src": "images/progress/c7e9decc9abe40d.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cc53792ab1bb8ab.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c98a6c2ae15d570.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c4f447bd5d827fa.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c7b1d4a69f81cec.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/ce45b11d594c850.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/c96db9e2e4c1f35.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/c7cbf01dd338387.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c00b4e177937dd7.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c178acae51ef762.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/ce870446bda1f3a.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c866a114adc4938.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/ca3c5b5ba254237.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cdcbb263a78b6ec.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/ce435fbea96f552.jpg",
+            "cat": "조명"
+          },
+          {
+            "src": "images/progress/cd36696f3eb5e11.jpg",
+            "cat": "도어,가구"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c8cb05cb3d1faff.jpg"
+          },
+          {
+            "src": "images/progress/c78ad1b38f9b77b.jpg"
+          },
+          {
+            "src": "images/progress/c8774503d270694.jpg"
+          },
+          {
+            "src": "images/progress/c04658dde4e066e.jpg"
+          },
+          {
+            "src": "images/progress/cc76807eb965569.jpg"
+          },
+          {
+            "src": "images/progress/c9d052207fdad6b.jpg"
+          },
+          {
+            "src": "images/progress/c0f9e117b250e32.jpg"
+          },
+          {
+            "src": "images/progress/c964e7394d4a7a5.jpg"
+          },
+          {
+            "src": "images/progress/c071f14b240786a.jpg"
+          },
+          {
+            "src": "images/progress/c0f07321aedc1ce.jpg"
+          },
+          {
+            "src": "images/progress/c5ed9bc86299c27.jpg"
+          },
+          {
+            "src": "images/progress/c0c9128f24597d2.jpg"
+          },
+          {
+            "src": "images/progress/c428692f02e9b2c.jpg"
+          },
+          {
+            "src": "images/progress/c29a51e3c0e9be2.jpg"
+          },
+          {
+            "src": "images/progress/c04a4c747b0320e.jpg"
+          },
+          {
+            "src": "images/progress/c53a44b1ff9774a.jpg"
+          },
+          {
+            "src": "images/progress/c300badc4474cd8.jpg"
+          },
+          {
+            "src": "images/progress/c348124fb6e369a.jpg"
+          },
+          {
+            "src": "images/progress/c0d75e146bacabf.jpg"
+          },
+          {
+            "src": "images/progress/ca70a81f50de8e3.jpg"
+          }
+        ]
       }
     },
     {
@@ -6773,7 +11007,41 @@
           "img": "images/img-cad-f7e0a354a6.jpg",
           "file": "250728_평면도_영도그린힐 102동 402호.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c13063fb4f0ae5c.jpg"
+          },
+          {
+            "src": "images/progress/ccc300bd60e687c.jpg"
+          },
+          {
+            "src": "images/progress/cf6e4ed31257c6b.jpg"
+          },
+          {
+            "src": "images/progress/c35b4350ea35429.jpg"
+          },
+          {
+            "src": "images/progress/c19db18797e67b7.jpg"
+          },
+          {
+            "src": "images/progress/c32cdb87f859ae5.jpg"
+          },
+          {
+            "src": "images/progress/c2945c2c62d0d6c.jpg"
+          },
+          {
+            "src": "images/progress/c79fd1a85155caf.jpg"
+          },
+          {
+            "src": "images/progress/cd014bf02bbb7c9.jpg"
+          },
+          {
+            "src": "images/progress/c4f7d2326e76378.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "오라이동 정실 5길 38",
@@ -6965,7 +11233,165 @@
           "img": "images/img-cad-1d6aeb8ea3.jpg",
           "file": "260112_외도부영201-1106_평면도.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c819ebd9fa28f40.jpg"
+          },
+          {
+            "src": "images/progress/caae0087609fd38.jpg"
+          },
+          {
+            "src": "images/progress/c8c67258aa6f09c.jpg"
+          },
+          {
+            "src": "images/progress/c6da902f1a3a453.jpg"
+          },
+          {
+            "src": "images/progress/c49ba52b598d988.jpg"
+          },
+          {
+            "src": "images/progress/c0ba05a38211463.jpg"
+          },
+          {
+            "src": "images/progress/ca47fd215f135c0.jpg"
+          },
+          {
+            "src": "images/progress/cb0b12b896eb1ee.jpg"
+          },
+          {
+            "src": "images/progress/cd10ff8703340ed.jpg"
+          },
+          {
+            "src": "images/progress/cc51ba947b8c61e.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c0d829e1581669e.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c3982490982d1ef.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c4139774ef3abe9.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c773d78e7577208.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c78e0d0a3c31be7.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c652b473dc507c0.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/c660bcf2bf19920.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c1455e41c4f3c80.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c15be64ad1bc931.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c2bc05a29b99774.jpg",
+            "cat": "탄성"
+          },
+          {
+            "src": "images/progress/c11b6b24724d8a0.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c3bf503c64d2b6e.jpg",
+            "cat": "에어컨,인터폰"
+          },
+          {
+            "src": "images/progress/cc78fcf6618db04.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c8dca7d0ee41c77.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c99eddd67595375.jpg",
+            "cat": "마감"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/ce737a50f044baa.jpg"
+          },
+          {
+            "src": "images/progress/c434a337a9a8e3a.jpg"
+          },
+          {
+            "src": "images/progress/c4c4a63d64b3f7b.jpg"
+          },
+          {
+            "src": "images/progress/cb3e25f5eac2909.jpg"
+          },
+          {
+            "src": "images/progress/c48dee4bb74df34.jpg"
+          },
+          {
+            "src": "images/progress/c5faaea12b8b4da.jpg"
+          },
+          {
+            "src": "images/progress/ca3ba8bca2d3dd6.jpg"
+          },
+          {
+            "src": "images/progress/c799cd64ae85fea.jpg"
+          },
+          {
+            "src": "images/progress/c040ac04cc21b55.jpg"
+          },
+          {
+            "src": "images/progress/ccb6dd48ee7e167.jpg"
+          },
+          {
+            "src": "images/progress/cce4efe63b8066a.jpg"
+          },
+          {
+            "src": "images/progress/c32bb1f85c7d9ff.jpg"
+          },
+          {
+            "src": "images/progress/c1b209cbc9194da.jpg"
+          },
+          {
+            "src": "images/progress/c0cf987422c77a0.jpg"
+          },
+          {
+            "src": "images/progress/c3e9b438818893c.jpg"
+          },
+          {
+            "src": "images/progress/c4536fbf9d73b8e.jpg"
+          },
+          {
+            "src": "images/progress/ca3855c11f663e7.jpg"
+          },
+          {
+            "src": "images/progress/c2466d6d97ed3c2.jpg"
+          },
+          {
+            "src": "images/progress/ca546ef37ec45e2.jpg"
+          },
+          {
+            "src": "images/progress/c9d739298e86414.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "이도한일베라체 101동 901호",
@@ -7062,7 +11488,41 @@
           "img": "images/img-cad-9d121411ad.jpg",
           "file": "250825_평면도_이도한일베라체101-901.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c4f71d2fc2754b0.jpg"
+          },
+          {
+            "src": "images/progress/c2a9348447c74f6.jpg"
+          },
+          {
+            "src": "images/progress/c795e0334fe9f78.jpg"
+          },
+          {
+            "src": "images/progress/cee46c931d9ec3c.jpg"
+          },
+          {
+            "src": "images/progress/c0c360388cb3155.jpg"
+          },
+          {
+            "src": "images/progress/c984c68069ecd70.jpg"
+          },
+          {
+            "src": "images/progress/c7350c9469ff510.jpg"
+          },
+          {
+            "src": "images/progress/c9b4e790a5617a7.jpg"
+          },
+          {
+            "src": "images/progress/c8ea77980d14282.jpg"
+          },
+          {
+            "src": "images/progress/cd0d958db1aecbd.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "인제 동남2차 801호 주방 욕실 인테리어",
@@ -7288,7 +11748,165 @@
           "img": "images/img-cad-cd90e09c08.jpg",
           "file": "0823_평면도_일도대림203-203.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c25ca882919f11f.jpg"
+          },
+          {
+            "src": "images/progress/cb260143018e6ea.jpg"
+          },
+          {
+            "src": "images/progress/cc35db4bbe85503.jpg"
+          },
+          {
+            "src": "images/progress/ced7e83b88aafb5.jpg"
+          },
+          {
+            "src": "images/progress/c0753b2d16d3f4e.jpg"
+          },
+          {
+            "src": "images/progress/c7c7ee5e240bbd5.jpg"
+          },
+          {
+            "src": "images/progress/c9c7f4b46eee8e7.jpg"
+          },
+          {
+            "src": "images/progress/c040c3e6cdb71e5.jpg"
+          },
+          {
+            "src": "images/progress/cc1f5414c5158cd.jpg"
+          },
+          {
+            "src": "images/progress/c099f9828a50703.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cda61cd8175c7c6.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c6ded02f750e32c.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c77056860007543.jpg",
+            "cat": "조적,미장"
+          },
+          {
+            "src": "images/progress/c2744d0fafc7844.jpg",
+            "cat": "조적,미장"
+          },
+          {
+            "src": "images/progress/cdc6c3117ebe79a.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c01a05ad06f69a0.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/c385b83c7ef401d.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c2e18868b4783ce.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c990b3d41731b65.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c6f2e2f590f5a4d.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c90e2078b8f87c1.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cd72031a4e080f5.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/ca1808cbcef0de1.jpg",
+            "cat": "도기,중문,도장"
+          },
+          {
+            "src": "images/progress/cf5a2d74183f299.jpg",
+            "cat": "도기,중문,도장"
+          },
+          {
+            "src": "images/progress/c1a596dd9fb46c6.jpg",
+            "cat": "가구"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cfc6d86c3b7e075.jpg"
+          },
+          {
+            "src": "images/progress/c3fd05e00b9d9ea.jpg"
+          },
+          {
+            "src": "images/progress/ccf646d0fb641af.jpg"
+          },
+          {
+            "src": "images/progress/c2e76c2431ad235.jpg"
+          },
+          {
+            "src": "images/progress/c03dc6ad6a603b6.jpg"
+          },
+          {
+            "src": "images/progress/ca8998c782e8656.jpg"
+          },
+          {
+            "src": "images/progress/c555aecbe6769fa.jpg"
+          },
+          {
+            "src": "images/progress/ce73d45da340715.jpg"
+          },
+          {
+            "src": "images/progress/c7654e05eb79081.jpg"
+          },
+          {
+            "src": "images/progress/cdd92a69eb5ae52.jpg"
+          },
+          {
+            "src": "images/progress/c5ad66e9e0de7d7.jpg"
+          },
+          {
+            "src": "images/progress/cfb620c93d2b92e.jpg"
+          },
+          {
+            "src": "images/progress/c0abecdbe347357.jpg"
+          },
+          {
+            "src": "images/progress/c3819be1da3fe94.jpg"
+          },
+          {
+            "src": "images/progress/cf930f57d2c8bc1.jpg"
+          },
+          {
+            "src": "images/progress/cff2014044f3b1a.jpg"
+          },
+          {
+            "src": "images/progress/cae0d3bf7703d65.jpg"
+          },
+          {
+            "src": "images/progress/ccef79062f5de9b.jpg"
+          },
+          {
+            "src": "images/progress/cf2ee338c8d2a4a.jpg"
+          },
+          {
+            "src": "images/progress/ceb4ab73450e65f.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "일도성환아파트 102동 409호",
@@ -7400,7 +12018,165 @@
           "img": "images/img-cad-7971c8c142.jpg",
           "file": "250924_평면도_일도성환아파트 102-409.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cfb3b6f7f8753a8.jpg"
+          },
+          {
+            "src": "images/progress/cae1bd2d5eedde3.jpg"
+          },
+          {
+            "src": "images/progress/cb37f23618c5fa7.jpg"
+          },
+          {
+            "src": "images/progress/c9255bc9e51836a.jpg"
+          },
+          {
+            "src": "images/progress/cbc72bbb39a149b.jpg"
+          },
+          {
+            "src": "images/progress/ca48fddb46e2094.jpg"
+          },
+          {
+            "src": "images/progress/c224a4b0fb1a7d6.jpg"
+          },
+          {
+            "src": "images/progress/c271af2c49cf781.jpg"
+          },
+          {
+            "src": "images/progress/cc88bbcd2d17aab.jpg"
+          },
+          {
+            "src": "images/progress/c3fbec32a5debf5.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c9af1f620975a87.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c6783f813c05c15.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c9bbf16c77596bc.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c23ae8f3e5b5b49.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c743dc5da12f0e6.jpg",
+            "cat": "전기에어컨"
+          },
+          {
+            "src": "images/progress/c22199ef1ec45ee.jpg",
+            "cat": "전기에어컨"
+          },
+          {
+            "src": "images/progress/ca2a93f04fa63d0.jpg",
+            "cat": "창호"
+          },
+          {
+            "src": "images/progress/cf2f28a6733d12a.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/ce66dc1f5d38383.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c53ca24646ce8bd.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/cfa275d5bb7c10e.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/c69c9de7ddf8867.jpg",
+            "cat": "필름도배"
+          },
+          {
+            "src": "images/progress/cdb2232f6cb122b.jpg",
+            "cat": "탄성"
+          },
+          {
+            "src": "images/progress/cb89a8e703e5231.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c30aeaffdfec609.jpg",
+            "cat": "도어"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c8ad0c87b60afd8.jpg"
+          },
+          {
+            "src": "images/progress/ceb2dbeeaecaa9e.jpg"
+          },
+          {
+            "src": "images/progress/cdaa8d8d197ed9e.jpg"
+          },
+          {
+            "src": "images/progress/c6114341766d8ce.jpg"
+          },
+          {
+            "src": "images/progress/c2c394dba358ce6.jpg"
+          },
+          {
+            "src": "images/progress/c2f8f659e8baf41.jpg"
+          },
+          {
+            "src": "images/progress/cd2f0c4dcf5e64c.jpg"
+          },
+          {
+            "src": "images/progress/c7c4d025d34ff2a.jpg"
+          },
+          {
+            "src": "images/progress/c3fddff1e8ea5c2.jpg"
+          },
+          {
+            "src": "images/progress/c72e7131eba9312.jpg"
+          },
+          {
+            "src": "images/progress/cbf2345ad760add.jpg"
+          },
+          {
+            "src": "images/progress/cff7b9afabaf904.jpg"
+          },
+          {
+            "src": "images/progress/c5ae04ad290194a.jpg"
+          },
+          {
+            "src": "images/progress/c5df61e98402760.jpg"
+          },
+          {
+            "src": "images/progress/cae2f68804e29d9.jpg"
+          },
+          {
+            "src": "images/progress/cb67d53cacd25bd.jpg"
+          },
+          {
+            "src": "images/progress/c83bea1063bc6c3.jpg"
+          },
+          {
+            "src": "images/progress/cbe163355312945.jpg"
+          },
+          {
+            "src": "images/progress/c2a9e68d4b533f7.jpg"
+          },
+          {
+            "src": "images/progress/cec550dfa20bf2d.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "재영샤르빌 1002호",
@@ -7522,7 +12298,164 @@
           "img": "images/img-cad-cac3e65df1.jpg",
           "file": "0226_평면도_재영샤르빌1002.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/caf0886b9ffda84.jpg"
+          },
+          {
+            "src": "images/progress/cca1e229075a8bc.jpg"
+          },
+          {
+            "src": "images/progress/c502eef3fdb6670.jpg"
+          },
+          {
+            "src": "images/progress/c5be01aaae1ab30.jpg"
+          },
+          {
+            "src": "images/progress/cd64bb889a1c16e.jpg"
+          },
+          {
+            "src": "images/progress/c26dc45537d6c99.jpg"
+          },
+          {
+            "src": "images/progress/c89e6b76a629267.jpg"
+          },
+          {
+            "src": "images/progress/cd4dded135e24e1.jpg"
+          },
+          {
+            "src": "images/progress/cae11d50df4f4d1.jpg"
+          },
+          {
+            "src": "images/progress/c4d7a2ecb4972f3.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cf48624183c8984.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c0ded45754aa891.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c862c4ff0b54d45.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c20509962512e79.jpg",
+            "cat": "설비"
+          },
+          {
+            "src": "images/progress/c10d9b9df12d8c5.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/c3e02a1e27d6b1b.jpg",
+            "cat": "미장"
+          },
+          {
+            "src": "images/progress/cdfee9f79ea89cc.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c857d675c0c577c.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c92d5f763f387c7.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cf6f8bd0ec35de7.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/c5f4f1595801f73.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/c14b922d3e1825a.jpg",
+            "cat": "에어컨"
+          },
+          {
+            "src": "images/progress/cadcd25886e2021.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c06a81dd8330a04.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c5a96758aed85ac.jpg"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/cef1bfca93469eb.jpg"
+          },
+          {
+            "src": "images/progress/c175de207e93a2f.jpg"
+          },
+          {
+            "src": "images/progress/c7e11e5153d29b9.jpg"
+          },
+          {
+            "src": "images/progress/ca7dfe4b6ff948c.jpg"
+          },
+          {
+            "src": "images/progress/cf0b3ac59acd9d8.jpg"
+          },
+          {
+            "src": "images/progress/c642b85e748fc57.jpg"
+          },
+          {
+            "src": "images/progress/c73e5cca20465a9.jpg"
+          },
+          {
+            "src": "images/progress/ca6661e7710371c.jpg"
+          },
+          {
+            "src": "images/progress/cbc56b467faa437.jpg"
+          },
+          {
+            "src": "images/progress/c70f8c0a5d60432.jpg"
+          },
+          {
+            "src": "images/progress/c69c0ab92d2f46b.jpg"
+          },
+          {
+            "src": "images/progress/c4ebd1b63f6a3b2.jpg"
+          },
+          {
+            "src": "images/progress/c699707c2e55057.jpg"
+          },
+          {
+            "src": "images/progress/cbd05553472903d.jpg"
+          },
+          {
+            "src": "images/progress/c607ee7448a45cc.jpg"
+          },
+          {
+            "src": "images/progress/ce7b4bf0999ade4.jpg"
+          },
+          {
+            "src": "images/progress/cc91cb638e2b797.jpg"
+          },
+          {
+            "src": "images/progress/c3775b823003fdf.jpg"
+          },
+          {
+            "src": "images/progress/cacbc9a47704577.jpg"
+          },
+          {
+            "src": "images/progress/cdeb51e2da889d0.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "제주연구원 썬룸공사",
@@ -7631,6 +12564,37 @@
       "cover": {
         "src": "images/img-muw1mpyj81d8f8.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c4ca28c00ee9103.jpg"
+          },
+          {
+            "src": "images/progress/cbf2f1ad94d2d7e.jpg"
+          },
+          {
+            "src": "images/progress/c37c67368aebd93.jpg"
+          },
+          {
+            "src": "images/progress/c0574106f256eeb.jpg"
+          },
+          {
+            "src": "images/progress/c70ba525b2177e2.jpg"
+          },
+          {
+            "src": "images/progress/c269ef2986a8022.jpg"
+          },
+          {
+            "src": "images/progress/c1fcb4e0d176247.jpg"
+          },
+          {
+            "src": "images/progress/c848ac57b0553da.jpg"
+          },
+          {
+            "src": "images/progress/c4789a7e83a9dde.jpg"
+          }
+        ]
       }
     },
     {
@@ -7693,7 +12657,67 @@
           "img": "images/img-cad-40f71c8b88.jpg",
           "file": "251126_벤처마루(미팅실).pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c99160be829a699.jpg"
+          },
+          {
+            "src": "images/progress/cbc354fcc72202c.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cc778904f0e58e5.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c19c91bef086cc5.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c95f9ac2ce857aa.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c2ce76d86c646b7.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c41569030354408.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c82b02c3b89e11c.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c8c861620be1e60.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c9f81d1d66ac21a.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/c6b0aa088b79a67.jpg",
+            "cat": "전기"
+          },
+          {
+            "src": "images/progress/cd70d51d9eacdcc.jpg",
+            "cat": "카페트"
+          },
+          {
+            "src": "images/progress/cb8bd6d7631e25d.jpg",
+            "cat": "카페트"
+          },
+          {
+            "src": "images/progress/c953c7cfa900e85.jpg",
+            "cat": "마감공정"
+          }
+        ]
+      }
     },
     {
       "name": "창조경제혁신 센터 인테리어공사",
@@ -7737,6 +12761,28 @@
       "cover": {
         "src": "images/img-muw1mo3d170e27.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c47b3a80e4e5414.jpg"
+          },
+          {
+            "src": "images/progress/c06825813cb46cd.jpg"
+          },
+          {
+            "src": "images/progress/cfe8ae4a3742120.jpg"
+          },
+          {
+            "src": "images/progress/c01b5b7e99f185d.jpg"
+          },
+          {
+            "src": "images/progress/cc9e7decd4f4898.jpg"
+          },
+          {
+            "src": "images/progress/cd3d6e462cf7d7a.jpg"
+          }
+        ]
       }
     },
     {
@@ -7846,6 +12892,119 @@
       "cover": {
         "src": "images/img-muw1mkoz3b83ae.jpg",
         "caption": ""
+      },
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c804bac1d55a216.jpg"
+          },
+          {
+            "src": "images/progress/c83122c712533fa.jpg"
+          },
+          {
+            "src": "images/progress/cc622d6103022a0.jpg"
+          },
+          {
+            "src": "images/progress/cb3126bce16fa59.jpg"
+          },
+          {
+            "src": "images/progress/c0a9356ff2e3e60.jpg"
+          },
+          {
+            "src": "images/progress/c3b6641587f337a.jpg"
+          },
+          {
+            "src": "images/progress/cb8214012b4b406.jpg"
+          },
+          {
+            "src": "images/progress/ceacd8b6e23ed4f.jpg"
+          },
+          {
+            "src": "images/progress/c0d8b536f8ea98a.jpg"
+          },
+          {
+            "src": "images/progress/c84e6789a73dfb0.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c0fb2bcc868f883.jpg",
+            "cat": "층보양철거"
+          },
+          {
+            "src": "images/progress/ccbdcd9d3275675.jpg",
+            "cat": "층보양철거"
+          },
+          {
+            "src": "images/progress/c37f121e049ecaa.jpg",
+            "cat": "금속"
+          },
+          {
+            "src": "images/progress/c019bcf940cab75.jpg",
+            "cat": "도장"
+          },
+          {
+            "src": "images/progress/cc4a7e592501933.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/cc88b695a241957.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c8c23d879d9536e.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/c21282e9e329a87.jpg",
+            "cat": "필름"
+          },
+          {
+            "src": "images/progress/c0deadda8dfc060.jpg",
+            "cat": "필름"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/ccc50ab173ec76e.jpg"
+          },
+          {
+            "src": "images/progress/cf0e55f82eb0213.jpg"
+          },
+          {
+            "src": "images/progress/cea2d954d952197.jpg"
+          },
+          {
+            "src": "images/progress/c6881ab96f7019f.jpg"
+          },
+          {
+            "src": "images/progress/c0345e70155da0f.jpg"
+          },
+          {
+            "src": "images/progress/cff3bf4c2dd0888.jpg"
+          },
+          {
+            "src": "images/progress/cb65fc5a568d0f5.jpg"
+          },
+          {
+            "src": "images/progress/c942d0856b17930.jpg"
+          },
+          {
+            "src": "images/progress/c73c842dd68c1f5.jpg"
+          },
+          {
+            "src": "images/progress/c428c9dec7b76c4.jpg"
+          },
+          {
+            "src": "images/progress/c6734b0cc8958ec.jpg"
+          },
+          {
+            "src": "images/progress/c2a640ada1a51db.jpg"
+          },
+          {
+            "src": "images/progress/c7a5d214c754768.jpg"
+          }
+        ]
       }
     },
     {
@@ -8033,7 +13192,165 @@
           "img": "images/img-cad-9845dee35a.jpg",
           "file": "250904_평면도_첨단꿈에그린304-102.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/cd51382beb41c89.jpg"
+          },
+          {
+            "src": "images/progress/c6e2f6b11f9e15f.jpg"
+          },
+          {
+            "src": "images/progress/c84f4a86d815b91.jpg"
+          },
+          {
+            "src": "images/progress/c25e02032562f8d.jpg"
+          },
+          {
+            "src": "images/progress/c50ea7a1ebffdbd.jpg"
+          },
+          {
+            "src": "images/progress/c9c7856d4d74d95.jpg"
+          },
+          {
+            "src": "images/progress/c1139cbabd8c67b.jpg"
+          },
+          {
+            "src": "images/progress/cb0fd282e3d96b2.jpg"
+          },
+          {
+            "src": "images/progress/c66f2b34cf50ab5.jpg"
+          },
+          {
+            "src": "images/progress/c800ece7161993b.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/c9ff5fcdc71a0cf.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c712332b32880a5.jpg",
+            "cat": "철거"
+          },
+          {
+            "src": "images/progress/c772b844db86b8d.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c5a9996141de7e1.jpg",
+            "cat": "설비,전기"
+          },
+          {
+            "src": "images/progress/c1914b2231d3c92.jpg",
+            "cat": "창호,설비"
+          },
+          {
+            "src": "images/progress/ca290b72e1b1ac2.jpg",
+            "cat": "창호,설비"
+          },
+          {
+            "src": "images/progress/c8feffefb5f6e27.jpg",
+            "cat": "미장방수"
+          },
+          {
+            "src": "images/progress/c9b8a1ae62eace7.jpg",
+            "cat": "목공"
+          },
+          {
+            "src": "images/progress/caa29fd465086d5.jpg",
+            "cat": "타일"
+          },
+          {
+            "src": "images/progress/ca4995a8f21a603.jpg",
+            "cat": "바닥샌딩"
+          },
+          {
+            "src": "images/progress/c33ab61543ebcdc.jpg",
+            "cat": "도배"
+          },
+          {
+            "src": "images/progress/cb45c710af664a0.jpg",
+            "cat": "전기,탄성"
+          },
+          {
+            "src": "images/progress/c0a65de3da801a3.jpg",
+            "cat": "마루"
+          },
+          {
+            "src": "images/progress/c570735ae7e68b1.jpg",
+            "cat": "가구"
+          },
+          {
+            "src": "images/progress/c7f8ae9e62f09f4.jpg",
+            "cat": "마감작업"
+          }
+        ],
+        "후": [
+          {
+            "src": "images/progress/c646b6080d99fd7.jpg"
+          },
+          {
+            "src": "images/progress/c49497687814609.jpg"
+          },
+          {
+            "src": "images/progress/cc456c62e961a8d.jpg"
+          },
+          {
+            "src": "images/progress/c1da09d379a588c.jpg"
+          },
+          {
+            "src": "images/progress/ccacc7a077187cd.jpg"
+          },
+          {
+            "src": "images/progress/c7c1c9b1bd4d248.jpg"
+          },
+          {
+            "src": "images/progress/c6f512854fe9c5c.jpg"
+          },
+          {
+            "src": "images/progress/c1b2b8fcb7cdeae.jpg"
+          },
+          {
+            "src": "images/progress/cf60ee66ceee1bd.jpg"
+          },
+          {
+            "src": "images/progress/c2490f641a4d360.jpg"
+          },
+          {
+            "src": "images/progress/c94f90e9af8bda5.jpg"
+          },
+          {
+            "src": "images/progress/c5f4e74d1ccbb49.jpg"
+          },
+          {
+            "src": "images/progress/c29f06271e72f14.jpg"
+          },
+          {
+            "src": "images/progress/cee3d6ad453dd6f.jpg"
+          },
+          {
+            "src": "images/progress/ca51380dc4e5a80.jpg"
+          },
+          {
+            "src": "images/progress/c2679aebb124833.jpg"
+          },
+          {
+            "src": "images/progress/cdfb157f3a4844a.jpg"
+          },
+          {
+            "src": "images/progress/c7172cf29cc3fe8.jpg"
+          },
+          {
+            "src": "images/progress/c17d519a3da2ee0.jpg"
+          },
+          {
+            "src": "images/progress/c062e5c9b505b7c.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "한라중흥 107동 702호",
@@ -8145,7 +13462,41 @@
           "img": "images/img-cad-37ca06f5c3.jpg",
           "file": "240827_평면도_한라중흥.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c5c4813929317f2.jpg"
+          },
+          {
+            "src": "images/progress/cda5758aae76739.jpg"
+          },
+          {
+            "src": "images/progress/c8b3fdfd6f4418a.jpg"
+          },
+          {
+            "src": "images/progress/c230adaa0344bd3.jpg"
+          },
+          {
+            "src": "images/progress/c72384c1b46abb7.jpg"
+          },
+          {
+            "src": "images/progress/ca9fe28174a93b3.jpg"
+          },
+          {
+            "src": "images/progress/caca9340e4c11ca.jpg"
+          },
+          {
+            "src": "images/progress/c31899fb99bb0eb.jpg"
+          },
+          {
+            "src": "images/progress/c587596797b6dbf.jpg"
+          },
+          {
+            "src": "images/progress/c30e731bb66b1cf.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "헤르지아하임 103동 302호",
@@ -8257,7 +13608,46 @@
           "img": "images/img-cad-61285f8d59.jpg",
           "file": "241122_평면도_헤르지아하임103-302.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c0e48fbc230e91d.jpg"
+          },
+          {
+            "src": "images/progress/c8dc552a8ba883f.jpg"
+          },
+          {
+            "src": "images/progress/ca92596bd807bf8.jpg"
+          },
+          {
+            "src": "images/progress/c71b64b50334724.jpg"
+          },
+          {
+            "src": "images/progress/cec02e4ad55de3b.jpg"
+          },
+          {
+            "src": "images/progress/caf77bd39344159.jpg"
+          },
+          {
+            "src": "images/progress/c77848505a14227.jpg"
+          },
+          {
+            "src": "images/progress/c99ac1cf8a39f7e.jpg"
+          },
+          {
+            "src": "images/progress/cf1c6d469c53509.jpg"
+          },
+          {
+            "src": "images/progress/c6720d5c0e025f3.jpg"
+          }
+        ],
+        "중": [
+          {
+            "src": "images/progress/cad53a108108510.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "홍랑길44-14단독주택",
@@ -8425,7 +13815,38 @@
           "img": "images/img-cad-5112046cea.jpg",
           "file": "0507_2층평면도_홍랑길단독주택.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/ca4ebf9fda33556.jpg"
+          },
+          {
+            "src": "images/progress/cb07b3707fee993.jpg"
+          },
+          {
+            "src": "images/progress/cac66b20a472e2b.jpg"
+          },
+          {
+            "src": "images/progress/ce634e5d5be832d.jpg"
+          },
+          {
+            "src": "images/progress/c5dacc3cd1804c4.jpg"
+          },
+          {
+            "src": "images/progress/cbc485916ae109f.jpg"
+          },
+          {
+            "src": "images/progress/c10c13742105977.jpg"
+          },
+          {
+            "src": "images/progress/ceb3de78d0fb674.jpg"
+          },
+          {
+            "src": "images/progress/c0b66684477a760.jpg"
+          }
+        ]
+      }
     },
     {
       "name": "화북 삼화 부영2차 201동 802호",
@@ -8530,7 +13951,41 @@
           "img": "images/img-cad-f7c639e317.jpg",
           "file": "231108_천정도 수정중_화북 삼화 부영 201동 802호-모형.pdf"
         }
-      ]
+      ],
+      "progress": {
+        "전": [
+          {
+            "src": "images/progress/c4da48123467965.jpg"
+          },
+          {
+            "src": "images/progress/c4dc5c6fcd0bfba.jpg"
+          },
+          {
+            "src": "images/progress/ce8af3b0f339dff.jpg"
+          },
+          {
+            "src": "images/progress/c905d78276dc9d9.jpg"
+          },
+          {
+            "src": "images/progress/c5f176b47477fef.jpg"
+          },
+          {
+            "src": "images/progress/c29fbd80e3d6688.jpg"
+          },
+          {
+            "src": "images/progress/cdb316f3be3f799.jpg"
+          },
+          {
+            "src": "images/progress/ca4a4c8f6af4d00.jpg"
+          },
+          {
+            "src": "images/progress/c8f9c3069510f61.jpg"
+          },
+          {
+            "src": "images/progress/cceaf92e7789163.jpg"
+          }
+        ]
+      }
     }
   ]
 }

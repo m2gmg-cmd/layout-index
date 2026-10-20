@@ -135,7 +135,7 @@
   .dot.build { background: var(--amber); } .dot.done { background: var(--green); }
 
   /* ---- 본문 ---- */
-  .main { max-width: 1060px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 40px) 80px; }
+  .main { min-width: 0; width: 100%; max-width: 1060px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 40px) 80px; }
   .eyebrow {
     font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
     text-transform: uppercase; color: var(--graphite);
@@ -195,6 +195,16 @@
   }
   .cat:hover { color: var(--ink); }
   .cat.active { color: var(--ink); border-bottom-color: var(--blue); font-weight: 500; }
+
+  .phases { display: flex; gap: 0; margin: 0 0 12px; border: 1px solid var(--line); border-radius: var(--radius); width: fit-content; overflow: hidden; }
+  .phase {
+    font: inherit; font-size: 13.5px; color: var(--graphite); background: var(--sheet);
+    border: 0; border-right: 1px solid var(--line); padding: 7px 16px; cursor: pointer;
+  }
+  .phase:last-child { border-right: 0; }
+  .phase:hover { color: var(--ink); }
+  .phase.active { background: var(--ink); color: var(--paper); font-weight: 500; }
+  .phase .n { font-family: "IBM Plex Mono", monospace; font-size: 11px; margin-left: 6px; opacity: 0.7; }
 
   .strip { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
   .frameless {
@@ -369,7 +379,9 @@ const rail = document.getElementById("rail");
 const scrim = document.getElementById("scrim");
 const menuBtn = document.getElementById("menuBtn");
 let DATA = null, PROJECTS = [];
-let pi = 0, ai = -1, cat = null, ii = 0, ci = 0, q = "";
+let pi = 0, ai = -1, cat = null, ii = 0, ci = 0, q = "", ph = "";
+const PHASES = [["전", "공사 전"], ["중", "공사 중"], ["후", "공사 후"]];
+function phaseList(p) { return PHASES.filter(([k]) => p.progress && (p.progress[k] || []).length); }
 
 loadData();
 
@@ -483,7 +495,12 @@ function buildRail() {
 }
 
 function filtered() {
-  const alt = PROJECTS[pi].alts[ai];
+  const p = PROJECTS[pi];
+  if (ai === -2) {
+    const arr = (p.progress && p.progress[ph]) || [];
+    return cat ? arr.filter((x) => x.cat === cat) : arr;
+  }
+  const alt = p.alts[ai];
   return cat ? alt.images.filter((x) => x.cat === cat) : alt.images;
 }
 
@@ -517,6 +534,14 @@ function render() {
       `<span class="thumb">${thumb(first.src, first.cat, alt.code)}</span>` +
       `<span class="lbl">${esc(alt.code)}<small>${esc(alt.title || "")}</small></span></button>`;
   });
+  const phs = phaseList(p);
+  if (phs.length) {
+    const pf = p.progress[phs[phs.length - 1][0]][0];
+    const total = phs.reduce((n, [k]) => n + p.progress[k].length, 0);
+    html += `<button class="alt${ai === -2 ? " active" : ""}" data-a="-2">` +
+      `<span class="thumb">${thumb(pf.src, "시공사진", "시공사진")}</span>` +
+      `<span class="lbl">시공사진<small>전·중·후 ${total}장</small></span></button>`;
+  } else if (ai === -2) { ai = -1; }
   html += `</div>`;
 
   if (ai === -1) {
@@ -549,6 +574,49 @@ function render() {
     main.innerHTML = html + `</div>`;
     bindAlts();
     main.querySelectorAll("[data-ci]").forEach((el) => el.addEventListener("click", () => { ci = Number(el.dataset.ci); render(); }));
+    return;
+  }
+
+  if (ai === -2) {
+    if (!phs.some(([k]) => k === ph)) { ph = phs[0][0]; cat = null; }
+    const list = filtered();
+    if (ii >= list.length) ii = 0;
+    const cur = list[ii] || { src: "" };
+    const phName = PHASES.find(([k]) => k === ph)[1];
+    html += `<div class="phases">` + phs.map(([k, label]) =>
+      `<button class="phase${k === ph ? " active" : ""}" data-ph="${k}">${label}<span class="n">${p.progress[k].length}</span></button>`
+    ).join("") + `</div>`;
+    html += `<div class="stage">` +
+      `<button class="nav prev" id="prev" aria-label="이전" ${ii === 0 ? "disabled" : ""}>` +
+      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>` +
+      `<div class="frame">${media(cur.src, phName, cur.cat || "")}</div>` +
+      `<button class="nav next" id="next" aria-label="다음" ${ii >= list.length - 1 ? "disabled" : ""}>` +
+      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>` +
+      `<span class="counter">${ii + 1} / ${list.length}</span>` +
+      `</div>` +
+      `<div class="caption"><b>${esc(phName)}</b> &nbsp;${esc(cur.cat || "")}</div>`;
+    const pcats = [...new Set(p.progress[ph].map((x) => x.cat).filter(Boolean))];
+    if (pcats.length > 1) {
+      html += `<div class="cats"><button class="cat${cat === null ? " active" : ""}" data-c="">전체</button>`;
+      pcats.forEach((c) => { html += `<button class="cat${cat === c ? " active" : ""}" data-c="${esc(c)}">${esc(c)}</button>`; });
+      html += `</div>`;
+    } else {
+      html += `<div style="height:18px"></div>`;
+    }
+    html += `<div class="strip">`;
+    list.forEach((im, i) => {
+      html += `<button class="frameless${i === ii ? " active" : ""}" data-i="${i}" aria-label="${esc(phName)} ${i + 1}">${thumb(im.src, phName, im.cat || "")}</button>`;
+    });
+    html += `</div>`;
+    main.innerHTML = html + `</div>`;
+    bindAlts();
+    document.getElementById("prev")?.addEventListener("click", () => { if (ii > 0) { ii--; render(); } });
+    document.getElementById("next")?.addEventListener("click", () => { if (ii < list.length - 1) { ii++; render(); } });
+    main.querySelectorAll(".phase").forEach((el) => el.addEventListener("click", () => { ph = el.dataset.ph; cat = null; ii = 0; render(); }));
+    main.querySelectorAll(".cat").forEach((el) => el.addEventListener("click", () => { cat = el.dataset.c || null; ii = 0; render(); }));
+    main.querySelectorAll(".frameless").forEach((el) => el.addEventListener("click", () => { ii = Number(el.dataset.i); render(); }));
+    const st = main.querySelector(".strip"), act = main.querySelector(".frameless.active");
+    if (st && act) st.scrollLeft = act.offsetLeft - st.offsetLeft - st.clientWidth / 2 + act.clientWidth / 2;
     return;
   }
 

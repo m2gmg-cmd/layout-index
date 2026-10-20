@@ -99,6 +99,18 @@
   .kv { display:grid; grid-template-columns:150px 1fr auto; gap:8px; margin-bottom:8px; align-items:start; }
   .kv input { width:100%; }
 
+  .phbox { border:1px solid var(--line); border-radius:var(--radius); padding:12px; margin-bottom:12px; }
+  .phbox .phhead { display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:13px; font-weight:600; }
+  .phbox .phhead .n { font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--graphite); font-weight:400; }
+  .phbox .phhead .sp { flex:1; }
+  .pgrid { display:grid; grid-template-columns:repeat(auto-fill, minmax(132px, 1fr)); gap:8px; }
+  .pcell { border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--paper); }
+  .pcell .pv { aspect-ratio:4/3; background:var(--stage); display:flex; align-items:center; justify-content:center; font-size:11px; color:var(--graphite); }
+  .pcell .pv img { width:100%; height:100%; object-fit:cover; display:block; }
+  .pcell input { border:0; border-top:1px solid var(--line); border-radius:0; padding:4px 6px; font-size:12px; }
+  .pcell .pa { display:flex; border-top:1px solid var(--line); }
+  .pcell .pa button { flex:1; border:0; border-right:1px solid var(--line); border-radius:0; padding:3px 0; font-size:12px; background:none; }
+  .pcell .pa button:last-child { border-right:0; }
   .alt { border:1px solid var(--line); border-radius:var(--radius); padding:12px; margin-bottom:12px; }
   .alt .althead { display:flex; gap:8px; align-items:center; margin-bottom:10px; }
   .alt .althead input { flex:1; }
@@ -374,6 +386,11 @@ function renderEditor() {
       <div id="altList"></div>
       <button class="mini" id="addAlt">+ 도면안 추가</button>
     </div>
+
+    <div class="sec">
+      <h3>시공사진 <span class="tag">뷰어의 '시공사진' 탭 · 공사 전/중/후 · 여러 장 한 번에 올리기 가능</span></h3>
+      <div id="progBox"></div>
+    </div>
   `;
 
   el.querySelectorAll("[data-k]").forEach((inp) => {
@@ -387,6 +404,74 @@ function renderEditor() {
   renderKv(p);
   renderCover(p);
   renderAlts(p);
+  renderProgress(p);
+}
+
+const PHASES = [["전", "공사 전"], ["중", "공사 중"], ["후", "공사 후"]];
+function renderProgress(p) {
+  const wrap = $("progBox"); wrap.innerHTML = "";
+  PHASES.forEach(([k, label]) => {
+    const arr = (p.progress && p.progress[k]) || [];
+    const box = document.createElement("div");
+    box.className = "phbox";
+    box.innerHTML = `<div class="phhead">${label}<span class="n">${arr.length}장</span><span class="sp"></span>` +
+      `<button class="mini" data-pa="add">+ 사진 올리기</button>` +
+      (arr.length ? `<button class="mini danger" data-pa="clear">전부 삭제</button>` : "") + `</div>` +
+      (arr.length ? `<div class="pgrid"></div>` : `<p class="hint" style="margin:0">사진 없음</p>`);
+    const grid = box.querySelector(".pgrid");
+    arr.forEach((im, i) => {
+      const c = document.createElement("div");
+      c.className = "pcell";
+      c.innerHTML = `<div class="pv">${imgPreview(im.src).replace("<img ", '<img loading="lazy" ')}</div>` +
+        (k === "중" ? `<input value="${escapeAttr(im.cat || "")}" placeholder="공정 (예: 목공)" />` : "") +
+        `<div class="pa"><button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="삭제">×</button></div>`;
+      c.querySelector("input")?.addEventListener("input", (e) => { if (e.target.value) im.cat = e.target.value; else delete im.cat; markDirty(); });
+      const [bL, bR, bX] = c.querySelectorAll(".pa button");
+      bL.onclick = () => { if (i > 0) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); renderProgress(p); } };
+      bR.onclick = () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; markDirty(); renderProgress(p); } };
+      bX.onclick = () => { arr.splice(i, 1); if (!arr.length) delete p.progress[k]; markDirty(); renderProgress(p); };
+      grid.appendChild(c);
+    });
+    box.querySelector('[data-pa="add"]').onclick = () => pickProgress(p, k);
+    const clr = box.querySelector('[data-pa="clear"]');
+    if (clr) clr.onclick = () => { if (confirm(`${label} 사진 ${arr.length}장을 목록에서 뺄까요? (파일은 저장소에 남습니다)`)) { delete p.progress[k]; markDirty(); renderProgress(p); } };
+    wrap.appendChild(box);
+  });
+}
+
+function pickProgress(p, k) {
+  const inp = document.createElement("input");
+  inp.type = "file"; inp.accept = "image/*"; inp.multiple = true;
+  inp.onchange = async () => {
+    const files = [...inp.files]; if (!files.length) return;
+    p.progress = p.progress || {};
+    const arr = p.progress[k] = p.progress[k] || [];
+    let n = 0;
+    try {
+      for (const file of files) {
+        busy(true, `시공사진 올리는 중… ${++n} / ${files.length}`);
+        const path = await uploadImage(file, "images/progress/p", 1400, 0.72);
+        arr.push({ src: path });
+        markDirty();
+      }
+      setState(`시공사진 ${files.length}장 올림 — "저장" 눌러 반영`, "dirty");
+    } catch (e) { alert(e.message + `\n(${n - 1}장은 올라갔습니다)`); }
+    finally { busy(false); renderProgress(p); }
+  };
+  inp.click();
+}
+
+async function uploadImage(file, prefix, max, q) {
+  const { blob, ext } = await shrinkImage(file, max, q);
+  const path = `${prefix}${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}.${ext}`;
+  const content = await blobToBase64(blob);
+  const r = await fetch(`${API}/contents/${path}`, {
+    method: "PUT", headers: gh(),
+    body: JSON.stringify({ message: `시공사진 추가: ${path}`, content, branch: "main" })
+  });
+  if (r.status === 403) throw new Error("업로드 실패 (403): 토큰에 쓰기 권한이 없습니다. Contents: Read and write 로 토큰을 다시 만드세요.");
+  if (!r.ok) throw new Error("업로드 실패 (" + r.status + "): " + (await ghMsg(r)));
+  return path;
 }
 
 function imgPreview(src) {
@@ -536,8 +621,7 @@ function pickAndUpload(p, im, after) {
   inp.click();
 }
 
-async function shrinkImage(file) {
-  const MAX = 2000, Q = 0.82;
+async function shrinkImage(file, MAX = 2000, Q = 0.82) {
   const bmp = await createImageBitmap(file).catch(() => null);
   if (!bmp) return { blob: file, ext: (file.name.split(".").pop() || "jpg").toLowerCase().replace("jpeg", "jpg") };
   let { width: w, height: h } = bmp;
