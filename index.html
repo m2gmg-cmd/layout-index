@@ -339,7 +339,7 @@
       </button>
       <div class="bkmenu" id="bkMenu" hidden>
         <button data-bk="one"><b>이 현장 백업</b><small id="bkOneName"></small></button>
-        <button data-bk="all"><b>전체 현장 백업</b><small>모든 현장의 도면 · 시공사진 (약 400MB)</small></button>
+        <button data-bk="all"><b>전체 현장 백업</b><small>모든 현장의 도면 · CAD 원본 · 시공사진 (약 600MB)</small></button>
       </div>
     </div>
   </header>
@@ -600,6 +600,9 @@ function render() {
       Object.entries(p.meta || {}).map(([k, v], idx) =>
         `<div class="cell${idx === 0 ? " wide" : ""}"><span class="k">${esc(k)}</span><span class="v num">${esc(v)}</span></div>`
       ).join("") +
+      (p.dwg || []).map((d) =>
+        `<div class="cell wide"><span class="k">CAD 원본 (DWG)</span><a class="link" href="${esc(d.src)}" download="${esc(d.file)}">${esc(d.file)} ↓</a></div>`
+      ).join("") +
       (p.cad ? `<div class="cell wide"><span class="k">원본 CAD</span><a class="link" href="https://${esc(p.cad)}" target="_blank" rel="noopener">${esc(p.cad)} ↗</a></div>` : "") +
       `</div>` +
       (p.note ? `<div class="note"><span class="k">Note</span><span>${esc(p.note)}</span></div>` : "");
@@ -708,6 +711,7 @@ function backupEntries(p, base) {
     const nm = cp.file ? fname(cp.file.replace(/\.pdf$/i, "")) : fname(cp.title || "CAD");
     add(cp.pdf, `도면/CAD_${num(i)}_${nm}.pdf`);
   });
+  (p.dwg || []).forEach((d) => add(d.src, `도면/CAD원본_${fname(d.file.replace(/\.dwg$/i, ""))}.dwg`));
   (p.alts || []).forEach((alt) => {
     const dir = `도면/${fname(alt.code || "안")}${alt.title ? "_" + fname(alt.title) : ""}/`;
     (alt.images || []).forEach((im, i) =>
