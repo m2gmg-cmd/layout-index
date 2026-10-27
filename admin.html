@@ -371,6 +371,7 @@ function renderEditor() {
         <div class="field"><label>현장명</label><input data-k="name" value="${escapeAttr(p.name)}" /></div>
         <div class="field"><label>유형</label><input data-k="type" value="${escapeAttr(p.type || "")}" /></div>
       </div>
+      <div class="field"><label>단지 묶음 (같은 아파트끼리 같은 이름 → 목록에서 폴더로 묶임)</label><input data-k="group" list="groupList" value="${escapeAttr(p.group || "")}" placeholder="예: 노형한화" /><datalist id="groupList">${[...new Set(data.projects.map((x) => x.group).filter(Boolean))].sort().map((g) => `<option value="${escapeAttr(g)}"></option>`).join("")}</datalist></div>
       <div class="row2">
         <div class="field"><label>상태</label><select data-k="status">${STATUS_OPTS.map((s) => `<option value="${s[0]}"${p.status === s[0] ? " selected" : ""}>${s[1]}</option>`).join("")}</select></div>
         <div class="field"><label>원본 CAD (링크, https:// 제외)</label><input data-k="cad" value="${escapeAttr(p.cad || "")}" placeholder="drive.google.com/..." /></div>

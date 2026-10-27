@@ -156,6 +156,14 @@
   .item .dot { width: 6px; height: 6px; border-radius: 50%; flex: 0 0 auto; }
   .dot.est { background: var(--graphite); } .dot.plan { background: var(--blue); }
   .dot.build { background: var(--amber); } .dot.done { background: var(--green); }
+  .folder { font-weight: 600; }
+  .folder .chev { width: 10px; flex: 0 0 auto; font-size: 9px; color: var(--graphite); transition: transform .15s; display: inline-block; text-align: center; }
+  .folder.open .chev { transform: rotate(90deg); }
+  .folder .cnt { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; color: var(--graphite); flex: 0 0 auto; }
+  .folder.has-active .t { color: var(--blue); }
+  .item.child { padding-left: 34px; }
+  .item.child .t { font-size: 12px; }
+  @media (prefers-reduced-motion: reduce) { .folder .chev { transition: none; } }
 
   /* ---- 본문 ---- */
   .main { min-width: 0; width: 100%; max-width: 1060px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 40px) 80px; }
@@ -495,34 +503,69 @@ function placeholder(category, caption) {
 }
 function thumb(src, category, caption) { return media(src, category, caption, caption); }
 
+const OPEN_KEY = "railOpenGroups";
+let railGroup = null;
+let openGroups = new Set();
+try { openGroups = new Set(JSON.parse(localStorage.getItem(OPEN_KEY) || "[]")); } catch {}
+function saveOpen() { try { localStorage.setItem(OPEN_KEY, JSON.stringify([...openGroups])); } catch {} }
+function groupOf(p) { return (p.group || "").trim() || p.name; }
+function shortName(p, g) {
+  const n = p.name || "";
+  if (g && n.startsWith(g)) { const r = n.slice(g.length).trim(); if (r) return r; }
+  return n;
+}
+
+function projItem(p, i, label, child) {
+  const s = STATUS[p.status] || STATUS.plan;
+  const b = document.createElement("button");
+  b.className = "item" + (child ? " child" : "") + (i === pi ? " active" : "");
+  b.dataset.pi = i;
+  b.title = `${p.name} · ${s.label}${p.type ? " · " + p.type : ""}`;
+  b.innerHTML =
+    (child ? "" : `<span class="idx">${label}</span>`) +
+    `<span class="t">${esc(child ? shortName(p, groupOf(p)) : p.name)}</span>` +
+    `<span class="dot ${s.cls}"></span>`;
+  b.addEventListener("click", () => { pi = i; ai = -1; cat = null; ii = 0; ci = 0; toggleRail(false); render(); });
+  return b;
+}
+
 function buildRail() {
   const railList = document.getElementById("railList");
   const railCount = document.getElementById("railCount");
   railList.innerHTML = "";
   const needle = q.trim().toLowerCase();
-  const rows = PROJECTS
-    .map((p, i) => ({ p, i }))
-    .filter(({ p }) => !needle
-      || (p.name || "").toLowerCase().includes(needle)
-      || (p.type || "").toLowerCase().includes(needle));
 
-  railCount.textContent = needle ? `${rows.length} / ${PROJECTS.length} 현장` : `현장 ${PROJECTS.length}`;
-
-  if (!rows.length) {
-    railList.innerHTML = '<div class="rail-empty">검색 결과가 없습니다</div>';
+  if (needle) {
+    const rows = PROJECTS.map((p, i) => ({ p, i })).filter(({ p }) =>
+      (p.name || "").toLowerCase().includes(needle) || (p.type || "").toLowerCase().includes(needle) ||
+      groupOf(p).toLowerCase().includes(needle));
+    railCount.textContent = `${rows.length} / ${PROJECTS.length} 현장`;
+    if (!rows.length) { railList.innerHTML = '<div class="rail-empty">검색 결과가 없습니다</div>'; return; }
+    rows.forEach(({ p, i }) => railList.appendChild(projItem(p, i, String(i + 1).padStart(2, "0"), false)));
     return;
   }
-  rows.forEach(({ p, i }) => {
-    const s = STATUS[p.status] || STATUS.plan;
-    const b = document.createElement("button");
-    b.className = "item" + (i === pi ? " active" : "");
-    b.title = `${p.name} · ${s.label}${p.type ? " · " + p.type : ""}`;
-    b.innerHTML =
-      `<span class="idx">${String(i + 1).padStart(2, "0")}</span>` +
-      `<span class="t">${esc(p.name)}</span>` +
-      `<span class="dot ${s.cls}"></span>`;
-    b.addEventListener("click", () => { pi = i; ai = -1; cat = null; ii = 0; ci = 0; toggleRail(false); render(); });
-    railList.appendChild(b);
+
+  const groups = new Map();
+  PROJECTS.forEach((p, i) => { const g = groupOf(p); if (!groups.has(g)) groups.set(g, []); groups.get(g).push(i); });
+  railCount.textContent = `현장 ${PROJECTS.length} · 목록 ${groups.size}`;
+  const activeGroup = PROJECTS[pi] ? groupOf(PROJECTS[pi]) : null;
+  let n = 0;
+  groups.forEach((idxs, g) => {
+    const label = String(++n).padStart(2, "0");
+    if (idxs.length === 1) { const i = idxs[0]; railList.appendChild(projItem(PROJECTS[i], i, label, false)); return; }
+    const open = openGroups.has(g) || (g === activeGroup && !openGroups.has("__closed__" + g));
+    const f = document.createElement("button");
+    f.className = "item folder" + (open ? " open" : "") + (g === activeGroup ? " has-active" : "");
+    f.setAttribute("aria-expanded", open ? "true" : "false");
+    f.title = `${g} · ${idxs.length}개 현장`;
+    f.innerHTML = `<span class="idx">${label}</span><span class="chev">▶</span><span class="t">${esc(g)}</span><span class="cnt">${idxs.length}</span>`;
+    f.addEventListener("click", () => {
+      if (open) { openGroups.delete(g); if (g === activeGroup) openGroups.add("__closed__" + g); }
+      else { openGroups.add(g); openGroups.delete("__closed__" + g); }
+      saveOpen(); buildRail();
+    });
+    railList.appendChild(f);
+    if (open) idxs.forEach((i) => railList.appendChild(projItem(PROJECTS[i], i, "", true)));
   });
 }
 
@@ -540,8 +583,9 @@ function render() {
   const main = document.getElementById("main");
   const p = PROJECTS[pi];
   document.getElementById("navCurrent").textContent = p.name;
-  document.querySelectorAll(".item").forEach((el) => {
-    el.classList.toggle("active", Number(el.querySelector(".idx").textContent) - 1 === pi);
+  if (railGroup !== groupOf(p)) { railGroup = groupOf(p); buildRail(); }
+  document.querySelectorAll("#railList .item[data-pi]").forEach((el) => {
+    el.classList.toggle("active", Number(el.dataset.pi) === pi);
   });
 
   const metaLine = Object.values(p.meta || {}).slice(0, 3).join("  ·  ");
