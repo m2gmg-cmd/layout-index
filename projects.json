@@ -19231,6 +19231,90 @@
           }
         ]
       }
+    },
+    {
+      "name": "연동대림 101동 1105호",
+      "type": "아파트",
+      "status": "plan",
+      "meta": {
+        "평형": "34",
+        "위치": "",
+        "구조": ""
+      },
+      "cad": "",
+      "note": "",
+      "alts": [
+        {
+          "code": "ALT-A",
+          "title": "",
+          "images": [
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": ""
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8cxc87p72.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8cyv48z3s.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8d5t9ka1l.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8d84u9u9k.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8da0ihzz1.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8dbhhnbj7.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8dcplui5w.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8de9cvxo4.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8dfx0aod5.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8dhkmqntp.jpg"
+            },
+            {
+              "cat": "평면도",
+              "caption": "",
+              "src": "images/img-mvq8djtt71xk.jpg"
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "images/img-mvq8hb6pdh2f.jpg",
+        "caption": ""
+      }
     }
   ]
 }
