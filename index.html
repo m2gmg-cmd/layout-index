@@ -216,6 +216,71 @@
     font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--graphite);
     background: var(--paper); border: 1px solid var(--line); border-radius: 2px; padding: 1px 7px;
   }
+  /* ---- 전체 보기 (폴더처럼 한 번에 펼쳐보기) ---- */
+  .openall {
+    position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    display: inline-flex; align-items: center; gap: 8px; z-index: 2;
+    font: inherit; font-size: 14px; font-weight: 500; color: #fff;
+    background: rgba(20, 22, 26, 0.78); border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 999px; padding: 10px 18px; cursor: pointer;
+    opacity: 0; transition: opacity 0.15s ease; backdrop-filter: blur(4px);
+  }
+  .openall svg { width: 18px; height: 18px; }
+  .openall .n { font-family: "IBM Plex Mono", monospace; font-size: 12px; opacity: 0.8; }
+  .stage:hover .openall, .openall:focus-visible { opacity: 1; }
+  .openall:hover { background: rgba(20, 22, 26, 0.92); }
+  @media (hover: none) {
+    .openall { opacity: 1; left: 12px; top: auto; bottom: 10px; transform: none; padding: 6px 12px; font-size: 12.5px; }
+  }
+
+  .gv { position: fixed; inset: 0; z-index: 50; background: var(--paper); display: flex; flex-direction: column; }
+  .gv[hidden] { display: none; }
+  .gv-head {
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--sheet);
+  }
+  .gv-head .tt { font-size: 15px; font-weight: 600; }
+  .gv-head .tt small { font-weight: 400; color: var(--graphite); margin-left: 8px; font-family: "IBM Plex Mono", monospace; font-size: 12px; }
+  .gv-head .phases { margin: 0; }
+  .gv-head .sp { flex: 1; }
+  .gv-x {
+    font: inherit; font-size: 13.5px; color: var(--ink); background: var(--sheet);
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 12px; cursor: pointer;
+  }
+  .gv-x:hover { border-color: var(--ink); }
+  .gv-body { flex: 1; overflow-y: auto; padding: 18px 20px 40px; }
+  .gv-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+  .gv-cell {
+    position: relative; aspect-ratio: 4 / 3; padding: 0; cursor: zoom-in;
+    border: 1px solid var(--line); border-radius: var(--radius); background: var(--stage); overflow: hidden;
+  }
+  .gv-cell img, .gv-cell svg { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s ease; }
+  .gv-cell:hover { border-color: var(--blue); }
+  .gv-cell:hover img { transform: scale(1.04); }
+  .gv-cell.cur { border-color: var(--blue); box-shadow: 0 0 0 1px var(--blue); }
+  .gv-cell .no {
+    position: absolute; left: 6px; bottom: 6px; font-family: "IBM Plex Mono", monospace; font-size: 10.5px;
+    color: #fff; background: rgba(0, 0, 0, 0.55); border-radius: 2px; padding: 1px 6px;
+  }
+  @media (max-width: 640px) { .gv-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 6px; } .gv-body { padding: 10px; } }
+
+  .lb { position: fixed; inset: 0; z-index: 60; background: rgba(10, 11, 13, 0.94); display: flex; align-items: center; justify-content: center; }
+  .lb[hidden] { display: none; }
+  .lb .frame { width: 100%; height: 100%; padding: 56px 70px; display: flex; align-items: center; justify-content: center; }
+  .lb .frame img, .lb .frame svg { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+  .lb .nav { color: rgba(255, 255, 255, 0.7); width: 70px; }
+  .lb .nav:hover:not(:disabled) { color: #fff; }
+  .lb .nav svg { width: 30px; height: 30px; }
+  .lb-top { position: absolute; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 10px; padding: 12px 16px; color: #fff; font-size: 13.5px; }
+  .lb-top .sp { flex: 1; }
+  .lb-top .cnt { font-family: "IBM Plex Mono", monospace; font-size: 12px; opacity: 0.8; }
+  .lb-top button {
+    font: inherit; font-size: 13px; color: #fff; background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25); border-radius: var(--radius); padding: 5px 11px; cursor: pointer;
+  }
+  .lb-top button:hover { background: rgba(255, 255, 255, 0.2); }
+  @media (max-width: 640px) { .lb .frame { padding: 52px 8px; } .lb .nav { width: 44px; } }
+
   .caption { font-size: 13.5px; color: var(--graphite); margin: 10px 2px 0; }
   .caption b { color: var(--ink); font-weight: 500; }
 
@@ -365,6 +430,18 @@
 
     <main class="main" id="main"></main>
   </div>
+
+  <div class="gv" id="gv" hidden role="dialog" aria-modal="true" aria-label="사진 전체 보기">
+    <div class="gv-head" id="gvHead"></div>
+    <div class="gv-body" id="gvBody"></div>
+  </div>
+  <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="사진 크게 보기">
+    <div class="lb-top"><span id="lbTitle"></span><span class="cnt" id="lbCnt"></span><span class="sp"></span>
+      <button id="lbGrid">▦ 목록으로</button><button id="lbClose">닫기 ✕</button></div>
+    <button class="nav prev" id="lbPrev" aria-label="이전"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="frame" id="lbFrame"></div>
+    <button class="nav next" id="lbNext" aria-label="다음"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
 </div>
 
 <script>
@@ -467,6 +544,7 @@ function unlock() {
   });
 
   document.addEventListener("keydown", (e) => {
+    if (gvKey(e)) return;
     if (e.key === "Escape") { toggleRail(false); return; }
     if (e.target.matches("input, textarea") || ai === -1) return;
     const list = filtered();
@@ -673,7 +751,7 @@ function render() {
       `<div class="frame">${media(cur.src, phName, cur.cat || "")}</div>` +
       `<button class="nav next" id="next" aria-label="다음" ${ii >= list.length - 1 ? "disabled" : ""}>` +
       `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>` +
-      `<span class="counter">${ii + 1} / ${list.length}</span>` +
+      `<span class="counter">${ii + 1} / ${list.length}</span>` + openAllBtn(list.length) +
       `</div>` +
       `<div class="caption"><b>${esc(phName)}</b> &nbsp;${esc(cur.cat || "")}</div>`;
     const pcats = [...new Set(p.progress[ph].map((x) => x.cat).filter(Boolean))];
@@ -712,7 +790,7 @@ function render() {
     `<div class="frame">${media(cur.src, cur.cat, cur.caption)}</div>` +
     `<button class="nav next" id="next" aria-label="다음" ${ii >= list.length - 1 ? "disabled" : ""}>` +
     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>` +
-    `<span class="counter">${ii + 1} / ${list.length}</span>` +
+    `<span class="counter">${ii + 1} / ${list.length}</span>` + openAllBtn(list.length) +
     `</div>` +
     `<div class="caption"><b>${esc(cur.cat)}</b> &nbsp;${esc(cur.caption)}</div>`;
 
@@ -841,7 +919,114 @@ async function runBackup(mode) {
   }
 }
 
+/* ---------- 전체 보기 (그리드) + 크게 보기 ---------- */
+const gv = document.getElementById("gv"), gvHead = document.getElementById("gvHead"), gvBody = document.getElementById("gvBody");
+const lb = document.getElementById("lb"), lbFrame = document.getElementById("lbFrame");
+let lbi = -1, gvScroll = 0;
+
+function openAllBtn(n) {
+  if (n < 2) return "";
+  return `<button class="openall" type="button" title="이 폴더의 사진을 한 화면에 모두 보기">` +
+    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>` +
+    `전체 보기 <span class="n">${n}장</span></button>`;
+}
+function bindOpenAll() {
+  document.querySelector("#main .openall")?.addEventListener("click", (e) => { e.stopPropagation(); openGrid(); });
+  // 큰 사진 자체를 눌러도 크게 보기
+  const fr = document.querySelector("#main .stage .frame");
+  if (fr && ai !== -1) { fr.style.cursor = "zoom-in"; fr.addEventListener("click", () => openLb(ii, false)); }
+}
+function viewLabel() {
+  const p = PROJECTS[pi];
+  if (ai === -2) return PHASES.find(([k]) => k === ph)[1] + (cat ? " · " + cat : "");
+  const alt = p.alts[ai];
+  return (alt.code || "") + (alt.title ? " " + alt.title : "") + (cat ? " · " + cat : "");
+}
+function itemInfo(im, i) {
+  const phName = ai === -2 ? PHASES.find(([k]) => k === ph)[1] : (im.cat || "");
+  return { cat: phName, cap: ai === -2 ? (im.cat || "") : (im.caption || ""), aria: `${phName} ${i + 1}` };
+}
+function lockScroll(on) { document.documentElement.style.overflow = on ? "hidden" : ""; }
+
+function openGrid() { gvScroll = 0; renderGrid(); gv.hidden = false; lockScroll(true); scrollGridToCur(); gv.querySelector(".gv-x")?.focus(); }
+function closeGrid() { gv.hidden = true; if (lb.hidden) lockScroll(false); render(); }
+function scrollGridToCur() {
+  const c = gvBody.querySelector(".gv-cell.cur");
+  if (c && c.offsetTop > gvBody.clientHeight - c.clientHeight) gvBody.scrollTop = c.offsetTop - gvBody.clientHeight / 3;
+}
+function renderGrid() {
+  const p = PROJECTS[pi], list = filtered();
+  let h = `<span class="tt">${esc(p.name)}<small>${esc(viewLabel())} · ${list.length}장</small></span>`;
+  if (ai === -2) {
+    h += `<div class="phases">` + phaseList(p).map(([k, label]) =>
+      `<button class="phase${k === ph ? " active" : ""}" data-gph="${k}">${label}<span class="n">${p.progress[k].length}</span></button>`).join("") + `</div>`;
+  }
+  h += `<span class="sp"></span><button class="gv-x" type="button">닫기 ✕</button>`;
+  gvHead.innerHTML = h;
+  gvBody.innerHTML = `<div class="gv-grid">` + list.map((im, i) => {
+    const f = itemInfo(im, i);
+    return `<button class="gv-cell${i === ii ? " cur" : ""}" data-gi="${i}" aria-label="${esc(f.aria)}">${thumb(im.src, f.cat, f.cap)}<span class="no">${i + 1}</span></button>`;
+  }).join("") + `</div>`;
+  gvHead.querySelector(".gv-x").addEventListener("click", closeGrid);
+  gvHead.querySelectorAll("[data-gph]").forEach((b) => b.addEventListener("click", () => {
+    ph = b.dataset.gph; cat = null; ii = 0; renderGrid(); gvBody.scrollTop = 0;
+  }));
+  gvBody.querySelectorAll(".gv-cell").forEach((b) => b.addEventListener("click", () => openLb(Number(b.dataset.gi), true)));
+}
+
+let lbFromGrid = false;
+function openLb(i, fromGrid) {
+  lbFromGrid = fromGrid; gvScroll = gvBody.scrollTop;
+  lbi = i; drawLb(); lb.hidden = false; lockScroll(true);
+}
+function drawLb() {
+  const list = filtered(), im = list[lbi]; if (!im) return;
+  const f = itemInfo(im, lbi);
+  lbFrame.innerHTML = media(im.src, f.cat, f.cap);
+  document.getElementById("lbTitle").textContent = viewLabel() + (f.cap && ai !== -2 ? " · " + f.cap : "");
+  document.getElementById("lbCnt").textContent = `${lbi + 1} / ${list.length}`;
+  document.getElementById("lbPrev").disabled = lbi === 0;
+  document.getElementById("lbNext").disabled = lbi >= list.length - 1;
+  // 다음 사진 미리 불러오기
+  [lbi + 1, lbi - 1].forEach((j) => { const n = list[j]; if (n && n.src && !n.src.startsWith("plan:")) { const x = new Image(); x.src = n.src; } });
+}
+function stepLb(d) { const n = filtered().length; const j = lbi + d; if (j >= 0 && j < n) { lbi = j; drawLb(); } }
+function closeLb(toGrid) {
+  lb.hidden = true; ii = lbi;
+  if (toGrid) {
+    if (gv.hidden) { renderGrid(); gv.hidden = false; scrollGridToCur(); }
+    else { gvBody.querySelectorAll(".gv-cell").forEach((c) => c.classList.toggle("cur", Number(c.dataset.gi) === ii)); gvBody.scrollTop = gvScroll; scrollGridToCur(); }
+    return;
+  }
+  gv.hidden = true; lockScroll(false); render();
+}
+document.getElementById("lbPrev").addEventListener("click", () => stepLb(-1));
+document.getElementById("lbNext").addEventListener("click", () => stepLb(1));
+document.getElementById("lbGrid").addEventListener("click", () => closeLb(true));
+document.getElementById("lbClose").addEventListener("click", () => closeLb(false));
+lb.addEventListener("click", (e) => { if (e.target === lb || e.target === lbFrame) closeLb(lbFromGrid); });
+// 모바일 스와이프
+let tx = null;
+lb.addEventListener("touchstart", (e) => { tx = e.touches[0].clientX; }, { passive: true });
+lb.addEventListener("touchend", (e) => {
+  if (tx === null) return; const dx = e.changedTouches[0].clientX - tx; tx = null;
+  if (Math.abs(dx) > 50) stepLb(dx < 0 ? 1 : -1);
+});
+
+function gvKey(e) {
+  if (!lb.hidden) {
+    if (e.key === "Escape") closeLb(lbFromGrid);
+    else if (e.key === "ArrowLeft") stepLb(-1);
+    else if (e.key === "ArrowRight") stepLb(1);
+    else return true;
+    e.preventDefault(); return true;
+  }
+  if (!gv.hidden) { if (e.key === "Escape") { e.preventDefault(); closeGrid(); } return true; }
+  return false;
+}
+
 function bindAlts() {
+  bindOpenAll();
   document.querySelectorAll(".alt").forEach((el) => el.addEventListener("click", () => {
     ai = Number(el.dataset.a); cat = null; ii = 0; render();
   }));
