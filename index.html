@@ -550,7 +550,8 @@ function buildRail() {
   railCount.textContent = `현장 ${PROJECTS.length} · 목록 ${groups.size}`;
   const activeGroup = PROJECTS[pi] ? groupOf(PROJECTS[pi]) : null;
   let n = 0;
-  groups.forEach((idxs, g) => {
+  const ordered = [...groups].sort((a, b) => (b[1].length > 1) - (a[1].length > 1));
+  ordered.forEach(([g, idxs]) => {
     const label = String(++n).padStart(2, "0");
     if (idxs.length === 1) { const i = idxs[0]; railList.appendChild(projItem(PROJECTS[i], i, label, false)); return; }
     const open = openGroups.has(g) || (g === activeGroup && !openGroups.has("__closed__" + g));
