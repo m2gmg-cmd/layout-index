@@ -108,6 +108,7 @@
   .pcell .pv { aspect-ratio:4/3; background:var(--stage); display:flex; align-items:center; justify-content:center; font-size:11px; color:var(--graphite); }
   .pcell .pv img { width:100%; height:100%; object-fit:cover; display:block; }
   .pcell input { border:0; border-top:1px solid var(--line); border-radius:0; padding:4px 6px; font-size:12px; }
+  .pcell .rmsel { width:100%; border:0; border-top:1px solid var(--line); border-radius:0; padding:3px 4px; font-size:12px; background:var(--sheet); color:var(--ink); }
   .pcell .pa { display:flex; border-top:1px solid var(--line); }
   .pcell .pa button { flex:1; border:0; border-right:1px solid var(--line); border-radius:0; padding:3px 0; font-size:12px; background:none; }
   .pcell .pa button:last-child { border-right:0; }
@@ -515,6 +516,7 @@ async function putFile(path, content, message) {
 }
 
 const PHASES = [["전", "공사 전"], ["중", "공사 중"], ["후", "공사 후"]];
+const ROOMS = ["거실", "주방", "욕실", "안방", "침실", "현관", "발코니", "드레스룸", "기타"];
 function renderProgress(p) {
   const wrap = $("progBox"); wrap.innerHTML = "";
   PHASES.forEach(([k, label]) => {
@@ -532,8 +534,11 @@ function renderProgress(p) {
       c.className = "pcell";
       c.innerHTML = `<div class="pv">${imgPreview(im.src).replace("<img ", '<img loading="lazy" ')}</div>` +
         (k === "중" ? `<input value="${escapeAttr(im.cat || "")}" placeholder="공정 (예: 목공)" />` : "") +
+        `<select class="rmsel" title="실 (거실·주방…)"><option value="">실 선택</option>` +
+        ROOMS.map((r) => `<option${im.room === r ? " selected" : ""}>${r}</option>`).join("") + `</select>` +
         `<div class="pa"><button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="삭제">×</button></div>`;
       c.querySelector("input")?.addEventListener("input", (e) => { if (e.target.value) im.cat = e.target.value; else delete im.cat; markDirty(); });
+      c.querySelector(".rmsel").addEventListener("change", (e) => { if (e.target.value) im.room = e.target.value; else delete im.room; markDirty(); });
       const [bL, bR, bX] = c.querySelectorAll(".pa button");
       bL.onclick = () => { if (i > 0) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); renderProgress(p); } };
       bR.onclick = () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; markDirty(); renderProgress(p); } };
