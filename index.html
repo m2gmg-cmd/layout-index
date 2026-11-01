@@ -659,9 +659,11 @@ function thumb(src, category, caption) { return media(src, category, caption, ca
 
 const OPEN_KEY = "railOpenGroups";
 let railGroup = null;
+// 새로 들어오면 폴더는 항상 모두 접힌 상태로 시작 (열림 상태를 저장하지 않음)
 let openGroups = new Set();
-try { openGroups = new Set(JSON.parse(localStorage.getItem(OPEN_KEY) || "[]")); } catch {}
-function saveOpen() { try { localStorage.setItem(OPEN_KEY, JSON.stringify([...openGroups])); } catch {} }
+let picked = false; // 사용자가 현장을 직접 고른 뒤에만 그 현장 폴더를 자동으로 펼침
+try { localStorage.removeItem(OPEN_KEY); } catch {}
+function saveOpen() {}
 function groupOf(p) { return (p.group || "").trim() || p.name; }
 function shortName(p, g) {
   const n = p.name || "";
@@ -679,7 +681,7 @@ function projItem(p, i, label, child) {
     (child ? "" : `<span class="idx">${label}</span>`) +
     `<span class="t">${esc(child ? shortName(p, groupOf(p)) : p.name)}</span>` +
     `<span class="dot ${s.cls}"></span>`;
-  b.addEventListener("click", () => { leaveGallery(); pi = i; ai = -1; cat = null; rm = null; ii = 0; ci = 0; toggleRail(false); render(); });
+  b.addEventListener("click", () => { leaveGallery(); picked = true; pi = i; ai = -1; cat = null; rm = null; ii = 0; ci = 0; toggleRail(false); render(); });
   return b;
 }
 
@@ -709,7 +711,7 @@ function buildRail() {
   ordered.forEach(([g, idxs]) => {
     const label = String(++n).padStart(2, "0");
     if (idxs.length === 1) { const i = idxs[0]; railList.appendChild(projItem(PROJECTS[i], i, label, false)); return; }
-    const open = openGroups.has(g) || (g === activeGroup && !openGroups.has("__closed__" + g));
+    const open = openGroups.has(g) || (picked && g === activeGroup && !openGroups.has("__closed__" + g));
     const f = document.createElement("button");
     f.className = "item folder" + (open ? " open" : "") + (g === activeGroup ? " has-active" : "");
     f.setAttribute("aria-expanded", open ? "true" : "false");
@@ -1183,7 +1185,7 @@ function renderGallery(main) {
   main.querySelectorAll(".gal-grid .gv-cell").forEach((b) => b.addEventListener("click", () => openLb(Number(b.dataset.gi), false)));
   main.querySelectorAll("[data-gp]").forEach((b) => b.addEventListener("click", () => {
     const r = grm === "미분류" ? null : grm;
-    leaveGallery(); pi = Number(b.dataset.gp); ai = -2; ph = "후"; rm = r; cat = null; ii = 0; ci = 0;
+    leaveGallery(); picked = true; railGroup = null; pi = Number(b.dataset.gp); ai = -2; ph = "후"; rm = r; cat = null; ii = 0; ci = 0;
     render(); window.scrollTo(0, 0);
   }));
 }
