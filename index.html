@@ -111,7 +111,7 @@
   .bkmenu button:hover { background: var(--stage); }
   .bkmenu b { display: block; font-size: 13.5px; font-weight: 500; }
   .bkmenu small { display: block; font-size: 12px; color: var(--graphite); margin-top: 2px; }
-  @media (max-width: 520px) { #bkLbl { display: none; } .bar .cur { max-width: 34vw; } }
+  @media (max-width: 520px) { #bkLbl, .galbtn span { display: none; } .bar .cur { max-width: 34vw; } }
 
   /* ---- 레이아웃 ---- */
   .layout { display: grid; grid-template-columns: var(--rail-w) minmax(0, 1fr); }
@@ -315,6 +315,34 @@
   .room.active { background: var(--blue); border-color: var(--blue); color: #fff; font-weight: 500; }
   .room .n { font-family: "IBM Plex Mono", monospace; font-size: 11px; margin-left: 5px; opacity: 0.7; }
   .gv-head .rooms { margin: 0; flex-basis: 100%; }
+
+  /* ---- 공간별 모아보기 (전 현장 공사 후 사진) ---- */
+  .rail-gal {
+    display: flex; align-items: center; gap: 8px; width: calc(100% - 20px); margin: 10px 10px 2px;
+    font: inherit; font-size: 13px; font-weight: 600; text-align: left; cursor: pointer;
+    color: var(--blue); background: var(--blue-wash); border: 1px solid transparent;
+    border-radius: var(--radius); padding: 8px 10px;
+  }
+  .rail-gal:hover { border-color: var(--blue); }
+  .rail-gal.active { background: var(--blue); color: #fff; }
+  .rail-gal svg { width: 16px; height: 16px; flex: 0 0 auto; }
+  .rail-gal small { display: block; font-weight: 400; font-size: 11px; opacity: 0.8; }
+  .galbtn.active { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .gal-rooms { position: sticky; top: var(--bar-h); z-index: 5; background: var(--paper); padding: 10px 0; margin: 4px 0 8px; border-bottom: 1px solid var(--line-soft); }
+  .gal-rooms .room { font-size: 14.5px; padding: 6px 16px; }
+  .gal-sec { margin: 22px 0 6px; }
+  .gal-sh { display: flex; align-items: baseline; gap: 10px; margin: 0 0 8px; }
+  .gal-sh b { font-size: 15px; font-weight: 600; }
+  .gal-sh .n { font-family: "IBM Plex Mono", monospace; font-size: 11.5px; color: var(--graphite); }
+  .gal-sh .go {
+    margin-left: auto; font: inherit; font-size: 12.5px; color: var(--blue); background: none;
+    border: 0; padding: 0; cursor: pointer; white-space: nowrap;
+  }
+  .gal-sh .go:hover { text-decoration: underline; }
+  .gal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+  .gal-grid .gv-cell { aspect-ratio: 4 / 3; }
+  .gal-empty { padding: 40px 0; text-align: center; color: var(--graphite); }
+  @media (max-width: 640px) { .gal-grid { grid-template-columns: repeat(2, 1fr); gap: 5px; } .gal-rooms { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; } .gal-rooms::-webkit-scrollbar { display: none; } .gal-rooms .room { font-size: 13.5px; padding: 5px 12px; flex: 0 0 auto; } }
   .strip { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; }
   .frameless {
     flex: 0 0 auto; width: 108px; height: 72px; padding: 0; cursor: pointer;
@@ -419,6 +447,9 @@
     </button>
     <div class="studio"><span id="studioName">스튜디오</span><small>Client reference</small></div>
     <span class="cur" id="navCurrent"></span>
+    <button class="bkbtn galbtn" id="galBtn" type="button" title="모든 현장의 공사 후 사진을 거실·주방·욕실처럼 공간별로 모아 보기">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg><span>공간별 사진</span>
+    </button>
     <div class="bk">
       <button class="bkbtn" id="bkBtn" aria-haspopup="true" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span id="bkLbl">백업</span>
@@ -437,6 +468,10 @@
       <div class="rail-search">
         <input id="railSearch" type="search" placeholder="현장 이름·유형 검색" autocomplete="off" aria-label="현장 검색" />
       </div>
+      <button class="rail-gal" id="railGal" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        <span>공간별 완공사진<small>거실·주방·욕실… 전 현장</small></span>
+      </button>
       <div class="rail-count" id="railCount"></div>
       <div class="rail-list" id="railList"></div>
     </aside>
@@ -511,6 +546,23 @@ const menuBtn = document.getElementById("menuBtn");
 let DATA = null, PROJECTS = [];
 let pi = 0, ai = -1, cat = null, ii = 0, ci = 0, q = "", ph = "", rm = null;
 const ROOMS = ["거실", "주방", "욕실", "안방", "침실", "현관", "발코니", "드레스룸", "기타"];
+// 공간별 모아보기: gm = 모아보기 화면 여부, grm = 고른 공간
+let gm = false, grm = "거실";
+const GAL_ROOMS = [...ROOMS, "미분류"];
+const galRoom = (im) => im.room || "미분류";
+function galAll() {
+  return PROJECTS.flatMap((p, i) => ((p.progress && p.progress["후"]) || []).map((im) => ({ ...im, _ph: "후", _pi: i })));
+}
+function galList() { return galAll().filter((im) => galRoom(im) === grm); }
+function openGallery(room) {
+  gm = true; if (room) grm = room; ii = 0;
+  toggleRail(false); render(); window.scrollTo(0, 0);
+  try { history.replaceState(null, "", "#공간별=" + encodeURIComponent(grm)); } catch {}
+}
+function leaveGallery() {
+  if (!gm) return; gm = false;
+  try { history.replaceState(null, "", location.pathname + location.search); } catch {}
+}
 function phLabel(k) { return k === "all" ? "전체" : (PHASES.find(([x]) => x === k) || [, ""])[1]; }
 // 단계별 사진 목록 (k = "all" 이면 전·중·후를 순서대로 이어붙임). 각 사진에 _ph(단계)를 붙여서 돌려줌
 function phaseArr(p, k) {
@@ -551,8 +603,12 @@ async function loadData() {
 function unlock() {
   gate.hidden = true;
   app.hidden = false;
+  const hm = /^#공간별(?:=(.*))?$/.exec(decodeURIComponent(location.hash || ""));
+  if (hm) { gm = true; if (hm[1] && GAL_ROOMS.includes(hm[1])) grm = hm[1]; }
   buildRail();
   render();
+  document.getElementById("galBtn").addEventListener("click", () => openGallery());
+  document.getElementById("railGal").addEventListener("click", () => openGallery());
 
   menuBtn.addEventListener("click", () => toggleRail());
   scrim.addEventListener("click", () => toggleRail(false));
@@ -566,7 +622,7 @@ function unlock() {
   document.addEventListener("keydown", (e) => {
     if (gvKey(e)) return;
     if (e.key === "Escape") { toggleRail(false); return; }
-    if (e.target.matches("input, textarea") || ai === -1) return;
+    if (e.target.matches("input, textarea") || ai === -1 || gm) return;
     const list = filtered();
     if (e.key === "ArrowLeft" && ii > 0) { ii--; render(); }
     if (e.key === "ArrowRight" && ii < list.length - 1) { ii++; render(); }
@@ -616,14 +672,14 @@ function shortName(p, g) {
 function projItem(p, i, label, child) {
   const s = STATUS[p.status] || STATUS.plan;
   const b = document.createElement("button");
-  b.className = "item" + (child ? " child" : "") + (i === pi ? " active" : "");
+  b.className = "item" + (child ? " child" : "") + (i === pi && !gm ? " active" : "");
   b.dataset.pi = i;
   b.title = `${p.name} · ${s.label}${p.type ? " · " + p.type : ""}`;
   b.innerHTML =
     (child ? "" : `<span class="idx">${label}</span>`) +
     `<span class="t">${esc(child ? shortName(p, groupOf(p)) : p.name)}</span>` +
     `<span class="dot ${s.cls}"></span>`;
-  b.addEventListener("click", () => { pi = i; ai = -1; cat = null; rm = null; ii = 0; ci = 0; toggleRail(false); render(); });
+  b.addEventListener("click", () => { leaveGallery(); pi = i; ai = -1; cat = null; rm = null; ii = 0; ci = 0; toggleRail(false); render(); });
   return b;
 }
 
@@ -670,6 +726,7 @@ function buildRail() {
 }
 
 function filtered() {
+  if (gm) return galList();
   const p = PROJECTS[pi];
   if (ai === -2) {
     return phaseArr(p, ph).filter((x) => (!rm || x.room === rm) && (!cat || x.cat === cat));
@@ -680,6 +737,9 @@ function filtered() {
 
 function render() {
   const main = document.getElementById("main");
+  document.getElementById("galBtn").classList.toggle("active", gm);
+  document.getElementById("railGal").classList.toggle("active", gm);
+  if (gm) { renderGallery(main); return; }
   const p = PROJECTS[pi];
   document.getElementById("navCurrent").textContent = p.name;
   if (railGroup !== groupOf(p)) { railGroup = groupOf(p); buildRail(); }
@@ -982,12 +1042,17 @@ function bindOpenAll() {
   if (fr && ai !== -1) { fr.style.cursor = "zoom-in"; fr.addEventListener("click", () => openLb(ii, false)); }
 }
 function viewLabel() {
+  if (gm) return "공간별 · " + grm;
   const p = PROJECTS[pi];
   if (ai === -2) return (ph === "all" ? "전·중·후" : phLabel(ph)) + (rm ? " · " + rm : "") + (cat ? " · " + cat : "");
   const alt = p.alts[ai];
   return (alt.code || "") + (alt.title ? " " + alt.title : "") + (cat ? " · " + cat : "");
 }
 function itemInfo(im, i) {
+  if (gm) {
+    const pn = (PROJECTS[im._pi] || {}).name || "";
+    return { cat: galRoom(im), cap: pn, aria: `${galRoom(im)} ${pn} ${i + 1}` };
+  }
   if (ai === -2) {
     const pn = phLabel(im._ph || ph);
     const cap = [im.room, im.cat].filter(Boolean).join(" · ");
@@ -1027,14 +1092,14 @@ function renderGrid() {
 let lbFromGrid = false;
 function openLb(i, fromGrid) {
   lbFromGrid = fromGrid; gvScroll = gvBody.scrollTop;
-  document.getElementById("lbGrid").hidden = fromGrid;
+  document.getElementById("lbGrid").hidden = fromGrid || gm;
   lbi = i; drawLb(); lb.hidden = false; lockScroll(true);
 }
 function drawLb() {
   const list = filtered(), im = list[lbi]; if (!im) return;
   const f = itemInfo(im, lbi);
   lbFrame.innerHTML = media(im.src, f.cat, f.cap);
-  document.getElementById("lbTitle").textContent = viewLabel() + (f.cap && ai !== -2 ? " · " + f.cap : "");
+  document.getElementById("lbTitle").textContent = gm ? `${grm} · ${f.cap}` : viewLabel() + (f.cap && ai !== -2 ? " · " + f.cap : "");
   document.getElementById("lbCnt").textContent = `${lbi + 1} / ${list.length}`;
   document.getElementById("lbPrev").disabled = lbi === 0;
   document.getElementById("lbNext").disabled = lbi >= list.length - 1;
@@ -1049,6 +1114,7 @@ function closeLb(toGrid) {
     else { gvBody.querySelectorAll(".gv-cell").forEach((c) => c.classList.toggle("cur", Number(c.dataset.gi) === ii)); gvBody.scrollTop = gvScroll; scrollGridToCur(); }
     return;
   }
+  if (gm) { lockScroll(false); markGalCur(); return; }
   gv.hidden = true; lockScroll(false); render();
 }
 document.getElementById("lbPrev").addEventListener("click", () => stepLb(-1));
@@ -1074,6 +1140,58 @@ function gvKey(e) {
   }
   if (!gv.hidden) { if (e.key === "Escape") { e.preventDefault(); closeGrid(); } return true; }
   return false;
+}
+
+// ---- 공간별 모아보기 화면 ----
+function renderGallery(main) {
+  const all = galAll();
+  const cnt = {}; all.forEach((im) => { const r = galRoom(im); cnt[r] = (cnt[r] || 0) + 1; });
+  if (!cnt[grm]) grm = GAL_ROOMS.find((r) => cnt[r]) || grm;
+  const list = all.filter((im) => galRoom(im) === grm);
+  document.getElementById("navCurrent").textContent = "공간별 완공사진 · " + grm;
+  document.querySelectorAll("#railList .item[data-pi]").forEach((el) => el.classList.remove("active"));
+
+  // 현장별로 묶기 (목록 순서 유지)
+  const secs = []; const at = new Map();
+  list.forEach((im, gi) => {
+    if (!at.has(im._pi)) { at.set(im._pi, secs.length); secs.push({ pi: im._pi, items: [] }); }
+    secs[at.get(im._pi)].items.push({ im, gi });
+  });
+
+  let h = `<div class="fade">` +
+    `<div class="eyebrow">공간별 모아보기 · 공사 후</div>` +
+    `<h1 class="title">${esc(grm)} 완공사진</h1>` +
+    `<div class="subline">${secs.length}개 현장 · ${list.length}장 &nbsp;—&nbsp; 사진을 누르면 크게 볼 수 있습니다</div>` +
+    `<div class="rooms gal-rooms">` +
+    GAL_ROOMS.filter((r) => cnt[r]).map((r) =>
+      `<button class="room${r === grm ? " active" : ""}" data-gr="${esc(r)}">${esc(r)}<span class="n">${cnt[r]}</span></button>`).join("") +
+    `</div>`;
+  if (!list.length) h += `<div class="gal-empty">등록된 공사 후 사진이 없습니다</div>`;
+  secs.forEach(({ pi: sp, items }) => {
+    const p = PROJECTS[sp];
+    h += `<section class="gal-sec"><div class="gal-sh"><b>${esc(p.name)}</b><span class="n">${items.length}장</span>` +
+      `<button class="go" data-gp="${sp}">이 현장 전체 보기 →</button></div><div class="gal-grid">` +
+      items.map(({ im, gi }) => `<button class="gv-cell" data-gi="${gi}" aria-label="${esc(grm + " " + p.name + " " + (gi + 1))}">${thumb(im.src, grm, p.name)}</button>`).join("") +
+      `</div></section>`;
+  });
+  main.innerHTML = h + `</div>`;
+  main.querySelectorAll("[data-gr]").forEach((b) => b.addEventListener("click", () => {
+    grm = b.dataset.gr; ii = 0; render();
+    try { history.replaceState(null, "", "#공간별=" + encodeURIComponent(grm)); } catch {}
+    const top = main.querySelector(".gal-rooms"); if (top && window.scrollY > top.offsetTop) window.scrollTo(0, 0);
+  }));
+  main.querySelectorAll(".gal-grid .gv-cell").forEach((b) => b.addEventListener("click", () => openLb(Number(b.dataset.gi), false)));
+  main.querySelectorAll("[data-gp]").forEach((b) => b.addEventListener("click", () => {
+    const r = grm === "미분류" ? null : grm;
+    leaveGallery(); pi = Number(b.dataset.gp); ai = -2; ph = "후"; rm = r; cat = null; ii = 0; ci = 0;
+    render(); window.scrollTo(0, 0);
+  }));
+}
+function markGalCur() {
+  const cells = document.querySelectorAll("#main .gal-grid .gv-cell");
+  cells.forEach((c) => c.classList.toggle("cur", Number(c.dataset.gi) === ii));
+  const c = document.querySelector(`#main .gal-grid .gv-cell[data-gi="${ii}"]`);
+  if (c) { const r = c.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight) c.scrollIntoView({ block: "center" }); }
 }
 
 function bindAlts() {
