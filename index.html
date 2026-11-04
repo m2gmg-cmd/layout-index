@@ -550,8 +550,9 @@ const ROOMS = ["거실", "주방", "욕실", "안방", "침실", "현관", "발�
 let gm = false, grm = "거실";
 const GAL_ROOMS = [...ROOMS, "미분류"];
 const galRoom = (im) => im.room || "미분류";
+// 공간별 모아보기는 현장 사진(progress)과 따로 관리: 각 현장의 p.best(직원이 고른 잘 나온 사진)만 보여줌
 function galAll() {
-  return PROJECTS.flatMap((p, i) => ((p.progress && p.progress["후"]) || []).map((im) => ({ ...im, _ph: "후", _pi: i })));
+  return PROJECTS.flatMap((p, i) => (p.best || []).map((im) => ({ ...im, _ph: "후", _pi: i })));
 }
 function galList() { return galAll().filter((im) => galRoom(im) === grm); }
 function openGallery(room) {
@@ -1168,7 +1169,7 @@ function renderGallery(main) {
     GAL_ROOMS.filter((r) => cnt[r]).map((r) =>
       `<button class="room${r === grm ? " active" : ""}" data-gr="${esc(r)}">${esc(r)}<span class="n">${cnt[r]}</span></button>`).join("") +
     `</div>`;
-  if (!list.length) h += `<div class="gal-empty">등록된 공사 후 사진이 없습니다</div>`;
+  if (!list.length) h += `<div class="gal-empty">아직 고른 완공사진이 없습니다<br><small>관리자 화면 → 현장 → 공사 후 사진의 ★ 로 고르거나, 「공간별 완공사진」 칸에 보정본을 올려 주세요</small></div>`;
   secs.forEach(({ pi: sp, items }) => {
     const p = PROJECTS[sp];
     h += `<section class="gal-sec"><div class="gal-sh"><b>${esc(p.name)}</b><span class="n">${items.length}장</span>` +

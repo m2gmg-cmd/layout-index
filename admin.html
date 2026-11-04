@@ -112,6 +112,8 @@
   .pcell .pa { display:flex; border-top:1px solid var(--line); }
   .pcell .pa button { flex:1; border:0; border-right:1px solid var(--line); border-radius:0; padding:3px 0; font-size:12px; background:none; }
   .pcell .pa button:last-child { border-right:0; }
+  .pcell .pa button.star { color:var(--line); }
+  .pcell .pa button.star.on { color:#e0a100; background:#fff6d6; }
   .alt { border:1px solid var(--line); border-radius:var(--radius); padding:12px; margin-bottom:12px; }
   .alt .althead { display:flex; gap:8px; align-items:center; margin-bottom:10px; }
   .alt .althead input { flex:1; }
@@ -408,6 +410,11 @@ function renderEditor() {
       <h3>시공사진 <span class="tag">뷰어의 '시공사진' 탭 · 공사 전/중/후 · 사진·폴더를 각 칸에 끌어다 놓으면 바로 올라감</span></h3>
       <div id="progBox"></div>
     </div>
+
+    <div class="sec">
+      <h3>공간별 완공사진 <span class="tag">고객용 '공간별 사진' 화면에만 나옴 · 잘 나온 사진만 · 위 공사 후 사진의 ★ 로 고르거나 보정본을 여기에 끌어다 놓기</span></h3>
+      <div id="bestBox"></div>
+    </div>
   `;
 
   el.querySelectorAll("[data-k]").forEach((inp) => {
@@ -422,6 +429,7 @@ function renderEditor() {
   renderCover(p);
   renderAlts(p);
   renderProgress(p);
+  renderBest(p);
   renderDwg(p);
   const dwgSec = $("dwgBox").closest(".sec");
   dropZone(dwgSec, "dwg", "DWG 파일 놓기", (files) => uploadDwg(p, files));
@@ -536,10 +544,13 @@ function renderProgress(p) {
         (k === "중" ? `<input value="${escapeAttr(im.cat || "")}" placeholder="공정 (예: 목공)" />` : "") +
         `<select class="rmsel" title="실 (거실·주방…)"><option value="">실 선택</option>` +
         ROOMS.map((r) => `<option${im.room === r ? " selected" : ""}>${r}</option>`).join("") + `</select>` +
-        `<div class="pa"><button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="삭제">×</button></div>`;
+        `<div class="pa">` + (k === "후" ? `<button class="star${isBest(p, im.src) ? " on" : ""}" title="공간별 완공사진(고객용)에 넣기/빼기">★</button>` : "") +
+        `<button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="삭제">×</button></div>`;
       c.querySelector("input")?.addEventListener("input", (e) => { if (e.target.value) im.cat = e.target.value; else delete im.cat; markDirty(); });
       c.querySelector(".rmsel").addEventListener("change", (e) => { if (e.target.value) im.room = e.target.value; else delete im.room; markDirty(); });
-      const [bL, bR, bX] = c.querySelectorAll(".pa button");
+      const st = c.querySelector(".pa .star");
+      if (st) st.onclick = () => { toggleBest(p, im); renderProgress(p); renderBest(p); };
+      const [bL, bR, bX] = c.querySelectorAll(".pa button:not(.star)");
       bL.onclick = () => { if (i > 0) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); renderProgress(p); } };
       bR.onclick = () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; markDirty(); renderProgress(p); } };
       bX.onclick = () => { arr.splice(i, 1); if (!arr.length) delete p.progress[k]; markDirty(); renderProgress(p); };
@@ -560,6 +571,74 @@ function renderProgress(p) {
   dl.innerHTML = [...new Set([...used, "철거", "설비", "전기", "목공", "타일", "필름", "도장", "도배", "가구", "마루", "마감"])].map((c) => `<option value="${escapeAttr(c)}"></option>`).join("");
 }
 const progCat = {}; // 현장별로 마지막에 적은 공정 이름 기억
+
+/* ---------- 공간별 완공사진 (고객용, 현장 사진과 따로 관리) ----------
+   p.best = [{ src, room }]  — 공사 후 사진에서 ★로 고른 것(같은 파일) 또는 따로 올린 보정본 */
+function isBest(p, src) { return (p.best || []).some((b) => b.src === src); }
+function toggleBest(p, im) {
+  p.best = p.best || [];
+  const i = p.best.findIndex((b) => b.src === im.src);
+  if (i >= 0) p.best.splice(i, 1);
+  else p.best.push(im.room ? { src: im.src, room: im.room } : { src: im.src });
+  if (!p.best.length) delete p.best;
+  markDirty();
+}
+const bestRoom = {}; // 현장별로 마지막에 고른 '올릴 때 실'
+function renderBest(p) {
+  const wrap = $("bestBox"); wrap.innerHTML = "";
+  const arr = p.best || [];
+  const box = document.createElement("div");
+  box.className = "phbox";
+  const noRoom = arr.filter((b) => !b.room).length;
+  box.innerHTML = `<div class="phhead">고객용 완공사진<span class="n">${arr.length}장${noRoom ? ` · 실 미지정 ${noRoom}` : ""}</span><span class="sp"></span>` +
+    `<select data-ba="room" title="새로 올리는 사진의 실" style="width:auto;padding:3px 6px;font-size:12px"><option value="">올릴 때 실</option>` +
+    ROOMS.map((r) => `<option${bestRoom[sel] === r ? " selected" : ""}>${r}</option>`).join("") + `</select>` +
+    `<button class="mini" data-ba="add">+ 보정본 올리기</button>` +
+    (arr.length ? `<button class="mini danger" data-ba="clear">전부 빼기</button>` : "") + `</div>` +
+    (arr.length ? `<div class="pgrid"></div>` : `<p class="hint" style="margin:0;padding:18px 0;text-align:center;border:1px dashed var(--line);border-radius:var(--radius)">위 '공사 후' 사진의 ★ 를 누르거나, 보정본 사진을 여기로 끌어다 놓으세요</p>`);
+  const grid = box.querySelector(".pgrid");
+  arr.forEach((im, i) => {
+    const c = document.createElement("div");
+    c.className = "pcell";
+    c.innerHTML = `<div class="pv">${imgPreview(im.src).replace("<img ", '<img loading="lazy" ')}</div>` +
+      `<select class="rmsel" title="공간별 화면에서 보일 실"><option value="">실 선택</option>` +
+      ROOMS.map((r) => `<option${im.room === r ? " selected" : ""}>${r}</option>`).join("") + `</select>` +
+      `<div class="pa"><button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="고객용에서 빼기 (현장 사진은 그대로)">×</button></div>`;
+    c.querySelector(".rmsel").addEventListener("change", (e) => { if (e.target.value) im.room = e.target.value; else delete im.room; markDirty(); renderBest(p); });
+    const [bL, bR, bX] = c.querySelectorAll(".pa button");
+    bL.onclick = () => { if (i > 0) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); renderBest(p); } };
+    bR.onclick = () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; markDirty(); renderBest(p); } };
+    bX.onclick = () => { arr.splice(i, 1); if (!arr.length) delete p.best; markDirty(); renderBest(p); renderProgress(p); };
+    grid.appendChild(c);
+  });
+  box.querySelector('[data-ba="room"]').addEventListener("change", (e) => { bestRoom[sel] = e.target.value; });
+  box.querySelector('[data-ba="add"]').onclick = () => {
+    const inp = document.createElement("input");
+    inp.type = "file"; inp.accept = "image/*"; inp.multiple = true;
+    inp.onchange = () => uploadBest(p, [...inp.files]);
+    inp.click();
+  };
+  const clr = box.querySelector('[data-ba="clear"]');
+  if (clr) clr.onclick = () => { if (confirm(`고객용 완공사진 ${arr.length}장을 모두 뺄까요? (현장 사진은 그대로 남습니다)`)) { delete p.best; markDirty(); renderBest(p); renderProgress(p); } };
+  dropZone(box, "image", "고객용 완공사진(보정본)으로 올리기", (files) => uploadBest(p, files));
+  wrap.appendChild(box);
+}
+async function uploadBest(p, files) {
+  if (!files.length) return;
+  const arr = p.best = p.best || [];
+  const room = bestRoom[sel] || "";
+  let n = 0;
+  try {
+    for (const file of files) {
+      busy(true, `완공사진 올리는 중… ${++n} / ${files.length}`);
+      const path = await uploadImage(file, "images/best/b", 1800, 0.8);
+      arr.push(room ? { src: path, room } : { src: path });
+      markDirty();
+    }
+    setState(`완공사진 ${files.length}장 올림${room ? "" : " — 실을 골라 주세요"} · "저장" 눌러 반영`, "dirty");
+  } catch (e) { alert(e.message + `\n(${n - 1}장은 올라갔습니다)`); }
+  finally { busy(false); if (!arr.length) delete p.best; renderBest(p); }
+}
 
 function pickProgress(p, k) {
   const inp = document.createElement("input");
