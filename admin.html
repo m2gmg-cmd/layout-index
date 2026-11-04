@@ -603,8 +603,11 @@ function renderBest(p) {
     c.innerHTML = `<div class="pv">${imgPreview(im.src).replace("<img ", '<img loading="lazy" ')}</div>` +
       `<select class="rmsel" title="공간별 화면에서 보일 실"><option value="">실 선택</option>` +
       ROOMS.map((r) => `<option${im.room === r ? " selected" : ""}>${r}</option>`).join("") + `</select>` +
+      `<select class="rmsel grsel" title="완성도 — 공간별 화면에서 높은 사진·현장이 위로 올라감">` +
+      [[3, "완성도 상 ★★★"], [2, "완성도 중 ★★"], [1, "완성도 하 ★"]].map(([v, t]) => `<option value="${v}"${(Number(im.grade) || 2) === v ? " selected" : ""}>${t}</option>`).join("") + `</select>` +
       `<div class="pa"><button title="앞으로">◀</button><button title="뒤로">▶</button><button class="danger" title="고객용에서 빼기 (현장 사진은 그대로)">×</button></div>`;
     c.querySelector(".rmsel").addEventListener("change", (e) => { if (e.target.value) im.room = e.target.value; else delete im.room; markDirty(); renderBest(p); });
+    c.querySelector(".grsel").addEventListener("change", (e) => { im.grade = Number(e.target.value); markDirty(); });
     const [bL, bR, bX] = c.querySelectorAll(".pa button");
     bL.onclick = () => { if (i > 0) { [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); renderBest(p); } };
     bR.onclick = () => { if (i < arr.length - 1) { [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]; markDirty(); renderBest(p); } };

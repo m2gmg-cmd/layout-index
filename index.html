@@ -554,7 +554,21 @@ const galRoom = (im) => im.room || "미분류";
 function galAll() {
   return PROJECTS.flatMap((p, i) => (p.best || []).map((im) => ({ ...im, _ph: "후", _pi: i })));
 }
-function galList() { return galAll().filter((im) => galRoom(im) === grm); }
+// 완성도 순 정렬: 사진마다 grade(3 상·2 중·1 하). 현장 묶음은 좋은 사진이 많은 현장부터, 현장 안에서는 grade 높은 사진부터
+const galGrade = (im) => Number(im.grade) || 2;
+function galSort(list) {
+  const by = new Map();
+  list.forEach((im, k) => { if (!by.has(im._pi)) by.set(im._pi, []); by.get(im._pi).push({ im, k }); });
+  const secs = [...by.values()].map((xs) => {
+    xs.sort((a, b) => galGrade(b.im) - galGrade(a.im) || a.k - b.k);
+    const gs = xs.map((x) => galGrade(x.im));
+    const top = gs.slice(0, 3);
+    return { xs, key: [gs.filter((g) => g === 3).length, top.reduce((a, b) => a + b, 0) / top.length, gs.reduce((a, b) => a + b, 0) / gs.length] };
+  });
+  secs.sort((a, b) => b.key[0] - a.key[0] || b.key[1] - a.key[1] || b.key[2] - a.key[2]);
+  return secs.flatMap((s) => s.xs.map((x) => x.im));
+}
+function galList() { return galSort(galAll().filter((im) => galRoom(im) === grm)); }
 function openGallery(room) {
   gm = true; if (room) grm = room; ii = 0;
   toggleRail(false); render(); window.scrollTo(0, 0);
@@ -1150,7 +1164,7 @@ function renderGallery(main) {
   const all = galAll();
   const cnt = {}; all.forEach((im) => { const r = galRoom(im); cnt[r] = (cnt[r] || 0) + 1; });
   if (!cnt[grm]) grm = GAL_ROOMS.find((r) => cnt[r]) || grm;
-  const list = all.filter((im) => galRoom(im) === grm);
+  const list = galSort(all.filter((im) => galRoom(im) === grm));
   document.getElementById("navCurrent").textContent = "공간별 완공사진 · " + grm;
   document.querySelectorAll("#railList .item[data-pi]").forEach((el) => el.classList.remove("active"));
 
