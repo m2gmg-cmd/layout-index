@@ -574,10 +574,11 @@ const progCat = {}; // 현장별로 마지막에 적은 공정 이름 기억
 
 /* ---------- 공간별 완공사진 (고객용, 현장 사진과 따로 관리) ----------
    p.best = [{ src, room }]  — 공사 후 사진에서 ★로 고른 것(같은 파일) 또는 따로 올린 보정본 */
-function isBest(p, src) { return (p.best || []).some((b) => b.src === src); }
+// 구도 보정본은 src가 images/best/… 이고 orig에 원래 현장 사진 경로가 있음
+function isBest(p, src) { return (p.best || []).some((b) => b.src === src || b.orig === src); }
 function toggleBest(p, im) {
   p.best = p.best || [];
-  const i = p.best.findIndex((b) => b.src === im.src);
+  const i = p.best.findIndex((b) => b.src === im.src || b.orig === im.src);
   if (i >= 0) p.best.splice(i, 1);
   else p.best.push(im.room ? { src: im.src, room: im.room } : { src: im.src });
   if (!p.best.length) delete p.best;
