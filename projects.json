@@ -4955,7 +4955,7 @@
       ]
     },
     {
-      "name": "연동E편한세상 29py (106동)",
+      "name": "연동대림아파트(연동e편한세상) 106동 29평형",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -5154,7 +5154,7 @@
         "src": "images/img-mu2ef0y0iaca.jpg",
         "caption": ""
       },
-      "group": "연동E편한세상"
+      "group": "연동대림아파트(연동e편한세상)"
     },
     {
       "name": "노형그랜드치과",
@@ -20847,7 +20847,7 @@
       "group": "상가"
     },
     {
-      "name": "연동 대림 e편한세상 106동 1504호",
+      "name": "연동대림아파트(연동e편한세상) 1차 106동 1504호",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -21137,7 +21137,7 @@
           "src": "cad/dwg/d-50d21771c98b.dwg"
         }
       ],
-      "group": "연동 대림e편한세상 1차",
+      "group": "연동대림아파트(연동e편한세상)",
       "best": [
         {
           "src": "images/progress/5b0db9c755a2a94.jpg",
@@ -21180,7 +21180,7 @@
       ]
     },
     {
-      "name": "연동대림2차 34평형",
+      "name": "연동대림아파트(연동e편한세상) 2차 34평형",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -21298,10 +21298,10 @@
           "src": "cad/dwg/d-caad82c922a7.dwg"
         }
       ],
-      "group": "연동대림2차"
+      "group": "연동대림아파트(연동e편한세상)"
     },
     {
-      "name": "연동대림2차 46평형",
+      "name": "연동대림아파트(연동e편한세상) 2차 46평형",
       "type": "아파트",
       "status": "plan",
       "meta": {
@@ -21524,10 +21524,10 @@
         "src": "images/img-mulzvyzpy1kl.jpg",
         "caption": ""
       },
-      "group": "연동대림2차"
+      "group": "연동대림아파트(연동e편한세상)"
     },
     {
-      "name": "연동대림e편한세상1차 105동 602호",
+      "name": "연동대림아파트(연동e편한세상) 1차 105동 602호",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -22065,7 +22065,7 @@
           "src": "cad/dwg/d-b25d7f4f4523.dwg"
         }
       ],
-      "group": "연동 대림e편한세상 1차",
+      "group": "연동대림아파트(연동e편한세상)",
       "best": [
         {
           "src": "images/progress/c5ff2db0d627ebb.jpg",
@@ -22100,7 +22100,7 @@
       ]
     },
     {
-      "name": "연동대림e편한세상1차 105동 803호",
+      "name": "연동대림아파트(연동e편한세상) 1차 105동 803호",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -22387,7 +22387,7 @@
           "src": "cad/dwg/d-b19984f1ac6f.dwg"
         }
       ],
-      "group": "연동 대림e편한세상 1차",
+      "group": "연동대림아파트(연동e편한세상)",
       "best": [
         {
           "src": "images/progress/3ef2224ec7a8982.jpg",
@@ -29033,7 +29033,7 @@
       "group": "화북 삼화 부영2차"
     },
     {
-      "name": "연동대림 101동 1105호",
+      "name": "연동대림아파트(연동e편한세상) 101동 1105호",
       "type": "아파트",
       "status": "plan",
       "meta": {
@@ -29115,7 +29115,7 @@
         "src": "images/img-mvq8hb6pdh2f.jpg",
         "caption": ""
       },
-      "group": "연동대림"
+      "group": "연동대림아파트(연동e편한세상)"
     }
   ]
 }
