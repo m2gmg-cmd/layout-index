@@ -548,11 +548,13 @@ let pi = 0, ai = -1, cat = null, ii = 0, ci = 0, q = "", ph = "", rm = null;
 const ROOMS = ["거실", "주방", "욕실", "안방", "침실", "현관", "발코니", "드레스룸", "기타"];
 // 공간별 모아보기: gm = 모아보기 화면 여부, grm = 고른 공간
 let gm = false, grm = "거실";
-const GAL_ROOMS = [...ROOMS, "미분류"];
-const galRoom = (im) => im.room || "미분류";
+const GAL_ROOMS = [...ROOMS, "상가", "미분류"];
+// 좌측 「상가」 폴더 현장의 완공사진은 실 구분 없이 「상가」 한 칸에 모아 보여줌
+const isShop = (p) => (p.group || "").trim() === "상가";
+const galRoom = (im) => im._shop ? "상가" : (im.room || "미분류");
 // 공간별 모아보기는 현장 사진(progress)과 따로 관리: 각 현장의 p.best(직원이 고른 잘 나온 사진)만 보여줌
 function galAll() {
-  return PROJECTS.flatMap((p, i) => (p.best || []).map((im) => ({ ...im, _ph: "후", _pi: i })));
+  return PROJECTS.flatMap((p, i) => (p.best || []).map((im) => ({ ...im, _ph: "후", _pi: i, _shop: isShop(p) })));
 }
 // 완성도 순 정렬: 사진마다 grade(3 상·2 중·1 하). 현장 묶음은 좋은 사진이 많은 현장부터, 현장 안에서는 grade 높은 사진부터
 const galGrade = (im) => Number(im.grade) || 2;
@@ -1207,7 +1209,7 @@ function renderGallery(main) {
   }));
   main.querySelectorAll(".gal-grid .gv-cell").forEach((b) => b.addEventListener("click", () => openLb(Number(b.dataset.gi), false)));
   main.querySelectorAll("[data-gp]").forEach((b) => b.addEventListener("click", () => {
-    const r = grm === "미분류" ? null : grm;
+    const r = grm === "미분류" || grm === "상가" ? null : grm;
     leaveGallery(); picked = true; railGroup = null; pi = Number(b.dataset.gp); ai = -2; ph = "후"; rm = r; cat = null; ii = 0; ci = 0;
     render(); window.scrollTo(0, 0);
   }));
