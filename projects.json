@@ -5333,7 +5333,7 @@
       "group": "상가"
     },
     {
-      "name": "노형대림 103동 1401호154타입",
+      "name": "노형대림아파트(노형e편한세상) 103동 1401호 (154타입)",
       "type": "아파트",
       "status": "done",
       "meta": {
@@ -5912,7 +5912,7 @@
           "src": "cad/dwg/d-404ddb23cd7a.dwg"
         }
       ],
-      "group": "노형대림",
+      "group": "노형대림아파트(노형e편한세상)",
       "best": [
         {
           "src": "images/progress/2b4bb9fcd0d0fa4.jpg",
