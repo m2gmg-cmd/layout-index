@@ -15,7 +15,7 @@
     --line: #D9D7D0; --line-soft: #ECEAE3;
     --blue: #2F4B7C; --blue-wash: #E9EEF4;
     --amber: #9A6410; --green: #3F6B3A; --radius: 3px;
-    --rail-w: 236px; --bar-h: 49px;
+    --rail-w: 320px; --bar-h: 49px;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -410,7 +410,7 @@
     .layout { display: block; }
     .rail {
       position: fixed; top: var(--bar-h); left: 0; z-index: 20;
-      width: 264px; max-width: 84vw; height: calc(100vh - var(--bar-h));
+      width: 320px; max-width: 88vw; height: calc(100vh - var(--bar-h));
       transform: translateX(-100%); transition: transform 0.2s ease;
       border-right: 1px solid var(--line);
       box-shadow: 4px 0 20px -6px rgba(0, 0, 0, 0.25);
