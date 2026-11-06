@@ -163,6 +163,7 @@
   .folder.has-active .t { color: var(--blue); }
   .item.child { padding-left: 34px; }
   .item.child .t { font-size: 12px; }
+  .item .t .grp { color: var(--graphite); font-size: 11px; margin-left: 6px; }
   @media (prefers-reduced-motion: reduce) { .folder .chev { transition: none; } }
 
   /* ---- 본문 ---- */
@@ -686,6 +687,13 @@ function shortName(p, g) {
   return n;
 }
 
+// 단지명이 앞에 붙은 현장은 동·호수가 먼저 보이게: 폴더 안에선 동·호수만, 검색 결과에선 "동·호수 단지명"
+function nameHtml(p, child) {
+  const g = groupOf(p), sn = shortName(p, g);
+  if (child || sn === p.name) return esc(sn);
+  return `${esc(sn)}<span class="grp">${esc(g)}</span>`;
+}
+
 function projItem(p, i, label, child) {
   const s = STATUS[p.status] || STATUS.plan;
   const b = document.createElement("button");
@@ -694,7 +702,7 @@ function projItem(p, i, label, child) {
   b.title = `${p.name} · ${s.label}${p.type ? " · " + p.type : ""}`;
   b.innerHTML =
     (child ? "" : `<span class="idx">${label}</span>`) +
-    `<span class="t">${esc(child ? shortName(p, groupOf(p)) : p.name)}</span>` +
+    `<span class="t">${nameHtml(p, child)}</span>` +
     `<span class="dot ${s.cls}"></span>`;
   b.addEventListener("click", () => { leaveGallery(); picked = true; pi = i; ai = -1; cat = null; rm = null; ii = 0; ci = 0; toggleRail(false); render(); });
   return b;
