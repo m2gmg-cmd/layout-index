@@ -30776,7 +30776,7 @@
         ],
         "후": [
           {
-            "src": "images/progress/d162b937c182b5d.jpg",
+            "src": "images/progress/7c4b73a46c314c0.jpg",
             "room": "기타"
           },
           {
@@ -30784,7 +30784,35 @@
             "room": "기타"
           },
           {
+            "src": "images/progress/16fa6f36f4f82ec.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/8122a7ebd857070.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/f9248a893476170.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/2f074a4e4d1b2ed.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/abf07ced73902ea.jpg",
+            "room": "기타"
+          },
+          {
             "src": "images/progress/ceacf5145151c92.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/d162b937c182b5d.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/84a37ee424905bb.jpg",
             "room": "기타"
           },
           {
@@ -30792,11 +30820,27 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/7c4b73a46c314c0.jpg",
+            "src": "images/progress/ebd67dfd793e878.jpg",
             "room": "기타"
           },
           {
-            "src": "images/progress/84a37ee424905bb.jpg",
+            "src": "images/progress/a494c3e6f902014.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/788cd34bf9c32ce.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/e3e75434aece89c.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/81a8a8fe320185a.jpg",
+            "room": "기타"
+          },
+          {
+            "src": "images/progress/3d89c62bc2a52be.jpg",
             "room": "기타"
           },
           {
@@ -30876,15 +30920,7 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/81a8a8fe320185a.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/6a6351b80e1ee6c.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/2f074a4e4d1b2ed.jpg",
             "room": "기타"
           },
           {
@@ -30896,27 +30932,11 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/ebd67dfd793e878.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/e810fab6639b4ea.jpg",
             "room": "기타"
           },
           {
-            "src": "images/progress/8122a7ebd857070.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/4c1e85814b30eb9.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/abf07ced73902ea.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/e3e75434aece89c.jpg",
             "room": "기타"
           },
           {
@@ -30968,10 +30988,6 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/788cd34bf9c32ce.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/a59bd7629d3d610.jpg",
             "room": "기타"
           },
@@ -30992,15 +31008,7 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/f9248a893476170.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/289c4ec9486b22c.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/16fa6f36f4f82ec.jpg",
             "room": "기타"
           },
           {
@@ -31013,10 +31021,6 @@
           },
           {
             "src": "images/progress/f09a7c09f6d47d2.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/3d89c62bc2a52be.jpg",
             "room": "기타"
           },
           {
@@ -31100,10 +31104,6 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/a494c3e6f902014.jpg",
-            "room": "기타"
-          },
-          {
             "src": "images/progress/61a4e9088a6532c.jpg",
             "room": "기타"
           },
@@ -31142,7 +31142,7 @@
       "group": "상가",
       "best": [
         {
-          "src": "images/progress/d162b937c182b5d.jpg",
+          "src": "images/progress/7c4b73a46c314c0.jpg",
           "room": "기타",
           "grade": 3
         },
@@ -31152,27 +31152,77 @@
           "grade": 3
         },
         {
+          "src": "images/progress/16fa6f36f4f82ec.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/8122a7ebd857070.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/f9248a893476170.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/2f074a4e4d1b2ed.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/abf07ced73902ea.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/ceacf5145151c92.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/d162b937c182b5d.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
+          "src": "images/progress/84a37ee424905bb.jpg",
+          "room": "기타",
+          "grade": 3
+        },
+        {
           "src": "images/progress/39e133aaac840bc.jpg",
           "room": "기타",
           "grade": 3
         },
         {
-          "src": "images/progress/e391c1dc09c5645.jpg",
+          "src": "images/progress/ebd67dfd793e878.jpg",
           "room": "기타",
           "grade": 2
         },
         {
-          "src": "images/progress/ceacf5145151c92.jpg",
+          "src": "images/progress/a494c3e6f902014.jpg",
           "room": "기타",
           "grade": 2
         },
         {
-          "src": "images/progress/7c4b73a46c314c0.jpg",
+          "src": "images/progress/788cd34bf9c32ce.jpg",
           "room": "기타",
           "grade": 2
         },
         {
-          "src": "images/progress/84a37ee424905bb.jpg",
+          "src": "images/progress/e3e75434aece89c.jpg",
+          "room": "기타",
+          "grade": 2
+        },
+        {
+          "src": "images/progress/81a8a8fe320185a.jpg",
+          "room": "기타",
+          "grade": 2
+        },
+        {
+          "src": "images/progress/3d89c62bc2a52be.jpg",
           "room": "기타",
           "grade": 2
         }
