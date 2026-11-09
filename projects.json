@@ -1378,10 +1378,6 @@
             "room": "기타"
           },
           {
-            "src": "images/progress/af835dc28d9f352.jpg",
-            "room": "거실"
-          },
-          {
             "src": "images/progress/a664b67d8c9d6e2.jpg",
             "room": "거실"
           },
@@ -1787,10 +1783,6 @@
           },
           {
             "src": "images/progress/dd212364be53112.jpg",
-            "room": "발코니"
-          },
-          {
-            "src": "images/progress/066f7e25f6023fb.jpg",
             "room": "발코니"
           },
           {
@@ -2752,10 +2744,6 @@
             "room": "침실"
           },
           {
-            "src": "images/progress/aee422f8c68f93f.jpg",
-            "room": "드레스룸"
-          },
-          {
             "src": "images/progress/a6328d7cf90dfb1.jpg",
             "room": "침실"
           },
@@ -3351,10 +3339,6 @@
           },
           {
             "src": "images/progress/adc65b54b7825c3.jpg",
-            "room": "드레스룸"
-          },
-          {
-            "src": "images/progress/a682b3748e47b3c.jpg",
             "room": "드레스룸"
           },
           {
@@ -6977,10 +6961,6 @@
             "room": "현관"
           },
           {
-            "src": "images/progress/a939156ca4b2b72.jpg",
-            "room": "현관"
-          },
-          {
             "src": "images/progress/ac0b68ead6f3842.jpg",
             "room": "기타"
           },
@@ -9729,10 +9709,6 @@
         ],
         "후": [
           {
-            "src": "images/progress/cba16d537eaadd5.jpg",
-            "room": "거실"
-          },
-          {
             "src": "images/progress/fb30c5028e1adb1.jpg",
             "room": "현관"
           },
@@ -9746,10 +9722,6 @@
           },
           {
             "src": "images/progress/e911ef36d0b5ec6.jpg",
-            "room": "현관"
-          },
-          {
-            "src": "images/progress/4aa0a534492e3f2.jpg",
             "room": "현관"
           },
           {
@@ -9773,10 +9745,6 @@
             "room": "주방"
           },
           {
-            "src": "images/progress/80e4acdedad0b4b.jpg",
-            "room": "주방"
-          },
-          {
             "src": "images/progress/57b022349b953e4.jpg",
             "room": "주방"
           },
@@ -9794,14 +9762,6 @@
           },
           {
             "src": "images/progress/06c8300e364d051.jpg",
-            "room": "거실"
-          },
-          {
-            "src": "images/progress/871e10bdd20feb4.jpg",
-            "room": "거실"
-          },
-          {
-            "src": "images/progress/f9ad9f9e81a88de.jpg",
             "room": "거실"
           },
           {
@@ -9837,10 +9797,6 @@
             "room": "욕실"
           },
           {
-            "src": "images/progress/633530ccf8cef62.jpg",
-            "room": "거실"
-          },
-          {
             "src": "images/progress/37b8c1af97b728d.jpg",
             "room": "욕실"
           },
@@ -9851,10 +9807,6 @@
           {
             "src": "images/progress/005921bd5d3f2cb.jpg",
             "room": "발코니"
-          },
-          {
-            "src": "images/progress/e9719057bc8a3a7.jpg",
-            "room": "욕실"
           },
           {
             "src": "images/progress/7cb5ce5b250ee63.jpg",
@@ -16137,14 +16089,6 @@
             "room": "거실"
           },
           {
-            "src": "images/progress/ca2686f125174e5.jpg",
-            "room": "거실"
-          },
-          {
-            "src": "images/progress/41259f206e1a88e.jpg",
-            "room": "거실"
-          },
-          {
             "src": "images/progress/4e2ee7b2a9cac35.jpg",
             "room": "거실"
           },
@@ -16162,10 +16106,6 @@
           },
           {
             "src": "images/progress/718a6473f2920ec.jpg",
-            "room": "거실"
-          },
-          {
-            "src": "images/progress/54e98cbc87f9d3a.jpg",
             "room": "거실"
           },
           {
@@ -21590,10 +21530,6 @@
             "room": "발코니"
           },
           {
-            "src": "images/progress/c3ce5f7229fbf9f.jpg",
-            "room": "거실"
-          },
-          {
             "src": "images/progress/cf626856aa4d772.jpg",
             "room": "침실"
           },
@@ -21973,10 +21909,6 @@
           },
           {
             "src": "images/progress/1b530bcc92a10f1.jpg",
-            "room": "기타"
-          },
-          {
-            "src": "images/progress/8625c430db838db.jpg",
             "room": "기타"
           }
         ]
