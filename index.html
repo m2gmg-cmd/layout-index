@@ -100,7 +100,7 @@
   .bkbtn:disabled { cursor: progress; color: var(--graphite); }
   .bkbtn svg { width: 15px; height: 15px; flex: 0 0 auto; }
   .bkmenu {
-    position: absolute; right: 0; top: calc(100% + 6px); z-index: 40; min-width: 250px;
+    position: absolute; right: 0; top: calc(100% + 6px); z-index: 40; min-width: 310px;
     background: var(--sheet); border: 1px solid var(--line); border-radius: var(--radius);
     box-shadow: 0 6px 20px rgba(0,0,0,.12); padding: 4px;
   }
@@ -111,6 +111,14 @@
   .bkmenu button:hover { background: var(--stage); }
   .bkmenu b { display: block; font-size: 13.5px; font-weight: 500; }
   .bkmenu small { display: block; font-size: 12px; color: var(--graphite); margin-top: 2px; }
+  .bkkinds { padding: 8px 10px 6px; border-bottom: 1px solid var(--line); margin-bottom: 4px; }
+  .bkkinds .t { font-size: 12px; color: var(--graphite); margin-bottom: 6px; }
+  .bkkinds .row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .bkkinds label { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; padding: 4px 9px;
+    border: 1px solid var(--line); border-radius: 999px; cursor: pointer; user-select: none; }
+  .bkkinds label:has(input:checked) { background: var(--stage); border-color: var(--ink); }
+  .bkkinds input { margin: 0; accent-color: var(--ink); }
+  .bkmenu button:disabled { opacity: .45; cursor: not-allowed; }
   @media (max-width: 520px) { #bkLbl, .galbtn span { display: none; } .bar .cur { max-width: 34vw; } }
 
   /* ---- 레이아웃 ---- */
@@ -455,8 +463,17 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg><span id="bkLbl">백업</span>
       </button>
       <div class="bkmenu" id="bkMenu" hidden>
+        <div class="bkkinds" id="bkKinds">
+          <div class="t">백업할 종류 선택</div>
+          <div class="row">
+            <label><input type="checkbox" value="plan" checked />도면</label>
+            <label><input type="checkbox" value="전" checked />공사 전</label>
+            <label><input type="checkbox" value="중" checked />공사 중</label>
+            <label><input type="checkbox" value="후" checked />공사 후</label>
+          </div>
+        </div>
         <button data-bk="one"><b>이 현장 백업</b><small id="bkOneName"></small></button>
-        <button data-bk="all"><b>전체 현장 백업</b><small>모든 현장의 도면 · CAD 원본 · 시공사진 (약 600MB)</small></button>
+        <button data-bk="all"><b>전체 현장 백업</b><small id="bkAllNote">모든 현장의 선택한 종류</small></button>
       </div>
     </div>
   </header>
@@ -927,9 +944,22 @@ function render() {
 
 /* ---------- 백업 (도면 · 시공사진 zip 저장) ---------- */
 const bkBtn = document.getElementById("bkBtn"), bkMenu = document.getElementById("bkMenu"), bkLbl = document.getElementById("bkLbl");
+// 백업 종류 선택: 도면(전체도면·CAD·DWG·안별 이미지) / 공사 전 / 공사 중 / 공사 후 — 마지막 선택을 기억
+const BK_KEY = "layout-index-bk-kinds", bkChecks = [...document.querySelectorAll("#bkKinds input")];
+try { const saved = JSON.parse(localStorage.getItem(BK_KEY) || "null"); if (Array.isArray(saved)) bkChecks.forEach((c) => { c.checked = saved.includes(c.value); }); } catch {}
+function bkKinds() { return new Set(bkChecks.filter((c) => c.checked).map((c) => c.value)); }
+function bkKindLabel(k) { return ["plan", "전", "중", "후"].filter((x) => k.has(x)).map((x) => x === "plan" ? "도면" : "공사" + x).join("·"); }
+function bkSync() {
+  const k = bkKinds();
+  bkMenu.querySelectorAll("[data-bk]").forEach((b) => { b.disabled = !k.size; });
+  document.getElementById("bkAllNote").textContent = k.size ? `모든 현장의 ${bkKindLabel(k)}` : "종류를 하나 이상 고르세요";
+  try { localStorage.setItem(BK_KEY, JSON.stringify([...k])); } catch {}
+}
+bkChecks.forEach((c) => c.addEventListener("change", bkSync));
+bkMenu.addEventListener("click", (e) => e.stopPropagation());
 function bkToggle(open) {
   bkMenu.hidden = !open; bkBtn.setAttribute("aria-expanded", String(open));
-  if (open) document.getElementById("bkOneName").textContent = PROJECTS[pi] ? PROJECTS[pi].name : "";
+  if (open) { document.getElementById("bkOneName").textContent = PROJECTS[pi] ? PROJECTS[pi].name : ""; bkSync(); }
 }
 bkBtn.addEventListener("click", (e) => { e.stopPropagation(); bkToggle(bkMenu.hidden); });
 document.addEventListener("click", (e) => { if (!bkMenu.hidden && !bkMenu.contains(e.target)) bkToggle(false); });
@@ -939,8 +969,9 @@ function fname(s) { return String(s || "").replace(/[\\/:*?"<>|\u0000-\u001f]+/g
 function extOf(src) { const m = /\.([a-z0-9]{2,4})(?:$|\?)/i.exec(src || ""); return m ? m[1].toLowerCase() : "jpg"; }
 function num(i) { return String(i + 1).padStart(2, "0"); }
 
-function backupEntries(p, base) {
+function backupEntries(p, base, kinds) {
   const out = [], add = (src, name) => { if (src && !src.startsWith("plan:")) out.push({ src, name: base + name }); };
+  if (kinds.has("plan")) {
   if (p.cover && p.cover.src) add(p.cover.src, `도면/00_전체도면${p.cover.caption ? "_" + fname(p.cover.caption) : ""}.${extOf(p.cover.src)}`);
   (p.cadPlans || []).forEach((cp, i) => {
     const nm = cp.file ? fname(cp.file.replace(/\.pdf$/i, "")) : fname(cp.title || "CAD");
@@ -952,7 +983,9 @@ function backupEntries(p, base) {
     (alt.images || []).forEach((im, i) =>
       add(im.src, `${dir}${num(i)}${im.cat ? "_" + fname(im.cat) : ""}${im.caption ? "_" + fname(im.caption) : ""}.${extOf(im.src)}`));
   });
+  }
   PHASES.forEach(([k, label], pi2) => {
+    if (!kinds.has(k)) return;
     ((p.progress && p.progress[k]) || []).forEach((im, i) =>
       add(im.src, `시공사진/${pi2 + 1}_${label}/${num(i)}${im.cat ? "_" + fname(im.cat) : ""}.${extOf(im.src)}`));
   });
@@ -968,12 +1001,14 @@ function infoText(p) {
 let bkBusy = false;
 async function runBackup(mode) {
   if (bkBusy) return;
-  const all = mode === "all";
+  const all = mode === "all", kinds = bkKinds();
+  if (!kinds.size) return;
   const list = all ? PROJECTS.map((p, i) => [p, `${num(i)}_${fname(p.name)}/`]) : [[PROJECTS[pi], ""]];
   const entries = [], infos = [];
-  list.forEach(([p, base]) => { entries.push(...backupEntries(p, base)); infos.push({ name: base + "현장정보.txt", text: infoText(p) }); });
+  list.forEach(([p, base]) => { entries.push(...backupEntries(p, base, kinds)); infos.push({ name: base + "현장정보.txt", text: infoText(p) }); });
   const d = new Date(), stamp = `${d.getFullYear()}${num(d.getMonth())}${String(d.getDate()).padStart(2, "0")}`;
-  const zipName = all ? `레이아웃인덱스_전체백업_${stamp}.zip` : `${fname(PROJECTS[pi].name)}_백업_${stamp}.zip`;
+  const kt = kinds.size === 4 ? "" : "_" + bkKindLabel(kinds);
+  const zipName = all ? `레이아웃인덱스_전체백업${kt}_${stamp}.zip` : `${fname(PROJECTS[pi].name)}_백업${kt}_${stamp}.zip`;
 
   let mod;
   try { mod = await import("https://cdn.jsdelivr.net/npm/client-zip@2.4.5/index.js"); }
