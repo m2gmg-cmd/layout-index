@@ -324,6 +324,17 @@
   .room .n { font-family: "IBM Plex Mono", monospace; font-size: 11px; margin-left: 5px; opacity: 0.7; }
   .gv-head .rooms { margin: 0; flex-basis: 100%; }
 
+  /* ---- 공사 진행 안내 페이지 링크 ---- */
+  .rail-proc {
+    display: flex; align-items: center; gap: 8px; margin: 10px 10px 0;
+    font-size: 13px; font-weight: 600; text-decoration: none;
+    color: #fff; background: #24503C; border: 1px solid #24503C;
+    border-radius: var(--radius); padding: 8px 10px;
+  }
+  .rail-proc:hover { background: #1b3d2e; }
+  .rail-proc svg { width: 16px; height: 16px; flex: 0 0 auto; }
+  .rail-proc small { display: block; font-weight: 400; font-size: 11px; opacity: 0.8; }
+
   /* ---- 공간별 모아보기 (전 현장 공사 후 사진) ---- */
   .rail-gal {
     display: flex; align-items: center; gap: 8px; width: calc(100% - 20px); margin: 10px 10px 2px;
@@ -482,6 +493,10 @@
 
   <div class="layout">
     <aside class="rail" id="rail" aria-label="현장 목록">
+      <a class="rail-proc" href="process.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V10l7-6 7 6v11"/><path d="M10 21v-6h4v6"/></svg>
+        <span>우리는 이렇게 공사합니다<small>소통방 · 철거 · 단열 · 목공 · 가구 · 마감 · 전후비교</small></span>
+      </a>
       <div class="rail-search">
         <input id="railSearch" type="search" placeholder="현장 이름·유형 검색" autocomplete="off" aria-label="현장 검색" />
       </div>
