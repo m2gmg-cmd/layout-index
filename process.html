@@ -428,5 +428,38 @@
   document.querySelectorAll('section[id]').forEach(function(s){io.observe(s)});
 })();
 </script>
+
+<style>
+  .wm::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;
+    background:url("images/wm.png") center/var(--wmw,26%) auto no-repeat;opacity:.4}
+  .wm.wm-off::after{display:none}
+</style>
+<script>
+(function(){
+  function tag(){
+    document.querySelectorAll('.wm').forEach(function(e){ if(!e.querySelector(':scope > img')) e.classList.remove('wm'); });
+    document.querySelectorAll('img').forEach(function(img){
+      if(img.closest('.pdfbox, .nowm') || /\/wm\.png$/.test(img.src)) return;
+      var p=img.parentElement; if(!p || p.classList.contains('wm')) return;
+      if(getComputedStyle(p).position==='static') p.style.position='relative';
+      p.classList.add('wm'); size(img);
+      if(!img.complete) img.addEventListener('load',function(){size(img);},{once:true});
+    });
+  }
+  function size(img){
+    var p=img.parentElement; if(!p) return;
+    var cw=p.clientWidth, ch=p.clientHeight, w=cw;
+    if(img.naturalWidth && ch && getComputedStyle(img).objectFit==='contain') w=Math.min(cw, ch*img.naturalWidth/img.naturalHeight);
+    if(w<180){ p.classList.add('wm-off'); return; } p.classList.remove('wm-off');
+    var portrait=img.naturalHeight>img.naturalWidth; p.style.setProperty('--wmw', Math.round(w*(portrait?0.42:0.26))+'px');
+  }
+  function all(){ document.querySelectorAll('.wm > img').forEach(size); }
+  window.addEventListener('resize',all);
+  document.addEventListener('load',function(e){ if(e.target&&e.target.tagName==='IMG') size(e.target); },true);
+  setInterval(all,1500);
+  var t; new MutationObserver(function(){ clearTimeout(t); t=setTimeout(tag,30); }).observe(document.documentElement,{childList:true,subtree:true});
+  document.addEventListener('DOMContentLoaded',tag); tag();
+})();
+</script>
 </body>
 </html>
