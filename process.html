@@ -108,6 +108,22 @@
   .compare.empty .handle,.compare.empty .tag{display:none}
   .ba-note{font-size:13px;color:#9aa69f;margin-top:14px;text-align:center}
 
+
+  /* ---------- A/S ---------- */
+  section.as{padding:96px 0;background:var(--brand-wash)}
+  .as-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+  .as-card{background:var(--sheet);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px}
+  .as-card .k{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.12em;color:var(--brand)}
+  .as-card h3{font-size:21px;margin:8px 0 8px;letter-spacing:-.01em}
+  .as-card p{margin:0;color:#3a3e44;font-size:15px}
+  .as-terms{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:22px;border:1px solid var(--brand);border-radius:var(--radius);overflow:hidden;background:var(--sheet)}
+  .as-terms>div{padding:22px 24px}
+  .as-terms>div+div{border-left:1px solid var(--brand)}
+  .as-terms .big{font-size:28px;font-weight:700;color:var(--brand);letter-spacing:-.02em}
+  .as-terms .sub{font-size:14px;color:var(--graphite);margin-top:4px}
+  .as-note{font-size:13px;color:var(--graphite);margin-top:12px}
+  @media (max-width:900px){.as-cards{grid-template-columns:1fr}.as-terms{grid-template-columns:1fr}.as-terms>div+div{border-left:0;border-top:1px solid var(--brand)}}
+
   footer{padding:72px 0 80px;text-align:center}
   footer h3{font-size:24px;margin:0 0 8px;letter-spacing:-.01em}
   footer p{color:var(--graphite);margin:0}
@@ -146,10 +162,10 @@
       <a href="#s1"><span class="n">01</span><span class="t">소통방 개설</span></a>
       <a href="#s2"><span class="n">02</span><span class="t">철거</span></a>
       <a href="#s3"><span class="n">03</span><span class="t">단열</span></a>
-      <a href="#s4"><span class="n">04</span><span class="t">목공</span></a>
-      <a href="#s5"><span class="n">05</span><span class="t">가구</span></a>
-      <a href="#s6"><span class="n">06</span><span class="t">마감</span></a>
+      <a href="#s4"><span class="n">04</span><span class="t">가구</span></a>
+      <a href="#s5"><span class="n">05</span><span class="t">마감</span></a>
       <a href="#ba"><span class="n">B/A</span><span class="t">전후 비교</span></a>
+      <a href="#as"><span class="n">A/S</span><span class="t">사후관리</span></a>
     </div>
   </div>
 </header>
@@ -159,10 +175,10 @@
     <a href="#s1"><span class="mono">01</span>소통방 개설</a>
     <a href="#s2"><span class="mono">02</span>철거</a>
     <a href="#s3"><span class="mono">03</span>단열</a>
-    <a href="#s4"><span class="mono">04</span>목공</a>
-    <a href="#s5"><span class="mono">05</span>가구</a>
-    <a href="#s6"><span class="mono">06</span>마감</a>
+    <a href="#s4"><span class="mono">04</span>가구</a>
+    <a href="#s5"><span class="mono">05</span>마감</a>
     <a href="#ba"><span class="mono">B/A</span>전후 비교</a>
+    <a href="#as"><span class="mono">A/S</span>사후관리</a>
   </div>
 </nav>
 
@@ -186,11 +202,11 @@
         <div class="msgs">
           <div class="day">착공일</div>
           <div class="m"><div class="av">M²</div><div><div class="who">담당 실장</div><div class="b">안녕하세요, 디자인엠제곱입니다. 오늘부터 공사 진행 상황을 이 방에서 매일 공유드리겠습니다 🙂</div></div><div class="t">오전 8:40</div></div>
-          <div class="m"><div class="av">M²</div><div><div class="who">담당 실장</div><div class="b">📋 공정 일정표 첨부드립니다.<br/>철거 → 설비·전기 → 단열·목공 → 타일 → 가구 → 도배·마감 순서입니다.</div></div></div>
+          <div class="m"><div class="av">M²</div><div><div class="who">담당 실장</div><div class="b">📋 공정 일정표 첨부드립니다.<br/>철거 → 설비·전기 → 단열 → 타일 → 가구 → 도배·마감 순서입니다.</div></div></div>
           <div class="m me"><div class="b">네 감사합니다! 잘 부탁드려요</div><div class="t">오전 9:02</div></div>
           <div class="day">D+3</div>
           <div class="m"><div class="av">M²</div><div><div class="who">현장팀</div><div class="pic"><img src="images/process/insul-1.jpg" alt="" /></div></div><div class="t">오후 5:10</div></div>
-          <div class="m"><div class="av">M²</div><div><div class="who">현장팀</div><div class="b">거실 창 주변 단열 작업 완료했습니다. 내일은 천장 목공 들어갑니다.</div></div></div>
+          <div class="m"><div class="av">M²</div><div><div class="who">현장팀</div><div class="b">거실 창 주변 단열 작업 완료했습니다. 내일 다음 공정 들어갑니다.</div></div></div>
           <div class="m me"><div class="b">꼼꼼하게 해주셔서 안심되네요 👍</div></div>
         </div>
       </div>
@@ -244,37 +260,17 @@
   </div>
 </section>
 
+
 <!-- 04 -->
 <section class="step" id="s4">
   <div class="wrap step-grid">
     <div class="step-head">
       <div class="num">STEP 04</div>
-      <h2>목공</h2>
-      <div class="en">Carpentry</div>
-      <p class="lead">레이저 수평 기준으로 천장과 벽체의 뼈대를 잡고 석고보드를 붙입니다. 간접조명 라인, 매입등, 문틀 위치가 이 단계에서 결정됩니다.</p>
-      <ul class="checks">
-        <li><b>레이저 레벨 기준 시공</b><span>천장 수평과 벽 수직을 기계로 맞춰 반듯한 공간</span></li>
-        <li><b>조명 · 에어컨 위치 사전 반영</b><span>도면 기준으로 매입등·간접조명·배관 자리를 미리 확보</span></li>
-        <li><b>가구 들어갈 자리 치수 확인</b><span>붙박이장·주방 가구가 딱 맞도록 벽체 치수 확인</span></li>
-      </ul>
-    </div>
-    <div class="photos wide-first">
-      <figure><div class="ph"><img src="images/process/wood-2.jpg" alt="거실 목공 작업" /></div><figcaption>거실 벽체 · 천장 틀 작업</figcaption></figure>
-      <figure><div class="ph"><img src="images/process/wood-1.jpg" alt="천장 석고보드 시공" /></div><figcaption>레이저 기준 천장 석고보드 시공</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<!-- 05 -->
-<section class="step" id="s5">
-  <div class="wrap step-grid">
-    <div class="step-head">
-      <div class="num">STEP 05</div>
       <h2>가구</h2>
       <div class="en">Furniture</div>
       <p class="lead">현장 실측을 바탕으로 공장에서 맞춤 제작한 주방·붙박이장·수납가구를 설치합니다.</p>
       <ul class="checks">
-        <li><b>실측 기반 맞춤 제작</b><span>목공이 끝난 실제 치수로 다시 재고 제작</span></li>
+        <li><b>실측 기반 맞춤 제작</b><span>현장 실제 치수를 다시 재고 공장에서 제작</span></li>
         <li><b>수평 · 문짝 간격 조정</b><span>설치 후 문짝 틈과 수평을 하나하나 맞춤</span></li>
         <li><b>상판 · 하드웨어 마감</b><span>상판, 손잡이, 경첩, 조명까지 세팅 후 작동 확인</span></li>
       </ul>
@@ -286,11 +282,11 @@
   </div>
 </section>
 
-<!-- 06 -->
-<section class="step" id="s6">
+<!-- 05 -->
+<section class="step" id="s5">
   <div class="wrap step-grid">
     <div class="step-head">
-      <div class="num">STEP 06</div>
+      <div class="num">STEP 05</div>
       <h2>마감</h2>
       <div class="en">Finishing</div>
       <p class="lead">도배·필름·마루를 시공하고 조명, 도기, 도어를 세팅합니다. 마지막으로 고객님과 함께 현장을 꼼꼼히 점검하고 인계해 드립니다.</p>
@@ -332,9 +328,31 @@
   </div>
 </section>
 
+<!-- A/S -->
+<section class="as" id="as">
+  <div class="wrap">
+    <div class="step-head" style="max-width:720px">
+      <div class="num">AFTER SERVICE</div>
+      <h2>공사가 끝나도, 끝까지 책임집니다</h2>
+      <div class="en">A/S · 사후관리</div>
+      <p class="lead">가까운 곳에서 직접 시공한 업체가 관리합니다. 문제가 생기면 연락 주시는 대로 바로 찾아뵙습니다.</p>
+    </div>
+    <div class="as-cards">
+      <div class="as-card"><div class="k">01</div><h3>가까운 거리, 빠른 방문</h3><p>제주 지역 업체라 멀리서 오는 일정 기다림 없이 바로 대응해 드립니다.</p></div>
+      <div class="as-card"><div class="k">02</div><h3>A/S 전담 직원</h3><p>시공팀과 별도로 A/S 담당 직원이 있어 현장 일정과 상관없이 신속하게 처리합니다.</p></div>
+      <div class="as-card"><div class="k">03</div><h3>평생 A/S</h3><p>보증기간이 지나도 연락 주시면 언제든 관리해 드립니다.</p></div>
+    </div>
+    <div class="as-terms">
+      <div><div class="big">1년 무상 A/S</div><div class="sub">공사 완료 후 1년간, 시공 과실로 인한 하자는 무상으로 보수해 드립니다.</div></div>
+      <div><div class="big">1년 이후 평생 A/S</div><div class="sub">보증기간 이후에도 유상으로 계속 A/S를 받으실 수 있습니다.</div></div>
+    </div>
+    <div class="as-note">※ 무상 A/S는 업체 시공 과실에 한하며, 사용자 부주의·소모품 교체 등은 유상으로 진행됩니다.</div>
+  </div>
+</section>
+
 <footer>
   <div class="wrap">
-    <h3>공사 기간 내내, 소통방에서 함께합니다</h3>
+    <h3>공사 기간에도, 공사가 끝난 뒤에도 함께합니다</h3>
     <p>궁금한 점은 언제든 담당 실장에게 물어봐 주세요.</p>
     <div class="sig">M² DESIGN · 디자인엠제곱</div>
   </div>
